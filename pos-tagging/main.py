@@ -15,7 +15,7 @@ with open(questionLocation) as question, open(answerLocation) as answer:
         for line in question:
             temp = eval(line)
 
-            sentences = sent_tokenize(temp['question'])
+            sentences = sent_tokenize(temp['question'].encode('ascii', 'ignore'))
 
             # Remove sentences with awkward newline characters (because of code section removal)
             posts += [sentence for sentence in sentences if not '\n' in sentence]
@@ -28,7 +28,7 @@ with open(questionLocation) as question, open(answerLocation) as answer:
         for line in answer:
             temp = eval(line)
 
-            sentences = sent_tokenize(temp['answer'])
+            sentences = sent_tokenize(temp['answer'].encode('ascii', 'ignore'))
 
             # Remove sentences with awkward newline characters (because of code section removal)
             posts += [sentence for sentence in sentences if not '\n' in sentence]

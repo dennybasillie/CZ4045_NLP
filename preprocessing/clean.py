@@ -1,6 +1,8 @@
 import os
+import re
 
 from bs4 import BeautifulSoup
+from operator import itemgetter
 
 fileDir = os.path.dirname(os.path.realpath('_file_'))
 questionLocation = os.path.join(fileDir, '../dataset/questions.txt')
@@ -10,7 +12,7 @@ temp = {}
 
 with open(questionLocation, 'r') as input, open('questions-cleaned.txt', 'w') as output:
     lines = input.readlines()
-    numberOfLines = len(lines)
+    numberOfQuestions = len(lines)
     counter = 0
 
     for line in lines:
@@ -24,19 +26,22 @@ with open(questionLocation, 'r') as input, open('questions-cleaned.txt', 'w') as
             codeSent.extract()
 
         # soup.text returns clean text, free from html tags
-        temp.update({'question' : soup.text})
+        # Cleanup trailing spaces and newline characters
+        cleanText = soup.text.encode('ascii', 'ignore')
+        cleanText = re.sub(r'(\n)+', ' ', cleanText).rstrip()
+
+        temp.update({'question': cleanText.encode('ascii', 'ignore')})
         output.write(str(temp))
 
-        if counter != numberOfLines:
+        if counter != numberOfQuestions:
             output.write('\n')
 
+answerDicts = []
 with open(answerLocation, 'r') as input, open('answers-cleaned.txt', 'w') as output:
     lines = input.readlines()
-    numberOfLines = len(lines)
     counter = 0
 
     for line in lines:
-        counter += 1
         temp = eval(line)
         soup = BeautifulSoup(temp['answer'], 'html.parser')
 
@@ -46,8 +51,18 @@ with open(answerLocation, 'r') as input, open('answers-cleaned.txt', 'w') as out
             codeSent.extract()
 
         # soup.text returns clean text, free from html tags
-        temp.update({'answer': soup.text})
-        output.write(str(temp))
+        # Cleanup trailing spaces and newline characters
+        cleanText = soup.text
+        cleanText = re.sub(r'(\n)+', ' ', cleanText).rstrip()
 
-        if counter != numberOfLines:
+        temp.update({'answer': cleanText.encode('ascii', 'ignore')})
+        answerDicts.append(temp)
+
+    sortedAnswerDicts = sorted(answerDicts, key=itemgetter('questionId'))
+    numberOfAnswers = len(sortedAnswerDicts)
+
+    for answer in sortedAnswerDicts:
+        counter += 1
+        output.write(str(answer))
+        if counter != numberOfAnswers:
             output.write('\n')

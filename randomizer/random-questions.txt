@@ -1,0 +1,299 @@
+Question-123
+Is there an existing application or library in Java which will allow me to convert a CSV data file to XML file?   The XML tags would be provided through possibly the first row containing column headings.
+
+Question-382
+What is the meaning of the Java warning? Type safety: The cast from Object to List is actually checking against the erased type List I get this warning when I try to cast an Object to a type with generic information, such as in the following code:
+
+Question-2931
+I have been working with JXTA 2.3 for the last year or so for a peer-to-peer computing platform I am developing. I am migrating to JXTA 2.5 and in the process I am trying to clean up a lot of my use of JXTA. For the most part, I approached JXTA with a just make it work attitude. I used it to jumpstart creating and managing my peer-to-peer overlay network and providing basic communication services. I would like to use it in a more JXTA way since I am making changes to move to 2.5 anyway. My first step would be a basic creation of a custom PeerGroup. I see some new new mechanisms that are using the META-INF.services infrastructure of Java. Should I be listing a related PeerGroup implementing object here with a GUID in net.jxta.platform.Module? As I understand it, if I do this, when a group with a spec ID matching the GUID is encountered and joined or created it should automatically use the matching object. I should be able to just manually tie a PeerGroup object to the group but this new method using META-INF seems to be a lot easier to manage. Does anyone have any pointers or examples of using this infrastructure for PeerGroup implementation? Also, some general information on the META-INF.services mechanism in Java would be helpful.
+
+Question-6222
+Is anyone successfully using the latest 64-bit Ganymede release of Eclipse on Windows XP or Vista 64-bit? Currently I run the normal Eclipse 3.4 distribution on a 32bit JDK and launch & compile my apps with a 64bit JDK. Our previous experience has been that the 64bit Eclipse distro is unstable for us, so I'm curious if anyone is using it successfully. We are using JDK 1.6.0_05.
+
+Question-7269
+I'm part of a team that develops a pretty big Swing Java Applet. Most of our code are legacy and there are tons of singleton references. We've bunched all of them to a single "Application Context" singleton. What we now need is to create some way to separate the shared context (shared across all applets currently showing) and non-shared context (specific to each applet currently showing).  However, we don't have an ID at each of the locations that call to the singleton, nor do we want to propagate the ID to all locations. What's the easiest way to identify in which applet context we're running? (I've tried messing with classloaders, thread groups, thread ids... so far I could find nothing that will enable me to ID the origin of the call).
+
+Question-7720
+I am writing an application in Java for the desktop using the Eclipse SWT library for GUI rendering.  I think SWT helps Java get over the biggest hurdle for acceptance on the desktop: namely providing a Java application with a consistent, responsive interface that looks like that belonging to any other app on your desktop.  However, I feel that packaging an application is still an issue.   OS X natively provides an easy mechanism for wrapping Java apps in native application bundles, but producing an app for Windows/Linux that doesn't require the user to run an ugly batch file or click on a .jar is still a hassle.  Possibly that's not such an issue on Linux, where the user is likely to be a little more tech-savvy, but on Windows I'd like to have a regular .exe for him/her to run. Has anyone had any experience with any of the .exe generation tools for Java that are out there?  I've tried JSmooth but had various issues with it.  Is there a better solution before I crack out Visual Studio and roll my own? Edit:  I should perhaps mention that I am unable to spend a lot of money on a commercial solution.
+
+Question-8968
+We need to add WorkFlow to our Spring managed application. Does anyone have any useful experience in using any of the myriad of OSS Work Flow solutions? Which one is best? Which one integrates with Spring best? Which ones should we avoid?
+
+Question-9044
+I have a base class that represents a database test in TestNG, and I want to specify that all classes extending from this class are of a group "db-test", however I have found that this doesn't seem possible.  I have tried the @Test annotation: However, this doesn't work because the @Test annotation will try to make a bunch of methods into tests, and warnings/errors pop up in eclipse when the tests are run. So I tried disabling the test, so at least the groups are assigned: but then any @BeforeTest (and other similar annotations) ALSO get disabled... which is of course not what I want. I would like some way to annotate a class as being of a particular type of group, but it doesn't quite seem possible in TestNG.  Does anyone have any other ideas?
+
+Question-9361
+I'd like to utilize an ICE Faces fileInput control to fill in the file path & file name for the input to an input field on a web page based on file that the user selects. How can I capture these properties without actually performing any file transfer operations?
+
+Question-11341
+I would like to automatically generate PDF documents from WebObjects based on mulitpage forms. Assuming I have a class which can assemble the related forms (java/wod files) is there a good way to then parse the individaul forms into a PDF instead of going to the screen?
+
+Question-13225
+I've recently inherited a internationalized and text-heavy Struts 1.1 web application. Many of the JSP files look like: and the properties files look like: with the appropriate translations in N other languages (messages_fr.properties, etc). Problems: DRY violation - I have N references to my Struts action URLs instead of 1, which makes refactoring action URLs error-prone. Mixed concerns - My application's markup is now in more than just my JSP files, making it difficult for a web specialist to tweak the markup (using CSS, etc). Post-translation markup - Anytime I receive newly-translated text, I must decide what to surround with the <a>...</a> markup. Easy for English but less so for unfamiliar languages. I've considered adding placeholders in the messages file, like: but then the words "address" and "contact information" would somehow need to be localized, wrapped with markup, and passed to my message tag - and I can't see an easy way to do it. What can I do to improve this?
+
+Question-16487
+I am using SourceForge for some Open Source projects and I want to automate the deployment of releases to the SourceForge File Release System. I use Maven for my builds and the standard SFTP deployment mechanism doesn't seem to work unless you do some manual preparation work. I have come across some old postings on other forums suggesting that the only approach is to write a Wagon specifically for SourceForge. Has anybody had any recent experience with this?
+
+Question-19838
+I've been trying to understand how Ruby blocks work, and to do that I've been trying to implement them in C. One easy way to implement closures is to pass a void* to the enclosing stack to the closure/function but Ruby blocks also seem to handle returns and break statements from the scope that uses the block. I think one of the closures proposals for Java works like this also. So, how would you implement Ruby-blocks/Java-closures in C?
+
+Question-23106
+What is the best method to parse multiple, discrete, custom XML documents with Java?
+
+Question-23763
+I'm working on some code to colorize an image in Java. Basically what I'd like to do is something along the lines of GIMP's colorize command, so that if I have a BufferedImage and a Color, I can colorize the Image with the given color. Anyone got any ideas? My current best guess at doing something like this is to get the rgb value of each pixel in the BufferedImage and add the RGB value of the Color to it with some scaling factor.
+
+Question-23853
+I am using Struts + Velocity in a Java application, but after I submit a form, the confirmation page (Velocity template) shows the variable names instead an empty label, like the Age in following example: Name: Fernando Age: {person.age} Sex: Male I would like to know how to hide it!
+
+Question-24723
+Jeff actually posted about this in Sanitize HTML. But his example is in C# and I'm actually more interested in a Java version. Does anyone have a better version for Java? Is his example good enough to just convert directly from C# to Java?  [Update] I have put a bounty on this question because SO wasn't as popular when I asked the question as it is today (*). As for anything related to security, the more people look into it, the better it is!  (*) In fact, I think it was still in closed beta
+
+Question-25614
+I've used jdom in the past, and have looked briefly at XOM and DOM4j. Each seems to provide essentially the same thing, as they each provide a simplified wrapper over the (very obtuse) standard W3C DOM APIs.   I know that JDOM went through some effort to develop a JSR and standardization process at one point, but as far as I know that effort never went anywhere.  All of the project appear to be in stasis with little new development in the past several years. Is there a consensus as to which is the best?  Also what are the pros and cons of each ?
+
+Question-26305
+I want to be able to play sound files in my program. Where should I look?
+
+Question-28675
+I'm using ByteBuffers and FileChannels to write binary data to a file. When doing that for big files or successively for multiple files, I get an OutOfMemoryError exception. I've read elsewhere that using Bytebuffers with NIO is broken and should be avoided. Does any of you already faced this kind of problem and found a solution to efficiently save large amounts of binary data in a file in java? Is the jvm option -XX:MaxDirectMemorySize the way to go?
+
+Question-28832
+If I call finalize() on an object from my program code, will the JVM still run the method again when the garbage collector processes this object? This would be an approximate example: Would the explicit call to finalize() make the JVM's garbage collector not to run the finalize() method on object m?
+
+Question-28949
+After reading this question, I was reminded of when I was taught Java and told never to call finalize() or run the garbage collector because "it's a big black box that you never need to worry about". Can someone boil the reasoning for this down to a few sentences? I'm sure I could read a technical report from Sun on this matter, but I think a nice, short, simple answer would satisfy my curiosity.
+
+Question-29505
+The log4j network adapter sends events as a serialised java object. I would like to be able to capture this object and deserialise it in a different language (python). Is this possible? NOTE The network capturing is easy; its just a TCP socket and reading in a stream. The difficulty is the deserialising part
+
+Question-29751
+I am having problems submitting forms which contain UTF-8 strings with Ajax. I am developing a Struts web application which runs in a Tomcat server. This is the environment I set up to work with UTF-8: I have added the attributes URIEncoding="UTF-8" useBodyEncodingForURI="true" into the Connector tag to Tomcat's conf/server.xml file. I have a utf-8_general_ci database I am using the next filter to ensure my request and responses are encoded in UTF-8 I use this filter in WEB-INF/web.xml I am using the next code for my JSON responses: Everything seems to work fine (content coming from the database is displayed properly, and I am able to submit forms which are stored in UTF-8 in the database). The problem is that I am not able to submit forms with Ajax. I use jQuery, and I thought the problem was the lack of contentType field in the Ajax request. But I was wrong. I have a really simple form to submit comments which contains of an id and a body. The body field can be in different languages such as Spanish, German, or whatever. If I submit my form with body textarea containing contrasea, Firebug shows me: Request Headers Host  localhost:8080 Accept-Charset ISO-8859-1, utf-8;q=0.7;*q=0.7 Content-Type application/x-www-form-urlencoded; charset UTF-8 If I execute Copy Location with parameters in Firebug, the encoding seems already wrong: This is my jQuery code: A submission of a form with jQuery is causing the next error server side (note I am using Hibernate).
+
+Question-30160
+I'm giving a presentation to a Java User's Group on Groovy and I'm going to be doing some coding during the presentation to show some side-by-side Java/Groovy.  I really like the GroovyConsole as it's simple and I can resize the text easily.   I'm wondering if there is anything similar for Java?  I know I could just use Eclipse but I'd rather have a smaller app to use without having to customize a view.  What's the community got? Screen shot of GroovyConsole:
+
+Question-30171
+Help!  I have an Axis web service that is being consumed by a C# application.  Everything works great, except that arrays of long values always come across as [0,0,0,0] - the right length, but the values aren't deserialized.  I have tried with other primitives (ints, doubles) and the same thing happens.  What do I do?  I don't want to change the semantics of my service.
+
+Question-30337
+Is there an online resource somewhere that maintains statistics on the install-base of Java including JRE version information? If not, is there any recent report that has some numbers? I'm particularly interested in Windows users, but all other OS's are welcome too.
+
+Question-31127
+When running a Java app from eclipse my ImageIcon shows up just fine. But after creating a jar the path to the image obviously gets screwed up. Is there a way to extract an image from the jar at runtime so I can then open it up?  Or, is there a better way to do this? I'd like to distribute a single jar file if possible.
+
+Question-31462
+Without the use of any external library, what is the simplest way to fetch a website's HTML content into a String?
+
+Question-31584
+I have already proposed this in my blog, but I find this place the most appropriate. For classes that have a long list of setters that are used frequently, I found this way very useful (although I have recently read about the Builder pattern in Effective Java that is kinda the same). Basically, all setter methods return the object itself so then you can use code like this: Setters simply return this in the end: What is your opinion? What are the pros and cons? Does this have any impact on performance?
+
+Question-31693
+I mostly use Java and generics are relatively new. I keep reading that Java made the wrong decision or that .NET has better implementations etc. etc. So, what are the main differences between C++, C#, Java in generics? Pros/cons of each?
+
+Question-32001
+I'd like to have a java.utils.Timer with a resettable time in java.I need to set a once off event to occur in X seconds. If nothing happens in between the time the timer was created and X seconds, then the event occurs as normal.  If, however, before X seconds has elapsed, I decide that the event should occur after Y seconds instead, then I want to be able to tell the timer to reset its time so that the event occurs in Y seconds.  E.g. the timer should be able to do something like: I don't see a way to do this using the utils timer, as if you call cancel() you cannot schedule it again. The only way I've come close to replicating this behavior is by using javax.swing.Timer and involves stopping the origional timer, and creating a new one. i.e.:  Is there an easier way??
+
+Question-32897
+This question would probably apply equally as well to other languages with C-like multi-line comments. Here's the problem I'm encountering. I'm working with Java code in Eclipse, and I wanted to comment out a block of code. However, there is a string that contains the character sequence "*/", and Eclipse thinks that the comment should end there, even though it is inside a string. It gives me tons of errors and fails to build. Does the Java specification match with Eclipse's interpretation of my multi-line comment? I would like to think that Java and/or Eclipse would account for this sort of thing.
+
+Question-33412
+After reading Jeff's blog post on Protecting Your Cookies: HttpOnly. I'd like to implement HttpOnly cookies in my web application. How do you tell tomcat to use http only cookies for sessions?
+
+Question-33956
+Assume that I have a field called price for the documents in Solr and I have that field faceted. I want to get the facets as ranges of values (eg: 0-100, 100-500, 500-1000, etc). How to do it? I can specify the ranges beforehand, but I also want to know whether it is possible to calculate the ranges (say for 5 values) automatically based on the values in the documents?
+
+Question-34144
+I would like to know which dependency described in my pom.xml brings a transitive dependency in my target directory. To be more precise, I have the library "poi-2.5.1-final-20040804.jar" in my WEB-INF/lib directory and I would like to know which dependency in my pom.xml brings that.
+
+Question-34726
+I am deploying new versions of java servlets with JRun as the host. I am having difficulty finding good sources for information about JRun and tutorials about how to configure and manage it. After installing JRun and opening the launcher it can't start the admin server that it creates by default...so obviously I'm running into some issues just getting started. edit for clarity: I'm not looking for an answer or help with a specific error but if anyone knows of good sources for information about JRun and how to work with it so I can quickly bring myself up to speed on it.
+
+Question-35186
+I'm getting a NoSuchMethodError error when running my Java program.  What's wrong and how do I fix it?
+
+Question-37628
+What is reflection, and why is it useful? I'm particularly interested in Java, but I assume the principles are the same in any language.
+
+Question-37692
+I'm writing a plugin that will parse a bunch of files in a project. But for the moment I'm stuck searching through the Eclipse API for answers. The plugin works like this: Whenever I open a source file I let the plugin parse the source's corresponding build file (this could be further developed with caching the parse result). Getting the file is simple enough: The problem I have is I have to use hard coded strings for the paths where the source files and build files go. Anyone know how to retrieve the build path from Eclipse? (I'm working in CDT by the way). Also is there a simple way to determine what the source path is (e.g. one file is under the "src" directory) of a source file?
+
+Question-37976
+By default IntelliJ IDEA 7.0.4 seems to use 4 spaces for indentation in XML files.  The project I'm working on uses 2 spaces as indentation in all it's XML.  Is there a way to configure the indentation in IntelliJ's editor?
+
+Question-38068
+Is there any shorthand way of defining and using generic definations without having to keep repeating a particular generic description such that if there is a change I don't have to change all definations/usages though out the codebase for example is somethhing like this possible:
+
+Question-39108
+What would be the best way to draw a simple animation just before showing a modal JDialog? (i.e. expanding borders from the mouse click point to the dialog location). I thought it would be possible to draw on the glasspane of the parent frame on the setVisible method of the dialog. However since the JDialog is modal to the parent, I couldn't find a way to pump drawing events into EDT before the JDialog becomes visible since the current event on the EDT has not been completed yet.
+
+Question-39194
+I want to create a Java application bundle for Mac without using Mac. According to Java Deployment Options for Mac OS X, I can do this by using Xcode, Jar Bundler, or from the command line. Once the files and folders are set up, all I need for the command line method is to call /Developer/Tools/SetFile. Is there a SetFile clone on Linux or Windows? If not, do I have to get a Mac?
+
+Question-39391
+If I create an HTTP java.net.URL and then call openConnection() on it, does it necessarily imply that an HTTP post is going to happen?  I know that openStream() implies a GET.  If so, how do you perform one of the other HTTP verbs without having to work with the raw socket layer?
+
+Question-40376
+Is it possible to handle POSIX signals within the Java Virtual Machine? At least SIGINT and SIGKILL should be quite platform independent.
+
+Question-41056
+I'm a long-time emacs user, and I'm now working about 1/2 time in Java. What are the best emacs libraries for Debugging Java Code Completion/Intellisense Javadoc browsing ?
+
+Question-41233
+I'm attracted to the neatness that a single file database provides. What driver/connector library is out there to connect and use SQLite with Java. I've discovered a wrapper library, http://www.ch-werner.de/javasqlite, but are there other more prominent projects available?
+
+Question-41686
+I've got some Java code using a servlet and Apache Commons FileUpload to upload a file to a set directory. It's working fine for character data (e.g. text files) but image files are coming out garbled.  I can open them but the image doesn't look like it should.  Here's my code: Servlet StreamUtils.getBytes(stream) looks like: And finally FileManager.createFile looks like: Can anyone spot what I'm doing wrong? Cheers, Lee
+
+Question-42828
+I will elaborate somewhat. Jsf is kind-of extremely painful for working with from designer's perspective, somewhat in the range of trying to draw a picture while having hands tied at your back, but it is good for chewing up forms and listing lots of data. So sites we are making in my company are jsf admin pages and jsp user pages. Problem occurs when user pages have some complicated forms and stuff and jsf starts kickin' in.  Here is the question: I'm on pure jsp page. I need to access some jsf page that uses session bean. How can I initialize that bean? If I was on jsf page, I could have some commandLink which would prepare data. Only thing I can come up with is having dummy jsf page that will do the work and redirect me to needed jsf page, but that's kind of ugly, and I don't want to end up with 50 dummy pages. I would rather find some mechanism to reinitialize bean that is already in session with some wanted parameters. Edit: some more details. In this specific situation, I have a tests that are either full or filtered. It's a same test with same logic and everything, except if test is filtered, it should eliminate some questions depending on answers. Upon a clicking a link, it should start a requested test in one of the two modes. Links are parts of main menu-tree and are visible on many sibling jsp pages. My task is to have 4 links: testA full, testA filtered, testB full, testB filtered, that all lead on same jsf page and TestFormBean should be reinitialized accordingly. Edit: I've researched facelets a bit, and while it won't help me now, I'll definitely keep that in mind for next project.
+
+Question-43199
+The login page in my Tapestry application has a property in which the password the user types in is stored, which is then compared against the value from the database. If the user enters a password with multi-byte characters, such as: ...an inspection of the return value of getPassword() (the abstract method for the corresponding property) gives: Clearly, that's not encoded properly. Yet Firebug reports that the page is served up in UTF-8, so presumably the form submission request would also be encoded in UTF-8. Inspecting the value as it comes from the database produces the correct string, so it wouldn't appear to be an OS or IDE encoding issue. I have not overridden Tapestry's default value for org.apache.tapestry.output-encoding in the .application file, and the Tapestry 4 documentation indicates that the default value for the property is UTF-8. So why does Tapestry appear to botch the encoding when setting the property? Relevant code follows: Login.html Login.page Login.java Updates @Jan Soltis: Well, if I inspect the value that comes from the database, it displays the correct string, so it would seem that my editor, OS and database are all encoding the value correctly. I've also checked my .application file; it does not contain an org.apache.tapestry.output-encoding entry, and the Tapestry 4 documentation indicates that the default value for this property is UTF-8. I have updated the description above to reflect the answers to your questions. @myself: Solution found.
+
+Question-44224
+I am looking for some advice on what should I concentrate my efforts to get the needed skills to become a Java developer for Oracle applications. I'm bit confused as there are lot of technologies in the Java world. Where should I start? What to avoid? Is JDeveloper a good IDE for a beginner?
+
+Question-44824
+Everyone I talk to who knows (knew) about it claims it was the greatest thing since sliced bread.  Why did it fail?  Or, if it didn't fail, who's using it now?
+
+Question-44912
+Does the Java language have delegate features, similar to how C# has support for delegates?
+
+Question-45086
+I have a C++ app that needs to connect to a JAVA web app, are there any good, open source SOAP packages for this, or would it be easier to just roll my own?
+
+Question-45424
+I'm using Struts 2. I'd like to return from an Action to the page which invoked it. Say I'm in page x.jsp, I invoke Visual action to change CSS preferences in the session; I want to return to x.jsp rather than to a fixed page (i.e. home.jsp) Here's the relevant struts.xml fragment: Of course my VisualizationAction.execute() returns home. Is there any "magic" constant (like, say, INPUT_PAGE) that I may return to do the trick? Must I use a more involved method (i.e. extracting the request page and forwarding to it)? T.I.A.
+
+Question-45546
+I want my controller to return the right HTTP response code when the user lacks permission to view a particular page.
+
+Question-46758
+Are there any good tools out there for automatically converting non-Java source code into Java source? I'm not expecting something perfect, just to get the worst of the grunt work out of the way. I guess there is a sliding scale of difficulty. C# should be relatively easy (so long as you ignore all the libraries). (well written) C++ not so bad. C requires making a little OO. (Statically type) functional languages may be easy to grok. Dynamic OO languages may require non-local analysis.
+
+Question-47145
+I want to build my own custom log4j (network) adapter to solve my problem that I posted here. I have looked at the documentation on the log4j and I cant see where/if the developers go into how to do this. Can anyone point me in the right direction to get started?
+
+Question-47555
+I am coming from an Enterprise Java background which involves a fairly heavyweight software stack, and have recently discovered the  Stripes framework; my initial impression is that this seems to do a good job of minimising the unpleasant parts of building a web application in Java. Has anyone used Stripes for a project that has gone live? And can you share your experiences from the project? Also, did you consider any other technologies and (if so) why did you chose Stripes?
+
+Question-47683
+We have a Java listener that reads text messages off of a queue in JBossMQ. If we have to reboot JBoss, the listener will not reconnect and start reading messages again. We just get messages in the listener's log file every 2 minutes saying it can't connect. Is there something we're not setting in our code or in JBossMQ? I'm new to JMS so any help will be greatly appreciated. Thanks.
+
+Question-48442
+Anyone have a good rule of thumb for choosing between different implementations of Java Collection interfaces like List, Map, or Set? For example, generally why or in what cases would I prefer to use a Vector or an ArrayList, a Hashtable or a HashMap?
+
+Question-49900
+We have an Apache ANT script to build our application, then check in the resulting JAR file into version control (VSS in this case).  However, now we have a change that requires us to build 2 JAR files for this project, then check both into VSS. The current target that checks the original JAR file into VSS discovers the name of the JAR file through some property.  Is there an easy way to "generalize" this target so that I can reuse it to check in a JAR file with any name?  In a normal language this would obviously call for a function parameter but, to my knowledge, there really isn't an equivalent concept in ANT.
+
+Question-50398
+Does anyone have a good solution for integrating some C# code into a java application?  The code is small, so I could re-write in java, but I would rather reuse the code if possible. Don't repeat yourself, etc.  Also, I know I can expose the C# as a web service or whatever, but it has some security/encryption stuff in there, so I would rather keep it tightly integrated if possible. Edit: It's going to be on a server-based app, so "downloading" another runtime is irrelevant.
+
+Question-50532
+How do I format a number in Java? What are the "Best Practices"? Will I need to round a number before I format it? 32.302342342342343 => 32.30 .7323 => 0.73 etc.
+
+Question-51380
+The Sun Documentation for DataInput.skipBytes states that it "makes an attempt to skip over n bytes of data from the input stream, discarding the skipped bytes. However, it may skip over some smaller number of bytes, possibly zero. This may result from any of a number of conditions; reaching end of file before n bytes have been skipped is only one possibility." Other than reaching end of file, why might skipBytes() not skip the right number of bytes? (The DataInputStream I am using will either be wrapping a FileInputStream or a PipedInputStream.) If I definitely want to skip n bytes and throw an EOFException if this causes me to go to the end of the file, should I use readFully() and ignore the resulting byte array? Or is there a better way?
+
+Question-52112
+Does anyone know a good Java lib that will hook into SVN so I can extract the data?  I want the SVN comments, author, path, etc...  Hopefully with this data I can build a better time management tracking system.
+
+Question-53098
+Is there a simple jar that I can just drop in a web app with simple configuration to allow people to log in my app and be seen as JASS user? I am not looking just for a library that implement the protocol, but a complete solution for simple solution integration.
+
+Question-53316
+I have a one to many relationship between two tables. The many table contains a clob column. The clob column looks like this in hibernate: So basically I may have a Note with some subsitutions, say "foo" and "fizzbuzz". So in my main table I could have a Note with id 4 and in my NOTE_JOIN_TABLE I would have two rows, "foo" and "fizzbuzz" that both have a relationship to the Note. However, when one of these is inserted into the DB the larger substitution values are cropped to be as long as the shortest. So in this case I would have "foo" and "fiz" in the DB instead of "foo" and "fizzbuzz". Do you have any idea why this is happening? I have checked and confirmed they aren't being cropped anywhere in our code, it's defintely hibernate.
+
+Question-53845
+What compiler (I'm using gcj 4.x) options should I use to generate an "exe" file for my java application to run in windows?
+
+Question-54567
+I've got an JComboBox with a custom inputVerifyer set to limit MaxLength when it's set to editable. The verify method never seems to get called. The same verifyer gets invoked on a JTextField fine. What might I be doing wrong?
+
+Question-54686
+Does any one know how do I get the current open windows or process of a local machine using Java?   What I'm trying to do is: list the current open task, windows or process open, like in  Windows Taskmanager, but using a multi-platform approach - using only Java if it's possible.
+
+Question-55487
+I've got a J2SE application that I am maintaining uses JNDI. (It uses JNDI to find it's J2EE application server.) It has pretty poor error reporting of failure to find the JNDI server. I've been looking around fora way to display which server the InitialContext is trying to talk to. Has anyone got a neat way to do this ?
+
+Question-56687
+In our application, we are using RMI for client-server communication in very different ways: Pushing data from the server to the client to be displayed. Sending control information from the client to the server. Callbacks from those control messages code paths that reach back from the server to the client (sidebar note - this is a side-effect of some legacy code and is not our long-term intent). What we would like to do is ensure that all of our RMI-related code will use only a known specified inventory of ports.  This includes the registry port (commonly expected to be 1099), the server port and any ports resulting from the callbacks. Here is what we already know: LocateRegistry.getRegistry(1099) or Locate.createRegistry(1099) will ensure that the registry is listening in on 1099. Using the UnicastRemoteObject constructor / exportObject static method with a port argument will specify the server port. These points are also covered in this Sun forum post.  What we don't know is: how do we ensure that the client connections back to the server resulting from the callbacks will only connect on a specified port rather than defaulting to an anonymous port? EDIT: Added a longish answer summarizing my findings and how we solved the problem.  Hopefully, this will help anyone else with similar issues. SECOND EDIT: It turns out that in my application, there seems to be a race condition in my creation and modification of socket factories.  I had wanted to allow the user to override my default settings in a Beanshell script.  Sadly, it appears that my script is being run significantly after the first socket is created by the factory.  As a result, I'm getting a mix of ports from the set of defaults and the user settings.  More work will be required that's out of the scope of this question but I thought I would point it out as a point of interest for others who might have to tread these waters at some point....
+
+Question-56843
+I'm looking for a builder for HQL in Java. I want to get rid of things like: I'd rather have something like: I googled a bit, and I couldn't find one. I wrote a quick & dumb HqlBuilder that suits my needs for now, but I'd love to find one that has more users and tests than me alone. Note: I'd like to be able to do things like this and more, which I failed to do with the Criteria API: ie. select all stocks whose property someValue points to any bonus from the Bonus table. Thanks!
+
+Question-58988
+The Interface Segregation Principle (ISP) says that many client specific interfaces are better than one general purpose interface. Why is this important?
+
+Question-59107
+I'm converting an application to use Java 1.5 and have found the following method: Ideally I would like to make the method take two Comparables of the same type, is it possible to convert this and how?  I thought the following would do the trick: but it has failed to get rid of a warning in IntelliJ "Unchecked call to 'compareTo(T)' as a member of raw type 'java.lang.Comparable'" on the line:
+
+Question-61191
+We have a simple spring-hibernate application(console app) where in we have set the classpath in manifest file of the executable jar file. And the app connects to the database using jtds driver, Everything works as expected on windows machine and jdk1.6. But on Linux, the app is unable to find the driver,  We are running the program using java -jar MainClassName Any suggestions why this might be happening is greatly appreciated.
+
+Question-61615
+C# and Java allow almost any character in class names, method names, local variables, etc..  Is it bad practice to use non-ASCII characters, testing the boundaries of poor editors and analysis tools and making it difficult for some people to read, or is American arrogance the only argument against?
+
+Question-62276
+What tool would you recommend to detect java package cyclic dependencies, knowing that the goal is to list explicitly the specific classes involved in the detected 'across-packages cycle' ? I know about classycle and JDepend , but they both fail to list the classes involved in a cyclic package dependency. Metrics has an interesting graphical representation of cycles, but again limited to packages, and quite difficult to read sometime. I am getting tired to get a: " you have a package cycle dependency between those 3 packages you have xxx classes in each good luck finding the right classes and break this cycle " Do you know any tool that takes the extra step to actually explain to you why the cycle is detected (i.e. 'list the involved classes') ? Riiight... Time to proclaim the results: @l7010.de thank you for the effort. I will vote you up (when I will have enough rep), especially for the 'CAP' answer... but CAP is dead in the water and no longer compatible with my eclipse 3.4. The rest is commercial and I look only for freeware @daniel6651 thank you but, as said, freeware only (sorry to not have mentioned it in the first place) @izb as a frequent user of findbugs (using the latest 1.3.5 right now), I am one click away to accept your answer... if you could explain to me what option there is to activate for findbug to detect any cycle. That feature is only mentioned for the 0.8.7 version in passing (look for 'New Style detector to find circular dependencies between classes'), and I am not able to test it. Update: works now, I had an old findbugs configuration file in which that option was not activated. I still like CAD though ;) THE ANSWER is... see my own (second) answer below
+
+Question-62423
+Rather than rewriting the entire contents of an xml file when a single element is updated, is there a better alternative to updating the file?
+
+Question-63030
+What is the best and/or easiest way to replace the missing BufferedImage functionality for a Java project I am converting to .NET with IKVM? I'm basically getting "cli.System.NotImplementedException: BufferedImage" exceptions when running the application, which otherwise runs fine.
+
+Question-63042
+I'm a very experienced Java programmer who has spent my entire time working with Java 1.4 and earlier.  Where can I find a quick reference that will give me everything I need to know about the new features in Java5 and later in a quick reference?
+
+Question-64038
+When I use the default java locale on my linux machine it comes out with the US locale settings, where do I change this so that it comes out with the correct locale?
+
+Question-64148
+I'm looking for a general solution for upgrading database schema with ORM tools, like JPOX or Hibernate. How do you do it in your projects? The first solution that comes to my mind is to create my own mechanism for upgrading databases, with SQL scripts doing all the work. But in this case I'll have to remember about creating new scripts every time the object mappings are updated. And I'll still have to deal with low-level SQL queries, instead of just defining mappings and allowing the ORM tools to do all the job... So the question is how to do it properly. Maybe some tools allow for simplifying this task (for example, I heard that Rails have such mechanism built-in), if so please help me decide which ORM tool to choose for my next Java project.
+
+Question-64213
+Are there any open-source libraries that all programmers should know about? I'm thinking something general, a sort of extension to the standard java.util that contains basic functions that are useful for all kinds of application.
+
+Question-64781
+I have a web application that receives messages through an HTTP interface, e.g.: This request contains the ID of the sender, the ID of the recipient and the text of the message. This message should be processed like: finding the matching User object for both the source and the destination from the database creating a tree of objects: a Message that contains a field for the message text and two User objects for the source and the destination persisting this tree to a database. The tree will be loaded by other applications that I can't touch. I use Oracle as the backing database and JPA with Toplink for the database handling tasks. If possible, I'd stay with these. Without much optimization I can achieve ~30 requests/sec throughput in my environment. That's not much, I'd require ~300 requests/sec. So I measured where the performance bottleneck is and found that the calls to em.persist() takes most of the time. If I simply comment out that line, the throughput go well over 1000 requests/sec. I tried to write a small test application that used simple JDBC calls to persist 1 million messages to the same database. I used batching, meaning I did 100 inserts then a commit, and repeated until all the records was in the database. I measured ~500 requests/sec throughput in this scenario, that would meet my needs. It is clear that I need to optimize insert performance here. However as I mentioned earlier I would like to keep using JPA and Toplink for this, not pure JDBC. Do you know a way to create batch inserts with JPA and Toplink? Can you recommend any other technique for improving JPA persist performance? ADDITIONAL INFO: "requests/sec" means here: total number of requests / total time from beginning of test to last record written to database. I tried to make the calls to em.persist() asynchronous by creating an in-memory queue between the servlet stuff and the persister. It helped the performance greatly. However the queue did grow really fast and as the application will receive ~200 requests/second continuously, It is not an acceptable solution for me. In this decoupled approach I collected requests for 100 msec and called em.persist() on all collected items before commiting the transaction. The EntityManagerFactory is cached between each transaction.
+
+Question-64833
+I am writing a C# client that calls a web service written in Java (by another person).  I have added a web reference to my client and I'm able to call methods in the web service ok. The service was changed to return an array of objects, and the client does not properly parse the returned SOAP message. When my generated C# proxy calls the web service (using SoapHttpClientProtocol.Invoke), I am expecting a MyResponse[] array with length of 1, ie a single element.  What I am getting after the Invoke call is an element with id=0 and reason=null, regardless of what the service actually returns.  Using a packet sniffer, I can see that the service is returning what appears to be a legitimate soap message with id and reason set to non-null values. Is there some trick to getting a C# client to call a Java web service that returns someobject[] ?  I will work on getting a sanitized demo if necessary. Edit: This is a web reference via "Add Web Reference...".  VS 2005, .NET 3.0.
+
+Question-65010
+Is it really viable to use GCJ to publish server-side applications?  Webapps?   My boss is convinced that compiling our (my) webapp into a binary executable is a brilliant idea.  (Then again, he likes nice, small simple things with blinky lights that he can understand.)  He instinctively sees no issues with this, while I only see an endless series of problems and degradations.  Once I start talking to him about the complexity of our platform, and more in depth specifics of byte code, JVMs, libraries, differences between operating systems, processor architectures, etc...well...his eyes glaze over, he smiles and he has made it clear he thinks I'm being childishly resistive. Why does he want a single magic executable?  He sees a couple of "benefits": If it is a binary executable, then it is hard to reverse engineer and circumvent any licensing.  Management lives in constant fear that this is happening, even though we sell into larger corporates who generally do not do cheat with server software.   There is that vision of downloading this magic executable, running it, and everything works. (No more sending me out to do customer installations, which is not that frequent.) So, I've done my obligatory 20 minutes of googling, and now I am here.   A bit of background on my application:  What it is made from: Java 6 (Sun's JVM) AspectJ 1.6 Tomcat 6 Hibernate 3 Spring 2 another two dozen supporting jar files What it does A streaming media CMS Performance sensitive Deployed on Linux, Solaris, Windows (and developed on a Mac) As you can probably gather, I'm highly skeptical of this "compiling Java to native code" thing.  It sound like where Mono (VB on Linux) was back in 2000.  But am I being overly pessimistic?  Is it viable?  Should I actually spend the time (days if not weeks) to try this out? There is one other similar thread (Java Compiler Options to produce .exe files) but it is a bit too simple, the links dated, and not really geared towards a server-side question. Your informed opinions will be highly cherished, my dear SOpedians! TIA!
+
+Question-65128
+I have a huge ear that uses log4j and there is a single config file that is used to set it up. In this config file there is no mention of certain log files but, additional files apart from those specified in the config file get generated in the logs folder. I've searched for other combinations of (logger|log4j|log).(properties|xml) and haven't found anything promising in all of the jar files included in the ear. How do I track down which is the offending thread/class that is creating these extra files?
+
+Question-65150
+What is the best open source java workflow framework (e.g. OSWorkflow, jBPM, XFlow etc.)?
+
+Question-65310
+I am using Apache Axis to connect my Java app to a web server. I used wsdl2java to create the stubs for me, but when I try to use the stubs, I get the following exception: org.apache.axis.ConfigurationException: No service named <web service name> is available any idea?
+
+Question-66528
+I have the following Java 6 code: I receive a syntax error on the last closing right parenthesis. Eclipse gives: "Insert EnumBody to complete block statement" and "Insert enum Identifier to complete EnumHeaderName".  Similar syntax error from javac. What am I doing wrong?
+
+Question-66750
+Here is a quick test program: The output is: Months: en: September es: septiembre fr: septembre de: September Days: en: Monday es: lunes fr: lundi de: Montag How can I control the capitalization of the names. For some reason the Spanish and French always seem to return names that start with a lowercase letter.
+
+Question-66767
+What culprits are the most likely to cause a 404 resource not found error when a page in a given .WAR, autocreated by Sun's J2EE deploytool, is trying to load a Servlet in the same .WAR file? Eg:  HTTP Status 404 - /MyServlet/MyServlettype Status reportmessage /MyServlet/MyServletdescription The requested resource (/MyServlet/MyServlet) is not available. Related: Of these, how many would you expect to be server specific? eg: Sun Java Application Server  vs Tomcat & Catalina ?
+
+Question-66840
+Where can I find a guide for integrating JavaScript and JMS (Java Messaging Service)? I would like a best practice or established technology that allows me to directly or indirectly receive messages from a topic and update a site based on the message. I was thinking of creating two components, a servlet for the Web module, and an MDB (Message-Driven Bean) for the EJB module. The web client will comsume messages from the JMS topic, and the MDB will handle the onMessage. Does this sound correct? Have you seen any examples? Edit: I am using ActiveMQ for the JMS.
+
+Question-66875
+We have a case where clients seem to be eternally caching versions of applets.  We're making use of the <param name="cache_version"> tag correctly within our <object> tag, or so we think.  We went from a version string of 7.1.0.40 to 7.1.0.42 and this triggered a download for only about half of our clients. It doesn't seem to matter which version of the JRE the client is running.  We've seen people have this problem on 1.4, 1.5 and 1.6. Does anybody have experience with explicit cache versions?  Does it work more reliably (ignoring speed) to instead rely on the cache_archive's "Last-Modified" and/or "Content-Length" values (as per Sun's Site)? FYI, object block looks like this:
+
+Question-67183
+There are various documents describing threading on Solaris/Linux, but nowwhere describing the Windows implementation. I have a passing interest in this, it seems strange that something so critical is (seemingly) not documented. Threading is not the same on different OS' - "Write Once, Run Anywhere" isn't true for threading. See http://java.sun.com/docs/hotspot/threads/threads.html
+
+Question-67275
+I am trying to read a single file from a java.util.zip.ZipInputStream, and copy it into a java.io.ByteArrayOutputStream (so that I can then create a java.io.ByteArrayInputStream and hand that to a 3rd party library that will end up closing the stream, and I don't want my ZipInputStream getting closed). I'm probably missing something basic here, but I never enter the while loop here: What am I missing that will allow me to copy the stream? Edit: I should have mentioned earlier that this ZipInputStream is not coming from a file, so I don't think I can use a ZipFile. It is coming from a file uploaded through a servlet. Also, I have already called getNextEntry() on the ZipInputStream before getting to this snippet of code. If I don't try copying the file into another InputStream (via the OutputStream mentioned above), and just pass the ZipInputStream to my 3rd party library, the library closes the stream, and I can't do anything more, like dealing with the remaining files in the stream.
+
+Question-68109
+My professor did an informal benchmark on a little program and the Java times were: 1.7 seconds for the first run, and 0.8 seconds for the runs thereafter.   Is this due entirely to the loading of the runtime environment into the operating environment ? OR  Is it influenced by Java's optimizing the code and storing the results of those optimizations (sorry, I don't know the technical term for that)?
