@@ -14,7 +14,7 @@ def main():
     origTokensList = word_tokenize(origFileHandler.read())
     origWordCountDict = countWords(origTokensList)
 
-    print "Top 20 Original:\n_______________________________"
+    print "Top 20 Original:"
     origTopTwentyList = getTopTwenty(origWordCountDict)
     for tuple in origTopTwentyList:
         print tuple
@@ -27,22 +27,16 @@ def main():
     stemFileHandler.seek(0)
     stemTokensList = word_tokenize(stemFileHandler.read())
     stemWordCountDict = countWords(stemTokensList)
-    print "Top 20 Stemmed:\n_______________________________"
+    print "Top 20 Stemmed:"
     stemTopTwentyList = getTopTwenty(stemWordCountDict)
     for tuple in stemTopTwentyList:
-        print tuple
+        print tuple,
+        stem = tuple[0]
+        print "=> " + " ".join(stemDerivativesDict[stem])
     print("\n")
-
-    getOriginalsFromStems(stemDerivativesDict, stemTopTwentyList)
 
     origFileHandler.close()
     stemFileHandler.close()
-
-def getOriginalsFromStems(stemDerivativesDict, stemTopTwentyList):
-    print "Stems : Originals\n_______________________________"
-    for topStemTuple in stemTopTwentyList:
-        topStem = topStemTuple[0]
-        print topStem + " : " + " ".join(stemDerivativesDict[topStem])
 
 def getStems(wordList, outputFileHandler):
     stemmer = PorterStemmer()
