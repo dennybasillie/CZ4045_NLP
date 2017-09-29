@@ -1,0 +1,30 @@
+Sentence 1: Is there an existing application or library in Java which will allow me to convert a CSV data file to XML file?
+[(u'Is', 'VBZ'), (u'there', 'EX'), (u'an', 'DT'), (u'existing', 'VBG'), (u'application', 'NN'), (u'or', 'CC'), (u'library', 'NN'), (u'in', 'IN'), (u'Java', 'NNP'), (u'which', 'WDT'), (u'will', 'MD'), (u'allow', 'VB'), (u'me', 'PRP'), (u'to', 'TO'), (u'convert', 'VB'), (u'a', 'DT'), (u'CSV', 'NNP'), (u'data', 'NN'), (u'file', 'NN'), (u'to', 'TO'), (u'XML', 'VB'), (u'file', 'NN'), (u'?', '.')]
+
+Sentence 2: The XML tags would be provided through possibly the first row containing column headings.
+[(u'The', 'DT'), (u'XML', 'NNP'), (u'tags', 'NNS'), (u'would', 'MD'), (u'be', 'VB'), (u'provided', 'VBN'), (u'through', 'IN'), (u'possibly', 'RB'), (u'the', 'DT'), (u'first', 'JJ'), (u'row', 'NN'), (u'containing', 'VBG'), (u'column', 'NN'), (u'headings', 'NNS'), (u'.', '.')]
+
+Sentence 3: What is the "purist" or "correct" way to access an object's properties from within an object method that is not a getter/setter method?
+[(u'What', 'WP'), (u'is', 'VBZ'), (u'the', 'DT'), (u'``', '``'), (u'purist', 'NN'), (u"''", "''"), (u'or', 'CC'), (u'``', '``'), (u'correct', 'JJ'), (u"''", "''"), (u'way', 'NN'), (u'to', 'TO'), (u'access', 'NN'), (u'an', 'DT'), (u'object', 'NN'), (u"'s", 'POS'), (u'properties', 'NNS'), (u'from', 'IN'), (u'within', 'IN'), (u'an', 'DT'), (u'object', 'JJ'), (u'method', 'NN'), (u'that', 'WDT'), (u'is', 'VBZ'), (u'not', 'RB'), (u'a', 'DT'), (u'getter/setter', 'NN'), (u'method', 'NN'), (u'?', '.')]
+
+Sentence 4: When I learned OO I was taught to use getters/setters for every single property even if it was public (and actually I was told never to make any variable/property public).
+[(u'When', 'WRB'), (u'I', 'PRP'), (u'learned', 'VBD'), (u'OO', 'NNP'), (u'I', 'PRP'), (u'was', 'VBD'), (u'taught', 'VBN'), (u'to', 'TO'), (u'use', 'VB'), (u'getters/setters', 'NNS'), (u'for', 'IN'), (u'every', 'DT'), (u'single', 'JJ'), (u'property', 'NN'), (u'even', 'RB'), (u'if', 'IN'), (u'it', 'PRP'), (u'was', 'VBD'), (u'public', 'JJ'), (u'(', '('), (u'and', 'CC'), (u'actually', 'RB'), (u'I', 'PRP'), (u'was', 'VBD'), (u'told', 'VBN'), (u'never', 'RB'), (u'to', 'TO'), (u'make', 'VB'), (u'any', 'DT'), (u'variable/property', 'JJ'), (u'public', 'NN'), (u')', ')'), (u'.', '.')]
+
+Sentence 5: So, I may be starting off from a false assumption from the get go.
+[(u'So', 'RB'), (u',', ','), (u'I', 'PRP'), (u'may', 'MD'), (u'be', 'VB'), (u'starting', 'VBG'), (u'off', 'RP'), (u'from', 'IN'), (u'a', 'DT'), (u'false', 'JJ'), (u'assumption', 'NN'), (u'from', 'IN'), (u'the', 'DT'), (u'get', 'NN'), (u'go', 'VBP'), (u'.', '.')]
+
+Sentence 6: It appears that people answering this question are maybe saying that you should have public properties and that those don't need getters and setters, which goes against what I was taught, and what I was talking about, although maybe that needs to be discussed as well.
+[(u'It', 'PRP'), (u'appears', 'VBZ'), (u'that', 'IN'), (u'people', 'NNS'), (u'answering', 'VBG'), (u'this', 'DT'), (u'question', 'NN'), (u'are', 'VBP'), (u'maybe', 'RB'), (u'saying', 'VBG'), (u'that', 'IN'), (u'you', 'PRP'), (u'should', 'MD'), (u'have', 'VB'), (u'public', 'JJ'), (u'properties', 'NNS'), (u'and', 'CC'), (u'that', 'IN'), (u'those', 'DT'), (u'do', 'VBP'), (u"n't", 'RB'), (u'need', 'VB'), (u'getters', 'NNS'), (u'and', 'CC'), (u'setters', 'NNS'), (u',', ','), (u'which', 'WDT'), (u'goes', 'VBZ'), (u'against', 'IN'), (u'what', 'WP'), (u'I', 'PRP'), (u'was', 'VBD'), (u'taught', 'VBN'), (u',', ','), (u'and', 'CC'), (u'what', 'WP'), (u'I', 'PRP'), (u'was', 'VBD'), (u'talking', 'VBG'), (u'about', 'RB'), (u',', ','), (u'although', 'IN'), (u'maybe', 'RB'), (u'that', 'DT'), (u'needs', 'VBZ'), (u'to', 'TO'), (u'be', 'VB'), (u'discussed', 'VBN'), (u'as', 'RB'), (u'well', 'RB'), (u'.', '.')]
+
+Sentence 7: That's probably a good topic for a different question though...
+[(u'That', 'DT'), (u"'s", 'VBZ'), (u'probably', 'RB'), (u'a', 'DT'), (u'good', 'JJ'), (u'topic', 'NN'), (u'for', 'IN'), (u'a', 'DT'), (u'different', 'JJ'), (u'question', 'NN'), (u'though', 'IN'), (u'...', ':')]
+
+Sentence 8: What is the meaning of the Java warning?
+[(u'What', 'WP'), (u'is', 'VBZ'), (u'the', 'DT'), (u'meaning', 'NN'), (u'of', 'IN'), (u'the', 'DT'), (u'Java', 'NNP'), (u'warning', 'NN'), (u'?', '.')]
+
+Sentence 9: I was reading More Joel on Software when I came across Joel Spolsky saying something about a particular type of programmer knowing the difference between an int and an Integer in Java/C# (Object Oriented Programming Languages).
+[(u'I', 'PRP'), (u'was', 'VBD'), (u'reading', 'VBG'), (u'More', 'JJR'), (u'Joel', 'NNP'), (u'on', 'IN'), (u'Software', 'NNP'), (u'when', 'WRB'), (u'I', 'PRP'), (u'came', 'VBD'), (u'across', 'IN'), (u'Joel', 'NNP'), (u'Spolsky', 'NNP'), (u'saying', 'VBG'), (u'something', 'NN'), (u'about', 'IN'), (u'a', 'DT'), (u'particular', 'JJ'), (u'type', 'NN'), (u'of', 'IN'), (u'programmer', 'NN'), (u'knowing', 'VBG'), (u'the', 'DT'), (u'difference', 'NN'), (u'between', 'IN'), (u'an', 'DT'), (u'int', 'NN'), (u'and', 'CC'), (u'an', 'DT'), (u'Integer', 'NNP'), (u'in', 'IN'), (u'Java/C', 'NNP'), (u'#', '#'), (u'(', '('), (u'Object', 'NNP'), (u'Oriented', 'NNP'), (u'Programming', 'NNP'), (u'Languages', 'NNP'), (u')', ')'), (u'.', '.')]
+
+Sentence 10: So, what is the difference?
+[(u'So', 'RB'), (u',', ','), (u'what', 'WP'), (u'is', 'VBZ'), (u'the', 'DT'), (u'difference', 'NN'), (u'?', '.')]
+
