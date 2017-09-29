@@ -1,0 +1,13 @@
+3.1 Dataset Collection
+
+Number of questions: 500
+
+Number of answers: 3754
+
+Set of answer counts:
+{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,22,23,24,25,26,27,32,33,34,37,38,39,41,71,73,100}
+
+Questions with answer counts corresponding to the value in the set above:
+[25,46,65,65,59,42,35,29,24,15,16,10,7,10,12,4,5,7,3,3,2,1,1,1,2,1,1,1,1,1,1,1,1,1,1]
+
+For distribution of answers, see figure.
