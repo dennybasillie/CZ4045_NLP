@@ -1,0 +1,46 @@
+Top 20 Original:
+('java', 2298)
+('code', 1509)
+('method', 1023)
+('class', 1022)
+('object', 911)
+('example', 661)
+('file', 598)
+('application', 591)
+('data', 531)
+('time', 509)
+('work', 497)
+('http', 488)
+('string', 437)
+('objects', 430)
+('good', 429)
+('exception', 413)
+('classes', 413)
+('methods', 402)
+('reference', 386)
+('project', 363)
+
+
+Top 20 Stemmed:
+('java', 2300) => java javas
+('code', 1568) => code codes coding coded
+('class', 1436) => class classes classing
+('method', 1425) => method methods
+('object', 1345) => object objects objective objectives
+('work', 998) => working work worked works workings
+('file', 898) => file files fileds filed
+('call', 791) => call calling called calls
+('exampl', 760) => examples example exampl
+('applic', 750) => application applicable applications
+('creat', 630) => create creating created creates
+('gener', 629) => generic generates general generically generation generated generate generics generating generator generally generalize generators generalizing generational generality generalized generations generalization
+('refer', 609) => references reference refer refering referred referring refers referer
+('test', 597) => test tests tested testing
+('time', 586) => time times timing timed timely
+('implement', 579) => implementing implementation implement implements implementations implemented implementer
+('string', 573) => string strings
+('http', 552) => http https
+('type', 549) => type types typed typing
+('data', 531) => data
+
+
