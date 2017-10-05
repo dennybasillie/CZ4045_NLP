@@ -16,8 +16,8 @@ def delete_last_empty_lines(filename):
 
 
 fileDir = os.path.dirname(os.path.realpath('_file_'))
-questionLocation = os.path.join(fileDir, 'questions-cleaned.txt')
-answerLocation = os.path.join(fileDir, 'answers-cleaned.txt')
+questionLocation = os.path.join(fileDir, '../preprocessing/questions-cleaned.txt')
+answerLocation = os.path.join(fileDir, '../preprocessing/answers-cleaned.txt')
 
 threadAmount = 100
 thread_output = open('random-threads.txt', 'w')

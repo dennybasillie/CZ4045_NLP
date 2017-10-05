@@ -1,0 +1,299 @@
+Post-1, Question-57145
+While creating classes in Java I often find myself creating instance-level collections that I know ahead of time will be very small - less than 10 items in the collection. But I don't know the number of items ahead of time so I typically opt for a dynamic collection (ArrayList, Vector, etc). A part of me keeps nagging at me that it's wasteful to use complex dynamic collections for something this small in size. Is there a better way of implementing something like this? Or is this the norm? Note, I'm not hit with any (noticeable) performance penalties or anything like that. This is just me wondering if there isn't a better way to do things.
+
+Post-2, Question-25637
+Is there a way to shutdown a computer using a built-in Java method?
+
+Post-3, Question-52353
+For example, let's say I have an application that can read in a CSV file with piles of data rows.  I give the user a summary of the number of rows based on types of data, but I want to make sure that I don't read in too many rows of data and cause OutOfMemoryErrors.  Each row translates into an object.  Is there an easy way to find out the size of that object programmatically?  Is there a reference that defines how large primitive types and object references are for a VM? Right now, I have code that says read up to 32,000 rows, but I'd also like to have code that says read as many rows as possible until I've used 32MB of memory.  Maybe that is a different question, but I'd still like to know.
+
+Post-4, Question-58163
+It seems to me that introducing an ORM tool is supposed to make your architecture cleaner, but for efficiency I've found myself bypassing it and iterating over a JDBC Result Set on occasion.  This leads to an uncoordinated tangle of artifacts instead of a cleaner architecture. Is this because I'm applying the tool in an invalid Context, or is it deeper than that? When can/should you go whole hog with the ORM approach? Any insight would be greatly appreciated. A little of background: In my environment  I have about 50 client computers and 1 reasonably powerful SQL Server. I have a desktop application in which all 50 clients are accessing the data at all times. The project's Data Model has gone through a number of reorganizations for various reasons including clarity, efficiency, etc. My Data Model's history JDBC calls directly DAO + POJO without relations between Pojos (basically wrapping the JDBC).  Added Relations between POJOs implementing Lazy Loading, but just hiding the inter-DAO calls Jumped onto the Hibernate bandwagon after seeing how "simple" it made data access (it made inter POJO relations trivial) and because it could decrease the number of round trips to the database when working with many related entities. Since it was a desktop application keeping Sessions open long term was a nightmare so it ended up causing a whole lot of issues Stepped back to a partial DAO/Hibernate approach that allows me to make direct JDBC calls behind the DAO curtain while at the same time using Hibernate.
+
+Post-5, Question-42990
+I am looking for a regex that will match a string that starts with one substring and does not end with a certain substring. Example: Should match anything that starts with "foo" and doesn't end with "bar".  I know about the [^...] syntax, but I can't find anything that will do that for a string instead of single characters.   I am specifically trying to do this for Java's regex, but I've run into this before so answers for other regex engines would be great too.   Thanks to @Kibbee for verifying that this works in C# as well.
+
+Post-6, Question-31394
+I see many similar questions, however I want to find the Username of the currently logged in user using Java. Its probably something like: But, I'm not quite sure.
+
+Post-7, Question-43199
+The login page in my Tapestry application has a property in which the password the user types in is stored, which is then compared against the value from the database. If the user enters a password with multi-byte characters, such as: ...an inspection of the return value of getPassword() (the abstract method for the corresponding property) gives: Clearly, that's not encoded properly. Yet Firebug reports that the page is served up in UTF-8, so presumably the form submission request would also be encoded in UTF-8. Inspecting the value as it comes from the database produces the correct string, so it wouldn't appear to be an OS or IDE encoding issue. I have not overridden Tapestry's default value for org.apache.tapestry.output-encoding in the .application file, and the Tapestry 4 documentation indicates that the default value for the property is UTF-8. So why does Tapestry appear to botch the encoding when setting the property? Relevant code follows: Login.html Login.page Login.java Updates @Jan Soltis: Well, if I inspect the value that comes from the database, it displays the correct string, so it would seem that my editor, OS and database are all encoding the value correctly. I've also checked my .application file; it does not contain an org.apache.tapestry.output-encoding entry, and the Tapestry 4 documentation indicates that the default value for this property is UTF-8. I have updated the description above to reflect the answers to your questions. @myself: Solution found.
+
+Post-8, Question-4149
+I have an application that writes information to file. This information is used post-execution to determine pass/failure/correctness of the application. I'd like to be able to read the file as it is being written so that I can do these pass/failure/correctness checks in realtime. I assume it is possible to do this, but what are the gotchas involved when using Java? If the reading catches up to the writing, will it just wait for more writes up until the file is closed, or will the read throw an exception at this point? If the latter, what do I do then?  My intuition is currently pushing me towards BufferedStreams. Is this the way to go?
+
+Post-9, Question-43842
+I have a string that contains the representation of a date. It looks like:  Thu Nov 30 19:00:00 EST 2006 I'm trying to create a Date object using SimpleDateFormat and have 2 problems.  1.) I can't figure out the pattern to hard-code the solution into the SimpleDateFormat constructor 2.) I can't find a way I could parse the string using API to determine the pattern so I could reuse this for different patterns of date output  If anyone knows a solution using API or a custom solution I would greatly appreciate it.
+
+Post-10, Question-27581
+What issues / pitfalls must be considered when overriding equals and hashCode?
+
+Post-11, Question-28538
+I'm trying to find a way to list the (static) dependency requirements of a jar file, in terms of which symbols are required at run time. I can see that the methods exported by classes can be listed using "javap", but there doesn't seem to be an opposite facility to list the 'imports'. Is it possible to do this? This would be similar to the dumpbin utility in Windows development which can be used to list the exports and imports of a DLL. EDIT : Thanks for the responses; I checked out all of the suggestions; accepted DependencyFinder as it most closely meets what I was looking for.
+
+Post-12, Question-62490
+I am receiving SOAP requests from a client that uses the Axis 1.4 libraries. The requests have the following form: As you can see, several prefixes are defined for the same namespace, e.g. the namespace http://example.com/schema/common has the prefixes ns4, ns5, ns6, ns7 and ns8. Some long requests define several hundred prefixes for the same namespace. This causes a problem with the Saxon XSLT processor, that I use to transform the requests. Saxon limits the the number of different prefixes for the same namespace to 255 and throws an exception when you define more prefixes. Can Axis 1.4 be configured to define smarter prefixes, so that there is only one prefix for each namespace?
+
+Post-13, Question-45424
+I'm using Struts 2. I'd like to return from an Action to the page which invoked it. Say I'm in page x.jsp, I invoke Visual action to change CSS preferences in the session; I want to return to x.jsp rather than to a fixed page (i.e. home.jsp) Here's the relevant struts.xml fragment: Of course my VisualizationAction.execute() returns home. Is there any "magic" constant (like, say, INPUT_PAGE) that I may return to do the trick? Must I use a more involved method (i.e. extracting the request page and forwarding to it)? T.I.A.
+
+Post-14, Question-45623
+In Java, what would the best way be to have a constantly listening port open, and still send upon receipt of a packet. I am not particularly savvy with network programming at the moment, so the tutorials I have found on the net aren't particularly helpful. Would it make sense to have the listening socket as a serversocket and run it in a separate thread to the socket I'm using to send data to the server? In a loosely related question. Does anyone know if programming simply for java, in netbeans then exporting it for use on a blackberry (using a plugin) the sockets would still work ?
+
+Post-15, Question-12870
+This is a nasty one for me...  I'm a PHP guy working in Java on a JSP project.  I know how to do what I'm attempting through too much code and a complete lack of finesse.   I'd prefer to do it RIGHT. :) Here is the situation: I'm writing a small display to show customers what days they can water their lawns based on their watering group (ABCDE) and what time of year it is.  Our seasons look like this: Summer (5-1 to 8-31)  Spring  (3-1 to 4-30)  Fall (9-1 to 10-31) Winter (11-1 to 2-28)  An example might be: If I'm in group A, here would be my allowed times: Winter: Mondays only Spring: Tues, Thurs, Sat Summer: Any Day Fall: Tues, Thurs, Sat If I was writing this in PHP I would use arrays like this: I COULD make the days arrays (array("Tuesday","Thursday","Saturday")) etc, but it is not necessary for what I'm really trying to accomplish. I will also need to setup arrays to determine what season I'm in: Can anyone suggest a really cool way to do this? I will have today's date and the group letter.  I will need to get out of my function a day (M) or a series of days (tTS), (Any). Thanks, folks!
+
+Post-16, Question-46496
+Today I had a coworker suggest I refactor my code to use a label statement to control flow through 2 nested for loops I had created. I've never used them before because personally I think they decrease the readability of a program. I am willing to change my mind about using them if the argument is solid enough however. What are people's opinions on label statements?
+
+Post-17, Question-29461
+I'm working on getting an Introduction to Groovy presentation ready for my local Java User's Group and I've pretty much got it together.  What I'd like to see is what you all think I just have to cover.   Remember, this is an introductory presentation.  Most of the people are experienced Java developers, but I'm pretty sure they have little to no Groovy knowledge.  I won't poison the well by mentioning what I've already got down to cover as I want to see what the community has to offer. What are the best things I can cover (in a 1 hour time frame) that will help me effectively communicate to these Java developers how useful Groovy could be to them? p.s. I'll share my presentation here later for anyone interested. as promised now that my presentation has been presented here it is
+
+Post-18, Question-62241
+Is there an easy way to avoid dealing with text encoding problems?
+
+Post-19, Question-30696
+I posted the code below to the Sun developers forum since I thought it was erroring (the true error was before this code was even hit).  One of the responses I got said it would not work and to throw it away.  But it is actually working.  It might not be the best code (I am new to Java) but is there something inherently "wrong" with it?  ============= CODE: private static void ImportFromCsvToAccessTable(String mdbFilePath, String accessTableName  , String csvDirPath , String csvFileName ) throws ClassNotFoundException, SQLException {     Connection msConn = getDestinationConnection(mdbFilePath);     try{         String strSQL = "SELECT * INTO " + accessTableName + " FROM [Text;HDR=YES;DATABASE=" + csvDirPath + ";].[" + csvFileName + "]";         PreparedStatement selectPrepSt = msConn.prepareStatement(strSQL );         boolean result = selectPrepSt.execute();                 System.out.println( "result = " + result );     } catch(Exception e) {         System.out.println(e);     } finally {         msConn.close();     } }
+
+Post-20, Question-31127
+When running a Java app from eclipse my ImageIcon shows up just fine. But after creating a jar the path to the image obviously gets screwed up. Is there a way to extract an image from the jar at runtime so I can then open it up?  Or, is there a better way to do this? I'd like to distribute a single jar file if possible.
+
+Post-21, Question-47555
+I am coming from an Enterprise Java background which involves a fairly heavyweight software stack, and have recently discovered the  Stripes framework; my initial impression is that this seems to do a good job of minimising the unpleasant parts of building a web application in Java. Has anyone used Stripes for a project that has gone live? And can you share your experiences from the project? Also, did you consider any other technologies and (if so) why did you chose Stripes?
+
+Post-22, Question-11561
+I've used Apache CXF to expose about ten java classes as web services. I've generated clients using CXF, Axis, and .NET. In Axis and CXF a "Service" or "Locator" is generated.  From this service you can get a "Port". The "Port" is used to make individual calls to the methods exposed by the web service. In .NET the "Service" directly exposes the calls to the web service. Can someone explain the difference between a port, a service, a locator, and an endpoint when it comes to web services? Axis: CXF: .net:
+
+Post-23, Question-62491
+Nokia has stopped offering its Developer's Suite, relying on other IDEs, including Eclipse. Meanwhile, Nokia changed its own development tools again and EclipseMe has also changed. This leaves most documentation irrelevant.  I want to know what does it take to make a simple Hello-World? (I already found out myself, so this is a Q&A for other people to use)
+
+Post-24, Question-48144
+It seems like anything you can do with bytecode you can do just as easily and much faster in native code. In theory, you could even retain platform and language independence by distributing programs and libraries in bytecode then compiling to native code at installation, rather than JITing it. So in general, when would you want to execute bytecode instead of native?
+
+Post-25, Question-31924
+I have done Java and JSP programming in the past, but I am new to Java Server Faces and want to know if there's a set of best practices for JSF development.
+
+Post-26, Question-13225
+I've recently inherited a internationalized and text-heavy Struts 1.1 web application. Many of the JSP files look like: and the properties files look like: with the appropriate translations in N other languages (messages_fr.properties, etc). Problems: DRY violation - I have N references to my Struts action URLs instead of 1, which makes refactoring action URLs error-prone. Mixed concerns - My application's markup is now in more than just my JSP files, making it difficult for a web specialist to tweak the markup (using CSS, etc). Post-translation markup - Anytime I receive newly-translated text, I must decide what to surround with the <a>...</a> markup. Easy for English but less so for unfamiliar languages. I've considered adding placeholders in the messages file, like: but then the words "address" and "contact information" would somehow need to be localized, wrapped with markup, and passed to my message tag - and I can't see an easy way to do it. What can I do to improve this?
+
+Post-27, Question-53562
+What are the steps required to enable Hibernate's second-level cache, when using the Java Persistence API (annotated entities)? How do I check that it's working? I'm using JBoss 4.2.2.GA. From the Hibernate documentation, it seems that I need to enable the cache and specify a cache provider in persistence.xml, like: What else is required? Do I need to add @Cache annotations to my JPA entities? How can I tell if the cache is working? I have tried accessing cache statistics after running a Query, but Statistics.getSecondLevelCacheStatistics returns null, perhaps because I don't know what 'region' name to use.
+
+Post-28, Question-63800
+Does Java impose any extra restrictions of its own. Windows (upto Vista) does not allow names to include I know HOW to validate names (a regular expression). I need to validate filenames entered by users.   My application does not need to run on any other platform, though, of course, I would prefer to be platform independent!
+
+Post-29, Question-15481
+Sometimes a labeled break or continue can make code a lot more readable.  I was wondering what the common convention for the labels was. All caps? first cap?
+
+Post-30, Question-64000
+When launching a process from Java, both stderr and stdout can block on output if I don't read from the pipes.  Currently I have a thread that pro-actively reads from one and the main thread blocks on the other. Is there an easy way to join the two streams or otherwise cause the subprocess to continue while not losing the data in stderr?
+
+Post-31, Question-64036
+In java it's a bit difficult to implement a deep object copy function. What steps you take to ensure the original object and the cloned one share no reference?
+
+Post-32, Question-33960
+I would like to retrieve the ethernet address of the network interface that is used to access a particular website. How can this be done in Java? Solution Note that the accepted solution of getHardwareAddress is only available in Java 6. There does not seem to be a solution for Java 5 aside from executing i(f|p)confing.
+
+Post-33, Question-7720
+I am writing an application in Java for the desktop using the Eclipse SWT library for GUI rendering.  I think SWT helps Java get over the biggest hurdle for acceptance on the desktop: namely providing a Java application with a consistent, responsive interface that looks like that belonging to any other app on your desktop.  However, I feel that packaging an application is still an issue.   OS X natively provides an easy mechanism for wrapping Java apps in native application bundles, but producing an app for Windows/Linux that doesn't require the user to run an ugly batch file or click on a .jar is still a hassle.  Possibly that's not such an issue on Linux, where the user is likely to be a little more tech-savvy, but on Windows I'd like to have a regular .exe for him/her to run. Has anyone had any experience with any of the .exe generation tools for Java that are out there?  I've tried JSmooth but had various issues with it.  Is there a better solution before I crack out Visual Studio and roll my own? Edit:  I should perhaps mention that I am unable to spend a lot of money on a commercial solution.
+
+Post-34, Question-65128
+I have a huge ear that uses log4j and there is a single config file that is used to set it up. In this config file there is no mention of certain log files but, additional files apart from those specified in the config file get generated in the logs folder. I've searched for other combinations of (logger|log4j|log).(properties|xml) and haven't found anything promising in all of the jar files included in the ear. How do I track down which is the offending thread/class that is creating these extra files?
+
+Post-35, Question-66528
+I have the following Java 6 code: I receive a syntax error on the last closing right parenthesis. Eclipse gives: "Insert EnumBody to complete block statement" and "Insert enum Identifier to complete EnumHeaderName".  Similar syntax error from javac. What am I doing wrong?
+
+Post-36, Question-65310
+I am using Apache Axis to connect my Java app to a web server. I used wsdl2java to create the stubs for me, but when I try to use the stubs, I get the following exception: org.apache.axis.ConfigurationException: No service named <web service name> is available any idea?
+
+Post-37, Question-36832
+In C++ when a virtual function is called from within a constructor it doesn't behave like a virtual function. I think everyone who encountered for the first time was surprised but on second thought it makes sense, if the derived constructor hasn't yet run the object is not yet a derived so how can a derived function be called? The preconditions haven't had the chance to be set up. Example: It's exactly the same for Java and .NET yet they chose to go the other way, was the only reason the principle of least surprise?  Which do you think is the correct choice?
+
+Post-38, Question-19952
+The RFC for a Java class is set of all methods that can be invoked in response to a message to an object of the class or by some method in the class.  RFC = M + R where  M = Number of methods in the class. R = Total number of other methods directly invoked from the M. Thinking C is the .class and J is the .java file of which we need to calculate RFC. here M=6 and R=9  (Don't worry about call inside a loop. It's considered as a single call) Calculating M is easy. Load C using classloader and use reflection to get the count of methods. Calculating R is not direct. We need to count the number of method calls from the class. First level only.  For calculating R I must use regex. Usually format would be (calls without using . are not counted) or with out semicolon when call return is directly becomes parameter to another method. or   this becomes two method calls What other patterns of the method call can you think of?  Is there any other way other than using RegEx that can be used to calculate R. UPDATE: @McDowell Looks like using BCEL I can simplify the whole process. Let me try it.
+
+Post-39, Question-20127
+I am messing around with a toy interpreter in Java and I was considering trying to write a simple compiler that can generate bytecode for the Java Virtual Machine. Which got me thinking, how much optimization needs to be done by compilers that target virtual machines such as JVM and CLI? Do Just In Time (JIT) compilers do constant folding, peephole optimizations etc?
+
+Post-40, Question-66446
+I am trying to achieve better performance for my Java SWT application, and I just found out it is possible to use OpenGL in SWT. It seems there are more than one Java binding for OpenGL. Which one do you prefer? Note that I have never used OpenGL before, and that the application needs to work on Windows, Linux and Mac OS X.
+
+Post-41, Question-53845
+What compiler (I'm using gcj 4.x) options should I use to generate an "exe" file for my java application to run in windows?
+
+Post-42, Question-22697
+What's the best framework for creating mock objects in Java? Why? What are the pros and cons of each framework?
+
+Post-43, Question-23372
+What would be the best method for getting a custom element (that is using J2ME native Graphics) painted on LWUIT elements? The custom element is an implementation from mapping library, that paints it's content (for example Google map) to Graphics object. How would it be possible to paint the result directly on LWUIT elements (at the moment I am trying to paint it on a Component).  Is the only way to write a wrapper in LWUIT package, that would expose the internal implementation of it? Edit: John: your solution looks like a lot of engineering :P What I ended up using is following wrapper: Now I can get the 'native' Graphics element from LWUIT. Paint on it - effectively painting on LWUIT image. And I can use the image to paint on a component. And it still looks like a hack :) But the real problem is 50kB of code overhead, even after obfuscation. But this is a issue for another post :) /JaanusSiim
+
+Post-44, Question-67810
+I would like to debug my separately running JSP/Struts/Tomcat/Hibernate application stack using the Eclipse IDE debugger. How do I setup the java JVM and eclipse so that I can set breakpoints, monitor variable values, and see the code that is currently executing?
+
+Post-45, Question-67980
+I need to pass a UUID instance via http request parameter. Spring needs a custom type converter (from String) to be registered. How do I register one?
+
+Post-46, Question-23853
+I am using Struts + Velocity in a Java application, but after I submit a form, the confirmation page (Velocity template) shows the variable names instead an empty label, like the Age in following example: Name: Fernando Age: {person.age} Sex: Male I would like to know how to hide it!
+
+Post-47, Question-40039
+What would be the easiest way to be able to send and receive raw network packets. Do I have to write my own JNI wrapping of some c API, and in that case what API am I looking for? EDIT: I want to be able to do what wireshark does, i.e. record all incomming packets on an interface, and in addition be able to send back my own created packets. And I want to do it on a mac.
+
+Post-48, Question-55709
+I am building a java server that needs to scale. One of the servlets will be serving images stored in Amazon S3. Recently under load, I ran out of memory in my VM and it was after I added the code to serve the images so I'm pretty sure that streaming larger servlet responses is causing my troubles. My question is : is there any best practice in how to code a java servlet to stream a large (>200k) response back to a browser when read from a database or other cloud storage? I've considered writing the file to a local temp drive and then spawning another thread to handle the streaming so that the tomcat servlet thread can be re-used. This seems like it would be io heavy. Any thoughts would be appreciated. Thanks.
+
+Post-49, Question-41233
+I'm attracted to the neatness that a single file database provides. What driver/connector library is out there to connect and use SQLite with Java. I've discovered a wrapper library, http://www.ch-werner.de/javasqlite, but are there other more prominent projects available?
+
+Post-50, Question-25449
+I want to create a Java program that can be extended with plugins. How can I do that and where should I look for? I have a set of interfaces that the plugin must implement, and it should be in a jar. The program should watch for new jars in a relative (to the program) folder and registered them somehow. Although I do like Eclipse RCP, I think it's too much for my simple needs. Same thing goes for Spring, but since I was going to look at it anyway, I might as well try it. But still, I'd prefer to find a way to create my own plugin "framework" as simple as possible.
+
+Post-51, Answer-58591, Question-56865
+There's roughly a gajillion HTTP client libraries (Restlet is quite a bit more than that, but I already had that code snippet for something else), but they should all provide support for sending GET requests. Here's a rather less featureful snippet that uses HttpClient from Apache Commons:
+
+Post-52, Answer-68574, Question-66066
+FWIW, a timeout in seconds value should probably be a configuration setting (read in from a properties file or through injection as in Spring) and not a constant.
+
+Post-53, Answer-37460287, Question-37335
+For exampl: On linux Platform for production mode preferable settings.  After downloading and configuring server with this way http://www.ehowstuff.com/how-to-install-and-setup-apache-tomcat-8-on-centos-7-1-rhel-7/  create setenv.sh file on folder /opt/tomcat/bin/ touch /opt/tomcat/bin/setenv.sh Open and write this params for setting preferable mode. nano  /opt/tomcat/bin/setenv.sh export CATALINA_OPTS="$CATALINA_OPTS -Xms512m" export CATALINA_OPTS="$CATALINA_OPTS -Xmx8192m" export CATALINA_OPTS="$CATALINA_OPTS -XX:MaxPermSize=256m" service tomcat restart
+
+Post-54, Answer-76216, Question-63150
+So a couple of things you might do to get the feel that it seems like you're looking for: 1) Extend List class - and add the join method to it.  The join method would simply do the work of concatenating and adding the delimiter (which could be a param to the join method) 2) It looks like Java 7 is going to be adding extension methods to java - which allows you just to attach a specific method on to a class:  so you could write that join method and add it as an extension method to List or even to Collection. Solution 1 is probably the only realistic one, now, though since Java 7 isn't out yet :) But it should work just fine. To use both of these, you'd just add all your items to the List or Collection as usual, and then call the new custom method to 'join' them.
+
+Post-55, Answer-66163, Question-66104
+It sounds like you're hitting a deadlock. If you can reproduce it in a dev environment then try attaching a debugger once it's happened.  Take a look at your threads and see if you have any deadlocks. If you can't get a debugger to attach you should be able to generate a thread dump, as Dustin pointed out.
+
+Post-56, Answer-29756, Question-29751
+have you tried adding the following before the call : The options are explained here. contentType : When sending data to the server, use this content-type. Default is "application/x-www-form-urlencoded", which is fine for most cases. scriptCharset : Only for requests with 'jsonp' or 'script' dataType and GET type. Forces the request to be interpreted as a certain charset. Only needed for charset differences between the remote and local content.
+
+Post-57, Answer-8576, Question-8569
+Focus first on the heart of Spring: Dependency Injection. Once you see all the ways that DI can be used, then start thinking about the more interesting pieces like AOP, Remoting, JDBC Templates etc. So my best bit of advice is let your use of Spring grow out from the core. Best practice? If you're using the standard XML config, manage the size of individual files and comment them judiciously. You may think that you and others will perfectly understand your bean definitions, but in practice they're somewhat harder to come back to than plain old java code. Good luck!
+
+Post-58, Answer-15657, Question-11088
+The best way to do bit manipulation/unsigned bytes is through using ints. Even though they are signed they have plenty of spare bits (32 total) to treat as an unsigned byte. Also, all of the mathematical operators will convert smaller fixed precision numbers to int. Example: Because of this it is best to just stick with integer and mask it to get the bits that you are interested in. Example: Here is some more info on Java primitive types http://mindprod.com/jgloss/primitive.html One last trivial note, there is one unsigned fixed precision number in Java. That is the char primitive.
+
+Post-59, Answer-38286, Question-31693
+Looks like, among other very interesting proposals, there is one about refining generics and breaking backwards compatibility: Currently, generics are implemented   using erasure, which means that the   generic type information is not   available at runtime, which makes some   kind of code hard to write. Generics   were implemented this way to support   backwards compatibility with older   non-generic code. Reified generics   would make the generic type   information available at runtime,   which would break legacy non-generic   code. However, Neal Gafter has   proposed making types reifiable only   if specified, so as to not break   backward compatibility. at Alex Miller's article about Java 7 Proposals
+
+Post-60, Answer-25378169, Question-47605
+Basically, there are two important differences between + and the concat method. If you are using the concat method then you would only be able to concatenate strings while in case of the + operator, you can also concatenate the string with any data type. For Example: In this case, the output should be 10Hello. In the above case you have to provide two strings mandatory. The second and main difference between + and concat is that: Case 1: Suppose I concat the same strings with concat operator in this way In this case total number of objects created in the pool are 7 like this: Case 2: Now I am going to concatinate the same strings via + operator In the above case total number of objects created are only 5. Actually when we concatinate the strings via + operator then it maintains a StringBuffer class to perform the same task as follows:- In this way it will create only five objects. So guys these are the basic differences between + and the concat method. Enjoy :)
+
+Post-61, Answer-51623, Question-51582
+An instance of Test has no information as to what E is at runtime. So, you need to pass a Class<E> to the constructor of Test. If you want an "instanceof" relationship, use Class.isAssignableFrom instead of the Class comparison. Note, E will need to be a non-generic type, for the same reason Test needs the Class object. For examples in the Java API, see java.util.Collections.checkedSet and similar.
+
+Post-62, Answer-3401803, Question-19893
+Here's a good example of how to proceed XEP-0239 PS: don't forget to read Mo's answer. PS2: read the NOTICE section on the XEP.
+
+Post-63, Answer-20514020, Question-26305
+For playing sound in java, you can refer to the following code.
+
+Post-64, Answer-55390, Question-55375
+You can use .NET reflection to retrieve the labels and values from an existing enum at run-time (Enum.GetNames() and Enum.GetValues() are the two specific methods you would use) and then use code injection to create a new one with those elements plus some new ones. This seems somewhat analagous to "inheriting from an existing enum".
+
+Post-65, Answer-61810, Question-61559
+There are other language choices too. I've become quite fond of Python, which works well on Windows, Linux, and Mac, and has a rich set of libraries.
+
+Post-66, Answer-12100, Question-12088
+I use proguard for JavaME development. It's not only very very good at making jar files smaller (Essential for mobile) but it is useful as a nicer way of doing device-specific code without resorting to IDE-unfriendly preprocessing tools such as antenna. E.g. This gets compiled, obfuscated, and the class file ends up as though you had written: So you can have variants of code to work around manufacturer bugs in JVM/library implementations without bulking out the final executable class files. I believe that some commercial obfuscators can also merge class files together in certain cases. This is useful because the more classes you have, the larger the size overhead you have in the zip (jar) file.
+
+Post-67, Answer-12133, Question-12088
+If you do obfuscate, stay away from obfuscators that modify the code by changing code flow and/or adding exception blocks and such to make it hard to disassemble it. To make the code unreadable it is usually enough to just change all names of methods, fields and classes. The reason to stay away from changing code flow is that some of those changes makes it impossible for the JVM to efficiently optimize the code. In effect it will actually degrade the performance of your application.
+
+Post-68, Answer-54896, Question-54882
+As well as what @jjnguy said, if you don't have an exception, you can also call Thread.getStackTrace().
+
+Post-69, Answer-86373, Question-26458
+I like Eclipse's VisualEditor, sometime ago I've tried to switch to another editor, but found it impossible. Visual editor has this feature that it generates manageable, readable, editable, and easy to understand code. Unlike both mentioned earlier NetBeans editor and WidnowBuilder it uses lazy initialization pattern to separate initialization of components. Also it does not need to lock down parts of code that you cant edit, you may edit code by hand, and VE is still able to work with your changes. Only disadvantage of VE is that it uses eclipse callisto (there is no official build for ganymede, or europa), so effectively you have to use two eclipses one for VE and one for rest of developement.  I took it from recent discussion on comp.lang.java.gui (I was the autor of this post so I could do it rightfully), here is the link to whole discussion.
+
+Post-70, Answer-55582, Question-55487
+Reporting the value for InitialContext.getEnvironment().get(Context.PROVIDER_URL) might be helpful.
+
+Post-71, Answer-46659, Question-46642
+JProfiler is a really good one.  It integrates with all the major IDEs and application servers.
+
+Post-72, Answer-35821, Question-35785
+The "Official" Java API for this is now JAXB - Java API for XML Binding. See Tutorial by Oracle. The reference implementation lives at http://jaxb.java.net/
+
+Post-73, Answer-54894, Question-54886
+Crtl+1 is my favorite.   The quick fixes for the red-squiggles. It is also located in the Edit Menu -> Quick Fix.
+
+Post-74, Answer-176808, Question-38183
+I feel your pain, this is not an answer, as much as an observation that the Java World in general suffers from the lack of good applications that go beyond the tutorial. Some of the sample .NET applications are very good and show interesting techniques, while solving small enough problems that the novice can wrap their heads around the entire application and see "real code" doing "real things". I have not looked at the Seam examples, so they may well be an exception, but having sample applications, particularly the CRUD, Query, Report style back office applications you're talking about, are a great help to folks and I wish there were more in the Java community.
+
+Post-75, Answer-318846, Question-39399
+As of the 2.4 version of the Servlet specification you are allowed to have a servlet in the welcome file list. Note that this may not be a URL (such as /myproject/MyAction.action). It must be a named servlet and you cannot pass a query string to the servlet. Your controller servlet would need to have a default action.
+
+Post-76, Answer-118405, Question-68113
+I am currently requiring this to run an Eclipse-based application but I need to set some variables first that is local to that application. sc.exe will only allow executables but not scripts so I turned to autoexnt.exe which is part of the Windows 2003 resource kit. It restricts the service to a single batch file but I only need one batch script to be converted into a service. ciao!
+
+Post-77, Answer-3394371, Question-24596
+After a long while of testing various solutions, for me it turned out to be: Spring MVC for the presentation and controller layer (NO Spring Webflow though, because my flows are based on ajax) jQuery for all the client side stuff Spring Security for the, well, security aspect Hibernate / JPA2 Jetty for the sake of continuations (comet) One month of an extraordinarily steep learning curve, but now I am happy. I would also like to mention that I was just a little step away from skipping all that Java stuff and learing Scala/LIFT instead. As far as I am concerned, everything in Java that is related with cutting edge web development (comet, async communication, security (yes, even with Spring Security!)) still is a bit of a hack (proove me wrong by evidence, pleeease!). To me, Scala/LIFT seems to be a more out-of-the-box and all-in-one solution. The reason why I finally decided not to go with Scala is as a project leader I must consider human resources and Java developers are much easier to find than Scala developers for most developers in my team, Scala's funcional concept, as excellent as it is, is hard to understand Cheers Er
+
+Post-78, Answer-28825937, Question-52353
+This answer is not related to Object size, but when you are using array to accommodate the objects; how much memory size it will allocate for the object. So arrays, list, or map all those collection won't be going to store objects really (only at the time of primitives, real object memory size is needed), it will store only references for those objects.  Now the Used heap memory = sizeOfObj + sizeOfRef (* 4 bytes) in collection (4/8 bytes) depends on (32/64 bit) OS PRIMITIVES OBJECTS I mean to say all the object REFERENCE needs only 4 bytes of memory. It may be String reference OR Double object reference, But depends on object creation the memory needed will vary. e.g) If i create object for the below class ReferenceMemoryTest then 4 + 4 + 4 = 12 bytes of memory will be created. The memory may differ when you are trying to initialize the references. So when are creating object/reference array, all its contents will be occupied with NULL references. And we know each reference requires 4 bytes. And finally, memory allocation for the below code is 20 bytes. ReferenceMemoryTest ref1 = new ReferenceMemoryTest(); ( 4(ref1) + 12 = 16 bytes) ReferenceMemoryTest ref2 = ref1;                      ( 4(ref2) + 16 = 20 bytes)
+
+Post-79, Answer-59132, Question-59128
+There's a standalone JUnit runner that has a UI, but I recommend using one of the builtin test runners in the Java IDEs (Eclipse, Netbeans, and IntelliJ all have good ones).  They all support JUnit, and most support TestNG as well.
+
+Post-80, Answer-56441, Question-56347
+C++ library (the part formerly known as STL) iterators are designed to be compatible with pointers. Java, without pointer arithmetic, had the freedom to be more programmer-friendly. In C++ you end up having to use a pair of iterators. In Java you either use an iterator or a collection. Iterators are supposed to be the glue between algorithm and data structure. Code written for 1.5+ rarely need mention iterators, unless it is implementing a particular algorithm or data structure (which the vary majority of programmers have no need to do). As Java goes for dynamic polymorphism subsets and the like are much easier to handle.
+
+Post-81, Answer-504353, Question-26458
+I have tried a few and the closest I have found that comes close to Visual Studio is Netbeans.  V6.5 is excellent and realy improved over v5.
+
+Post-82, Answer-178835, Question-61906
+You are doing something wrong. I did not test your code, but you should never need to force the initialization of proxies, the property accessors do that for you. If you are using Hibernate explicitly, never mind using JPA, since you already have lost portability. Hibernate should detect automatically whenever it needs to fetch or write to db. If you issue a getProperty() from a proxy, hibernate or any other jpa provider should fetch the correspondent row from the db. The only situation I'm not sure hibernate is clever enough is if you issue a save() and then issue a get() with the id of the saved object, there might be a problem if the save() didn't flush the object to db.
+
+Post-83, Answer-208799, Question-123
+You could use XSLT.  Google it and you will find a few examples e.g. CSV to XML If you use XSLT you can then convert the XML to whatever format you want.
+
+Post-84, Answer-46989, Question-46898
+This is a two part question: How to iterate over the entries of a Map - @ScArcher2 has answered that perfectly. What is the order of iteration - if you are just using Map, then strictly speaking, there are no ordering guarantees.  So you shouldn't really rely on the ordering given by any implementation.  However, the SortedMap interface extends Map and provides exactly what you are looking for - implementations will aways give a consistent sort order. NavigableMap is another useful extension - this is a SortedMap with additional methods for finding entries by their ordered position in the key set.  So potentially this can remove the need for iterating in the first place - you might be able to find the specific entry you are after using the higherEntry, lowerEntry, ceilingEntry, or floorEntry methods.  The descendingMap method even gives you an explicit method of reversing the traversal order.
+
+Post-85, Answer-16665089, Question-59787
+Two options: OPTION 1 Generate a thread dump using JMX Console In order to generate a thread dump: Open the JMXConsole (for example: http://localhost:8080 ) Navigate to jboss.system:type=ServerInfo mbean (hint: you can probably just CTRL-F and enter type=ServerInfo in the dialog box) Click on the link for the Server Info mbean. Navigate to the bottom where it says listThreadDump Click it and get your thread dump Notes: If you are using Internet Explorer you should use File > Save As to save the output instead of copying the data to a text editor.  For some reason when you copy the text from Internet Explorer the line breaks are not copied and all of the output ends up on a single line. OPTION 2 Generate a Thread Dump using Twiddle Alternatively you can use twiddle to execute the listThreadDump() method and pipe the returned HTML directly to file. Use this command line:
+
+Post-86, Answer-14017856, Question-35186
+To answer the original question. According to java docs here "NoSuchMethodError" Thrown if an application tries to call a specified method of a class (either static or instance), and that class no longer has a definition of that method. Normally, this error is caught by the compiler; this error can only occur at run time if the definition of a class has incompatibly changed.  !) if it happens in the run time, check the class containing the method is in class path. 2) Check if you have added new version of jar and the method is compatible.
+
+Post-87, Answer-64618, Question-15496
+Transfer of control in a finally block throws away any exception.  The following code does not throw RuntimeException -- it is lost. From http://jamesjava.blogspot.com/2006/03/dont-return-in-finally-clause.html
+
+Post-88, Answer-44029, Question-27129
+ChartFX (http://www.softwarefx.com) has been a leader in charting for years.  I personally have used several different versions for over 8 years and it is rock solid. I have re-evaluated charting options periodically, and ChartFX has won in my environment based almost purely on feature set.  It is not free or cheap, but it is well worth the price they charge. -Geoffrey
+
+Post-89, Answer-152412, Question-16140
+When learning a new technology rich tooling gets you into things without big headaches. At this point the community at ops4j.org provides a rich toolset called "PAX" which includes: Pax Runner: Run and switch between Felix, Equinox, Knopflerfish and Concierge easily Pax Construct: Construct, Organize & Build OSGi projects with maven easily Pax Drone: Test your OSGi bundles with Junit while being framework independent (uses PaxRunner) Then there are many implementations of OSGi compendium services:  Pax Logging (logging),  Pax Web (http service),  Pax Web Extender (war support),  Pax Coin (configuration),  Pax Shell (shell implementation, part of the next osgi release)  and much more. .. and there is a helpful, framework independend community, - but thats now advertisement ;-)
+
+Post-90, Answer-59413, Question-54886
+Alt-Shift-R stands for rename, not refactor. Refactoring is a more general term (as defined by the book). Nevertheless, it is one of my favorite refactorings. Others include: Alt-Shift-M: Extract Method (when a code block or an expression is selected) Alt-Shift-L: Extract Local Variable (when an expression is selected) Extract Local Variable is especially useful when I don't remember (or bother to type) the result type of a method. Assuming you have a method JdbcTemplate createJdbcTemplate() in your class, write some code such as this: Select the expression createJdbcTemplate(), click Alt-Shift-L, type the name of variable and press enter.
+
+Post-91, Answer-37240, Question-37198
+My docs would probably best be handled by accessing: Look up the docs on System.getProperty.
+
+Post-92, Answer-60172, Question-60160
+Difference between Pattern.quote and Matcher.quoteReplacement was not clear to me before I saw following example
+
+Post-93, Answer-79671, Question-64989
+Do those waiting threads wait for ever, or do they eventually proceed? If the latter, it may be that the lock is held by the garbage collector. You can add the arguments -verbose:gc with -XX:+PrintGCDetails on your java command line to be told when GCs are occurring. If gc activity coincides with your slowdowns it may indicate that this is the problem. Here's some information on garbage collection.
+
+Post-94, Answer-37300, Question-37271
+db4objects might be the best choice
+
+Post-95, Answer-5841923, Question-62289
+As has been noted, the Preferences API uses the registry to store preferences, but cannot be used to access the whole registry. However, a pirate called David Croft has worked out that it's possible to use methods in Sun's implementation of the Preferences API for reading the Windows registry from Java without JNI. There are some dangers to that, but it is worth a look.
+
+Post-96, Answer-31614, Question-31584
+This idea is seen a lot in c++, it allows operations to be cascaded... for example is where the stream method << returns an instance of itself (*this). see this: http://www.java2s.com/Tutorial/Cpp/0180__Class/Cascadingmemberfunctioncallswiththethispointer.htm
+
+Post-97, Answer-37349, Question-37335
+Ultimately you always have a finite max of heap to use no matter what platform you are running on. In Windows 32 bit this is around 2gb (not specifically heap but total amount of memory per process). It just happens that Java chooses to make the default smaller (presumably so that the programmer can't create programs that have runaway memory allocation without running into this problem and having to examine exactly what they are doing). So this given there are several approaches you could take to either determine what amount of memory you need or to reduce the amount of memory you are using. One common mistake with garbage collected languages such as Java or C# is to keep around references to objects that you no longer are using, or allocating many objects when you could reuse them instead. As long as objects have a reference to them they will continue to use heap space as the garbage collector will not delete them. In this case you can use a Java memory profiler to determine what methods in your program are allocating large number of objects and then determine if there is a way to make sure they are no longer referenced, or to not allocate them in the first place. One option which I have used in the past is "JMP" http://www.khelekore.org/jmp/. If you determine that you are allocating these objects for a reason and you need to keep around references (depending on what you are doing this might be the case), you will just need to increase the max heap size when you start the program. However, once you do the memory profiling and understand how your objects are getting allocated you should have a better idea about how much memory you need.  In general if you can't guarantee that your program will run in some finite amount of memory (perhaps depending on input size) you will always run into this problem. Only after exhausting all of this will you need to look into caching objects out to disk etc. At this point you should have a very good reason to say "I need Xgb of memory" for something and you can't work around it by improving your algorithms or memory allocation patterns. Generally this will only usually be the case for algorithms operating on large datasets (like a database or some scientific analysis program) and then techniques like caching and memory mapped IO become useful.
+
+Post-98, Answer-66212, Question-66066
+What about an enumeration?
+
+Post-99, Answer-1777666, Question-59936
+audacity does it out of the box and it's free. THere are several plug ins for mp3 players as well that are free. Apparently it's pretty easy to do with an mp3 since it's already coded in the frequency domain.
+
+Post-100, Answer-65282, Question-65035
+The finally block is always executed unless there is abnormal program termination, either resulting from a JVM crash or from a call to System.exit(0). On top of that, any value returned from within the finally block will override the value returned prior to execution of the finally block, so be careful of checking all exit points when using try finally.
