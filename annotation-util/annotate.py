@@ -29,6 +29,9 @@ def main():
         listIndex = 0
         tokenName = "Token"
         for line in txtFileHandler:
+            if re.match("^Post-(\d)+.*Question-(\d)+$", line):
+                processedLength += len(line)
+                continue
             lineLength = len(line)
             lineIndex = 0
             while lineIndex < lineLength:
