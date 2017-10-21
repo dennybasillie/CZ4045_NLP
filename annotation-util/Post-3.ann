@@ -1,0 +1,78 @@
+T2 Token 46 53 roughly
+T4 Token 54 55 a
+T5 Token 66 70 HTTP
+T6 Token 71 77 client
+T7 Token 78 87 libraries
+T8 Token 88 89 (
+T1 Token 38 45 There's
+T9 Token 89 96 Restlet
+T10   Token 97 99 is
+T11   Token 100 105  quite
+T12   Token 247 253  Here's
+T3 Token 313 327  Apache Commons
+T13   Token 700 787  http://www.ehowstuff.com/how-to-install-and-setup-apache-tomcat-8-on-centos-7-1-rhel-7/
+T14   Token 796 805  setenv.sh
+T15   Token 821 837  /opt/tomcat/bin/
+T16   Token 844 869  /opt/tomcat/bin/setenv.sh
+T17   Token 932 957  /opt/tomcat/bin/setenv.sh
+T18   Token 965 994  CATALINA_OPTS="$CATALINA_OPTS
+T19   Token 995 1003 -Xms512m
+T20   Token 1012 1041   CATALINA_OPTS="$CATALINA_OPTS
+T21   Token 1042 1051   -Xmx8192m
+T22   Token 1060 1089   CATALINA_OPTS="$CATALINA_OPTS
+T23   Token 1090 1110   -XX:MaxPermSize=256m
+T24   Token 1244 1250   you're
+T25   Token 1463 1469   Java 7
+T26   Token 1752 1758   Java 7
+T27   Token 1773 1775   :)
+T28   Token 1828 1833   you'd
+T29   Token 2000 2006   you're
+T30   Token 2107 2111   it's
+T31   Token 2193 2198   can't
+T32   Token 2474 2486   content-type
+T33   Token 2500 2533   application/x-www-form-urlencoded
+T34   Token 2854 2874   Dependency Injection
+T35   Token 2997 3011   JDBC Templates
+T36   Token 3110 3116   you're
+T37   Token 3313 3320   they're
+T38   Token 3871 3912   http://mindprod.com/jgloss/primitive.html
+T39   Token 4450 4461   non-generic
+T40   Token 4578 4589   non-generic
+T41   Token 4607 4618   Neal Gafter
+T42   Token 4726 4739   Alex Miller's
+T43   Token 4754 4760   Java 7
+T44   Token 5786 5788   :)
+T45   Token 5918 5926   Class<E>
+T46   Token 6001 6023   Class.isAssignableFrom
+T47   Token 6083 6094   non-generic
+T48   Token 6184 6216   java.util.Collections.checkedSet
+T49   Token 6271 6277   Here's
+T50   Token 6311 6319   XEP-0239
+T51   Token 6556 6560   .NET
+T52   Token 6641 6656   Enum.GetNames()
+T53   Token 6661 6677   Enum.GetValues()
+T54   Token 7267 7282   device-specific
+T55   Token 7309 7323   IDE-unfriendly
+T56   Token 7361 7364   E.g
+T57   Token 8393 8400   @jjnguy
+T58   Token 8457 8479   Thread.getStackTrace()
+T59   Token 8527 8536   Eclipse's
+T60   Token 8564 8568   I've
+T61   Token 9262 9280   comp.lang.java.gui
+T62   Token 9442 9499   InitialContext.getEnvironment().get(Context.PROVIDER_URL)
+T63   Token 9739 9763   Java API for XML Binding
+T64   Token 9827 9848   http://jaxb.java.net/
+T65   Token 9888 9894   Crtl+1
+T66   Token 9988 9990   ->
+T67   Token 10231 10235 .NET
+T68   Token 10614 10620 you're
+T69   Token 10762 10765 2.4
+T70   Token 10904 10930 /myproject/MyAction.action
+T71   Token 1759 1764   isn't
+T72   Token 6324 6329   don't
+T73   Token 6345 6349   Mo's
+T74   Token 6956 6960   I've
+T75   Token 7146 7150   It's
+T76   Token 8414 8419   don't
+T77   Token 6631 6639   run-time
+T78   Token 9937 9950   red-squiggles
