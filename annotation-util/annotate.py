@@ -14,7 +14,7 @@ def main():
         start, end, token , startSorted, endSorted, tokenSorted = [], [], [], [], [], []
         for line in annFileHandler:
             print line
-            m = re.search('(T\d+)\s(\w+)\s(\d+)\s(\d+)\s(.+)', line) #token_id, token_name, start, end, token
+            m = re.search('(T\d+)\s+(\w+)\s+(\d+)\s+(\d+)\s+(.+)', line) #token_id, token_name, start, end, token
             start.append(int(m.group(3)))
             end.append(int(m.group(4)))
             token.append(m.group(5))
