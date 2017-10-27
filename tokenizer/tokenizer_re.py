@@ -22,8 +22,8 @@ def main():
         tokenId = 1
         tokenName = "Token"
 
-        #multi-word tokens, http, email, argument flags, dollar variables, one-word mentions(@), simple abbreviations (e.g., i.e.) directory, package name / file name, extensions / .NET, function call, template, word with - or ' in the middle, a word, single symbol
-        regex = r".+(\s+.+)+|https?://.*|\w+@\w+(\.\w+)+|^--?\w+.+[^\"]|\$[\w_]+|^@\w+|([A-Za-z]\.){2,}|^(/\w+)+(\.\w+|/)?|\w+(\.\w+)+|^\.\w+|\w+\(\)|[A-Z][\w_]*<[A-Z][\w_]*>|\w+([-']?\w+)*|\w+|\W"
+        #multi-word tokens, http, email, argument flags, dollar variables, one-word mentions(@), function calls, simple abbreviations (e.g., i.e.) directory, package name / file name, extensions / .NET, template, word with - or ' in the middle, a word, single symbol
+        regex = r".+(\s+.+)+|https?://.*|\w+@\w+(\.\w+)+|^--?\w+.+[^\"]|\$[\w_]+|^@\w+|\w+(\.\w+)*\(\)|([A-Za-z]\.){2,}|^(/\w+)+(\.\w+|/)?|\w+(\.\w+)+|^\.\w+|[A-Z][\w_]*<[A-Z][\w_]*>|\w+([-']?\w+)*|\w+|\W"
 
         for line in txtFileHandler:
         # for line in test_list:
