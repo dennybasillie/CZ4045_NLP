@@ -11,7 +11,7 @@ def main():
     # outputLocation = os.path.splitext(fileLocation)[0] + ".ann"
     with open(annFileLocation, 'r+') as input, open(fileName + "-irregular.ann", 'w') as output:
         for line in input:
-            if re.search('\W', line.split()[-1]):
+            if re.search('[\W_]', line.split()[-1]):
                 output.write(line.replace('Token', 'Irregular'))
             else:
                 output.write(line)
