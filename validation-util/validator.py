@@ -1,3 +1,6 @@
+import sys
+
+
 def cal_precision(true_positive, false_positive):
     return float(true_positive) / (true_positive + false_positive)
 
@@ -13,9 +16,23 @@ def cal_f1_score(precision, recall):
 
 
 def main():
-    # Test data
-    ground_truth = ['good', 'day', 'to', 'you']
-    model = ['goo', 'dday', 't', 'o', 'you']
+    if (len(sys.argv) < 3):
+        print("To use: python validator.py [groundTruth ann filename] [model ann filename] (both without extension)")
+        return
+    ground_truth_path = sys.argv[1] + ".ann"
+    model_path = sys.argv[2] + ".ann"
+    ground_truth = []
+    model = []
+
+    with open(ground_truth_path, 'r') as ground_truth_file, open(model_path, 'r') as model_file:
+        for line in ground_truth_file.readlines():
+            ground_truth.append(line.split()[-1])
+        for line in model_file.readlines():
+            model.append(line.split()[-1])
+
+    # # Test data
+    # ground_truth = ['good', 'day', 'to', 'you']
+    # model = ['goo', 'dday', 't', 'o', 'you']
 
     false_positive = 0
     false_negative = 0
@@ -91,9 +108,9 @@ def main():
     print("Total ground truth tokens: %d" % length_GT)
     print("Total model tokens: %d" % length_model)
     print("--------------------------------")
-    print("True positive: %d (%.2f)" % (true_positive, float(true_positive) / length_model))
-    print("False positive: %d (%.2f)" % (false_positive, float(false_positive) / length_model))
-    print("False negative: %d (%.2f)" % (false_negative, float(false_negative) / length_model))
+    print("True positive: %d (%.2f%%)" % (true_positive, float(true_positive) / length_model * 100))
+    print("False positive: %d (%.2f%%)" % (false_positive, float(false_positive) / length_model * 100))
+    print("False negative: %d (%.2f%%)" % (false_negative, float(false_negative) / length_model * 100))
     print("--------------------------------")
     print("Precision: %.3f" % precision)
     print("Recall: %.3f" % recall)
