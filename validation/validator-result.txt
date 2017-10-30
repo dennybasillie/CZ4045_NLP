@@ -1,0 +1,65 @@
+['validator.py', '../brat/data/Post-1.ann', '../tokenizer/Post-1.ann', '../brat/data/Post-2.ann', '../tokenizer/Post-2.ann', '../brat/data/Post-3.ann', '../tokenizer/Post-3.ann', '../brat/data/Post-4.ann', '../tokenizer/Post-4.ann']
+------ Model performance on Post 1-------
+Total ground truth tokens: 2821
+Total model tokens: 2861
+--------------------------------
+True positive: 2762 (96.54%)
+False positive: 61 (2.13%)
+False negative: 38 (1.33%)
+--------------------------------
+Precision: 0.978
+Recall: 0.986
+F1 score: 0.982
+--------------------------------
+
+------ Model performance on Post 2-------
+Total ground truth tokens: 2286
+Total model tokens: 2274
+--------------------------------
+True positive: 2249 (98.90%)
+False positive: 4 (0.18%)
+False negative: 21 (0.92%)
+--------------------------------
+Precision: 0.998
+Recall: 0.991
+F1 score: 0.994
+--------------------------------
+
+------ Model performance on Post 3-------
+Total ground truth tokens: 1879
+Total model tokens: 1892
+--------------------------------
+True positive: 1844 (97.46%)
+False positive: 25 (1.32%)
+False negative: 23 (1.22%)
+--------------------------------
+Precision: 0.987
+Recall: 0.988
+F1 score: 0.987
+--------------------------------
+
+------ Model performance on Post 4-------
+Total ground truth tokens: 2491
+Total model tokens: 2482
+--------------------------------
+True positive: 2412 (97.18%)
+False positive: 27 (1.09%)
+False negative: 43 (1.73%)
+--------------------------------
+Precision: 0.989
+Recall: 0.982
+F1 score: 0.986
+--------------------------------
+
+------ Overall model performance %d-------
+Total ground truth tokens: 9477
+Total model tokens: 9509
+--------------------------------
+True positive: 9267 (97.46%)
+False positive: 117 (1.23%)
+False negative: 125 (1.31%)
+--------------------------------
+Precision: 0.988
+Recall: 0.987
+F1 score: 0.987
+--------------------------------
