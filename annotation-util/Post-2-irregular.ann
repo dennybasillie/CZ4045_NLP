@@ -13,7 +13,7 @@ T12	Irregular 109 110	.
 T13	Token 111 115	Many
 T14	Token 116 118	of
 T15	Token 119 122	the
-T16	Token 123 126	JSP
+T16	Irregular 123 126	JSP
 T17	Token 127 132	files
 T18	Token 133 137	look
 T19	Token 138 142	like
@@ -52,7 +52,7 @@ T51	Token 312 314	to
 T52	Token 315 317	my
 T53	Token 318 324	Struts
 T54	Token 325 331	action
-T55	Token 332 336	URLs
+T55	Irregular 332 336	URLs
 T56	Token 337 344	instead
 T57	Token 345 347	of
 T58	Token 348 349	1
@@ -61,7 +61,7 @@ T60	Token 351 356	which
 T61	Token 357 362	makes
 T62	Token 363 374	refactoring
 T63	Token 375 381	action
-T64	Token 382 386	URLs
+T64	Irregular 382 386	URLs
 T65	Irregular 387 398	error-prone
 T66	Irregular 398 399	.
 T67	Token 400 405	Mixed
@@ -77,7 +77,7 @@ T76	Token 451 455	more
 T77	Token 456 460	than
 T78	Token 461 465	just
 T79	Token 466 468	my
-T80	Token 469 472	JSP
+T80	Irregular 469 472	JSP
 T81	Token 473 478	files
 T82	Irregular 478 479	,
 T83	Token 480 486	making
@@ -93,7 +93,7 @@ T92	Token 530 533	the
 T93	Token 534 540	markup
 T94	Irregular 541 542	(
 T95	Token 542 547	using
-T96	Token 548 551	CSS
+T96	Irregular 548 551	CSS
 T97	Irregular 551 552	,
 T98	Token 553 556	etc
 T99	Irregular 556 557	)
@@ -211,7 +211,7 @@ T210	Irregular 1109 1110	,
 T211	Token 1111 1115	when
 T212	Token 1116 1121	using
 T213	Token 1122 1125	the
-T214	Token 1126 1146	Java Persistence API
+T214	Irregular 1126 1146	Java Persistence API
 T215	Irregular 1147 1148	(
 T216	Token 1148 1157	annotated
 T217	Token 1158 1166	entities
@@ -227,7 +227,7 @@ T226	Token 1194 1201	working
 T227	Irregular 1201 1202	?
 T228	Irregular 1203 1206	I'm
 T229	Token 1207 1212	using
-T230	Token 1213 1218	JBoss
+T230	Irregular 1213 1218	JBoss
 T231	Irregular 1219 1227	4.2.2.GA
 T232	Irregular 1227 1228	.
 T233	Token 1229 1233	From
@@ -268,7 +268,7 @@ T267	Irregular 1399 1405	@Cache
 T268	Token 1406 1417	annotations
 T269	Token 1418 1420	to
 T270	Token 1421 1423	my
-T271	Token 1424 1427	JPA
+T271	Irregular 1424 1427	JPA
 T272	Token 1428 1436	entities
 T273	Irregular 1436 1437	?
 T274	Token 1438 1441	How
@@ -322,7 +322,7 @@ T321	Token 1728 1731	own
 T322	Irregular 1731 1732	.
 T323	Token 1733 1740	Windows
 T324	Irregular 1741 1742	(
-T325	Token 1742 1746	upto
+T325	Irregular 1742 1746	upto
 T326	Token 1747 1752	Vista
 T327	Irregular 1752 1753	)
 T328	Token 1754 1758	does
@@ -417,9 +417,9 @@ T416	Token 2242 2246	from
 T417	Token 2247 2251	Java
 T418	Irregular 2251 2252	,
 T419	Token 2253 2257	both
-T420	Token 2258 2264	stderr
+T420	Irregular 2258 2264	stderr
 T421	Token 2265 2268	and
-T422	Token 2269 2275	stdout
+T422	Irregular 2269 2275	stdout
 T423	Token 2276 2279	can
 T424	Token 2280 2285	block
 T425	Token 2286 2288	on
@@ -474,10 +474,10 @@ T473	Token 2530 2536	losing
 T474	Token 2537 2540	the
 T475	Token 2541 2545	data
 T476	Token 2546 2548	in
-T477	Token 2549 2555	stderr
+T477	Irregular 2549 2555	stderr
 T478	Irregular 2555 2556	?
 T479	Token 2582 2584	In
-T480	Token 2585 2589	java
+T480	Irregular 2585 2589	java
 T481	Irregular 2590 2594	it's
 T482	Token 2595 2596	a
 T483	Token 2597 2600	bit
@@ -513,7 +513,7 @@ T512	Token 2775 2779	like
 T513	Token 2780 2782	to
 T514	Token 2783 2791	retrieve
 T515	Token 2792 2795	the
-T516	Token 2796 2804	ethernet
+T516	Irregular 2796 2804	ethernet
 T517	Token 2805 2812	address
 T518	Token 2813 2815	of
 T519	Token 2816 2819	the
@@ -543,7 +543,7 @@ T542	Token 2932 2935	the
 T543	Token 2936 2944	accepted
 T544	Token 2945 2953	solution
 T545	Token 2954 2956	of
-T546	Token 2957 2975	getHardwareAddress
+T546	Irregular 2957 2975	getHardwareAddress
 T547	Token 2976 2978	is
 T548	Token 2979 2983	only
 T549	Token 2984 2993	available
@@ -560,7 +560,7 @@ T559	Token 3028 3030	be
 T560	Token 3031 3032	a
 T561	Token 3033 3041	solution
 T562	Token 3042 3045	for
-T563	Token 3046 3052	Java 5
+T563	Irregular 3046 3052	Java 5
 T564	Token 3053 3058	aside
 T565	Token 3059 3063	from
 T566	Token 3064 3073	executing
@@ -570,7 +570,7 @@ T569	Token 3076 3077	f
 T570	Irregular 3077 3078	|
 T571	Token 3078 3079	p
 T572	Irregular 3079 3080	)
-T573	Token 3080 3087	confing
+T573	Irregular 3080 3087	confing
 T574	Irregular 3087 3088	.
 T575	Token 3113 3114	I
 T576	Token 3115 3117	am
@@ -585,7 +585,7 @@ T584	Token 3157 3164	desktop
 T585	Token 3165 3170	using
 T586	Token 3171 3174	the
 T587	Token 3175 3182	Eclipse
-T588	Token 3183 3186	SWT
+T588	Irregular 3183 3186	SWT
 T589	Token 3187 3194	library
 T590	Token 3195 3198	for
 T591	Token 3199 3202	GUI
@@ -593,7 +593,7 @@ T592	Token 3203 3212	rendering
 T593	Irregular 3212 3213	.
 T594	Token 3215 3216	I
 T595	Token 3217 3222	think
-T596	Token 3223 3226	SWT
+T596	Irregular 3223 3226	SWT
 T597	Token 3227 3232	helps
 T598	Token 3233 3237	Java
 T599	Token 3238 3241	get
@@ -626,7 +626,7 @@ T625	Token 3394 3403	belonging
 T626	Token 3404 3406	to
 T627	Token 3407 3410	any
 T628	Token 3411 3416	other
-T629	Token 3417 3420	app
+T629	Irregular 3417 3420	app
 T630	Token 3421 3423	on
 T631	Token 3424 3428	your
 T632	Token 3429 3436	desktop
@@ -654,7 +654,7 @@ T653	Token 3537 3546	mechanism
 T654	Token 3547 3550	for
 T655	Token 3551 3559	wrapping
 T656	Token 3560 3564	Java
-T657	Token 3565 3569	apps
+T657	Irregular 3565 3569	apps
 T658	Token 3570 3572	in
 T659	Token 3573 3579	native
 T660	Token 3580 3591	application
@@ -663,7 +663,7 @@ T662	Irregular 3599 3600	,
 T663	Token 3601 3604	but
 T664	Token 3605 3614	producing
 T665	Token 3615 3617	an
-T666	Token 3618 3621	app
+T666	Irregular 3618 3621	app
 T667	Token 3622 3625	for
 T668	Token 3626 3633	Windows
 T669	Irregular 3633 3634	/
@@ -737,7 +737,7 @@ T736	Token 3938 3941	any
 T737	Token 3942 3944	of
 T738	Token 3945 3948	the
 T739	Irregular 3949 3950	.
-T740	Token 3950 3953	exe
+T740	Irregular 3950 3953	exe
 T741	Token 3954 3964	generation
 T742	Token 3965 3970	tools
 T743	Token 3971 3974	for
@@ -749,7 +749,7 @@ T748	Token 3993 3998	there
 T749	Irregular 3998 3999	?
 T750	Irregular 4001 4005	I've
 T751	Token 4006 4011	tried
-T752	Token 4012 4019	JSmooth
+T752	Irregular 4012 4019	JSmooth
 T753	Token 4020 4023	but
 T754	Token 4024 4027	had
 T755	Token 4028 4035	various
@@ -766,7 +766,7 @@ T765	Token 4080 4086	before
 T766	Token 4087 4088	I
 T767	Token 4089 4094	crack
 T768	Token 4095 4098	out
-T769	Token 4099 4112	Visual Studio
+T769	Irregular 4099 4112	Visual Studio
 T770	Token 4113 4116	and
 T771	Token 4117 4121	roll
 T772	Token 4122 4124	my
@@ -800,13 +800,13 @@ T799	Token 4263 4267	huge
 T800	Token 4268 4271	ear
 T801	Token 4272 4276	that
 T802	Token 4277 4281	uses
-T803	Token 4282 4287	log4j
+T803	Irregular 4282 4287	log4j
 T804	Token 4288 4291	and
 T805	Token 4292 4297	there
 T806	Token 4298 4300	is
 T807	Token 4301 4302	a
 T808	Token 4303 4309	single
-T809	Token 4310 4316	config
+T809	Irregular 4310 4316	config
 T810	Token 4317 4321	file
 T811	Token 4322 4326	that
 T812	Token 4327 4329	is
@@ -818,7 +818,7 @@ T817	Token 4345 4347	up
 T818	Irregular 4347 4348	.
 T819	Token 4349 4351	In
 T820	Token 4352 4356	this
-T821	Token 4357 4363	config
+T821	Irregular 4357 4363	config
 T822	Token 4364 4368	file
 T823	Token 4369 4374	there
 T824	Token 4375 4377	is
@@ -838,7 +838,7 @@ T837	Token 4443 4448	those
 T838	Token 4449 4458	specified
 T839	Token 4459 4461	in
 T840	Token 4462 4465	the
-T841	Token 4466 4472	config
+T841	Irregular 4466 4472	config
 T842	Token 4473 4477	file
 T843	Token 4478 4481	get
 T844	Token 4482 4491	generated
@@ -856,7 +856,7 @@ T855	Token 4549 4551	of
 T856	Irregular 4552 4553	(
 T857	Token 4553 4559	logger
 T858	Irregular 4559 4560	|
-T859	Token 4560 4565	log4j
+T859	Irregular 4560 4565	log4j
 T860	Irregular 4565 4566	|
 T861	Token 4566 4569	log
 T862	Irregular 4569 4570	)
@@ -864,7 +864,7 @@ T863	Irregular 4570 4571	.
 T864	Irregular 4571 4572	(
 T865	Token 4572 4582	properties
 T866	Irregular 4582 4583	|
-T867	Token 4583 4586	xml
+T867	Irregular 4583 4586	xml
 T868	Irregular 4586 4587	)
 T869	Token 4588 4591	and
 T870	Irregular 4592 4599	haven't
@@ -905,7 +905,7 @@ T904	Token 4787 4788	I
 T905	Token 4789 4793	have
 T906	Token 4794 4797	the
 T907	Token 4798 4807	following
-T908	Token 4808 4814	Java 6
+T908	Irregular 4808 4814	Java 6
 T909	Token 4815 4819	code
 T910	Irregular 4819 4820	:
 T911	Token 4821 4822	I
@@ -925,7 +925,7 @@ T924	Token 4893 4898	gives
 T925	Irregular 4898 4899	:
 T926	Irregular 4900 4901	"
 T927	Token 4901 4907	Insert
-T928	Token 4908 4916	EnumBody
+T928	Irregular 4908 4916	EnumBody
 T929	Token 4917 4919	to
 T930	Token 4920 4928	complete
 T931	Token 4929 4934	block
@@ -934,18 +934,18 @@ T933	Irregular 4944 4945	"
 T934	Token 4946 4949	and
 T935	Irregular 4950 4951	"
 T936	Token 4951 4957	Insert
-T937	Token 4958 4962	enum
+T937	Irregular 4958 4962	enum
 T938	Token 4963 4973	Identifier
 T939	Token 4974 4976	to
 T940	Token 4977 4985	complete
-T941	Token 4986 5000	EnumHeaderName
+T941	Irregular 4986 5000	EnumHeaderName
 T942	Irregular 5000 5001	"
 T943	Irregular 5001 5002	.
 T944	Token 5004 5011	Similar
 T945	Token 5012 5018	syntax
 T946	Token 5019 5024	error
 T947	Token 5025 5029	from
-T948	Token 5030 5035	javac
+T948	Irregular 5030 5035	javac
 T949	Irregular 5035 5036	.
 T950	Token 5037 5041	What
 T951	Token 5042 5044	am
@@ -956,12 +956,12 @@ T955	Irregular 5058 5059	?
 T956	Token 5085 5086	I
 T957	Token 5087 5089	am
 T958	Token 5090 5095	using
-T959	Token 5096 5107	Apache Axis
+T959	Irregular 5096 5107	Apache Axis
 T960	Token 5108 5110	to
 T961	Token 5111 5118	connect
 T962	Token 5119 5121	my
 T963	Token 5122 5126	Java
-T964	Token 5127 5130	app
+T964	Irregular 5127 5130	app
 T965	Token 5131 5133	to
 T966	Token 5134 5135	a
 T967	Token 5136 5139	web
@@ -969,7 +969,7 @@ T968	Token 5140 5146	server
 T969	Irregular 5146 5147	.
 T970	Token 5148 5149	I
 T971	Token 5150 5154	used
-T972	Token 5155 5164	wsdl2java
+T972	Irregular 5155 5164	wsdl2java
 T973	Token 5165 5167	to
 T974	Token 5168 5174	create
 T975	Token 5175 5178	the
@@ -1231,7 +1231,7 @@ T1230	Irregular 6436 6437	.
 T1231	Token 6438 6442	Load
 T1232	Token 6443 6444	C
 T1233	Token 6445 6450	using
-T1234	Token 6451 6462	classloader
+T1234	Irregular 6451 6462	classloader
 T1235	Token 6463 6466	and
 T1236	Token 6467 6470	use
 T1237	Token 6471 6481	reflection
@@ -1271,7 +1271,7 @@ T1270	Token 6635 6636	R
 T1271	Token 6637 6638	I
 T1272	Token 6639 6643	must
 T1273	Token 6644 6647	use
-T1274	Token 6648 6653	regex
+T1274	Irregular 6648 6653	regex
 T1275	Irregular 6653 6654	.
 T1276	Token 6655 6662	Usually
 T1277	Token 6663 6669	format
@@ -1327,7 +1327,7 @@ T1326	Token 6919 6922	way
 T1327	Token 6923 6928	other
 T1328	Token 6929 6933	than
 T1329	Token 6934 6939	using
-T1330	Token 6940 6945	RegEx
+T1330	Irregular 6940 6945	RegEx
 T1331	Token 6946 6950	that
 T1332	Token 6951 6954	can
 T1333	Token 6955 6957	be
@@ -1342,7 +1342,7 @@ T1341	Irregular 6987 6996	@McDowell
 T1342	Token 6997 7002	Looks
 T1343	Token 7003 7007	like
 T1344	Token 7008 7013	using
-T1345	Token 7014 7018	BCEL
+T1345	Irregular 7014 7018	BCEL
 T1346	Token 7019 7020	I
 T1347	Token 7021 7024	can
 T1348	Token 7025 7033	simplify
@@ -1378,10 +1378,10 @@ T1377	Token 7191 7199	compiler
 T1378	Token 7200 7204	that
 T1379	Token 7205 7208	can
 T1380	Token 7209 7217	generate
-T1381	Token 7218 7226	bytecode
+T1381	Irregular 7218 7226	bytecode
 T1382	Token 7227 7230	for
 T1383	Token 7231 7234	the
-T1384	Token 7235 7255	Java Virtual Machine
+T1384	Irregular 7235 7255	Java Virtual Machine
 T1385	Irregular 7255 7256	.
 T1386	Token 7257 7262	Which
 T1387	Token 7263 7266	got
@@ -1403,14 +1403,14 @@ T1402	Token 7344 7351	virtual
 T1403	Token 7352 7360	machines
 T1404	Token 7361 7365	such
 T1405	Token 7366 7368	as
-T1406	Token 7369 7372	JVM
+T1406	Irregular 7369 7372	JVM
 T1407	Token 7373 7376	and
-T1408	Token 7377 7380	CLI
+T1408	Irregular 7377 7380	CLI
 T1409	Irregular 7380 7381	?
 T1410	Token 7382 7384	Do
-T1411	Token 7385 7397	Just In Time
+T1411	Irregular 7385 7397	Just In Time
 T1412	Irregular 7398 7399	(
-T1413	Token 7399 7402	JIT
+T1413	Irregular 7399 7402	JIT
 T1414	Irregular 7402 7403	)
 T1415	Token 7404 7413	compilers
 T1416	Token 7414 7416	do
@@ -1431,7 +1431,7 @@ T1430	Token 7518 7529	performance
 T1431	Token 7530 7533	for
 T1432	Token 7534 7536	my
 T1433	Token 7537 7541	Java
-T1434	Token 7542 7545	SWT
+T1434	Irregular 7542 7545	SWT
 T1435	Token 7546 7557	application
 T1436	Irregular 7557 7558	,
 T1437	Token 7559 7562	and
@@ -1444,9 +1444,9 @@ T1443	Token 7583 7585	is
 T1444	Token 7586 7594	possible
 T1445	Token 7595 7597	to
 T1446	Token 7598 7601	use
-T1447	Token 7602 7608	OpenGL
+T1447	Irregular 7602 7608	OpenGL
 T1448	Token 7609 7611	in
-T1449	Token 7612 7615	SWT
+T1449	Irregular 7612 7615	SWT
 T1450	Irregular 7615 7616	.
 T1451	Token 7617 7619	It
 T1452	Token 7620 7625	seems
@@ -1458,7 +1458,7 @@ T1457	Token 7646 7649	one
 T1458	Token 7650 7654	Java
 T1459	Token 7655 7662	binding
 T1460	Token 7663 7666	for
-T1461	Token 7667 7673	OpenGL
+T1461	Irregular 7667 7673	OpenGL
 T1462	Irregular 7673 7674	.
 T1463	Token 7675 7680	Which
 T1464	Token 7681 7684	one
@@ -1472,7 +1472,7 @@ T1471	Token 7710 7711	I
 T1472	Token 7712 7716	have
 T1473	Token 7717 7722	never
 T1474	Token 7723 7727	used
-T1475	Token 7728 7734	OpenGL
+T1475	Irregular 7728 7734	OpenGL
 T1476	Token 7735 7741	before
 T1477	Irregular 7741 7742	,
 T1478	Token 7743 7746	and
@@ -1488,14 +1488,14 @@ T1487	Irregular 7792 7793	,
 T1488	Token 7794 7799	Linux
 T1489	Token 7800 7803	and
 T1490	Token 7804 7807	Mac
-T1491	Token 7808 7812	OS X
+T1491	Irregular 7808 7812	OS X
 T1492	Irregular 7812 7813	.
 T1493	Token 7839 7843	What
 T1494	Token 7844 7852	compiler
 T1495	Irregular 7853 7854	(
 T1496	Irregular 7854 7857	I'm
 T1497	Token 7858 7863	using
-T1498	Token 7864 7867	gcj
+T1498	Irregular 7864 7867	gcj
 T1499	Irregular 7868 7871	4.x
 T1500	Irregular 7871 7872	)
 T1501	Token 7873 7880	options
@@ -1506,12 +1506,12 @@ T1505	Token 7894 7896	to
 T1506	Token 7897 7905	generate
 T1507	Token 7906 7908	an
 T1508	Irregular 7909 7910	"
-T1509	Token 7910 7913	exe
+T1509	Irregular 7910 7913	exe
 T1510	Irregular 7913 7914	"
 T1511	Token 7915 7919	file
 T1512	Token 7920 7923	for
 T1513	Token 7924 7926	my
-T1514	Token 7927 7931	java
+T1514	Irregular 7927 7931	java
 T1515	Token 7932 7943	application
 T1516	Token 7944 7946	to
 T1517	Token 7947 7950	run
@@ -1556,13 +1556,13 @@ T1555	Irregular 8184 8185	(
 T1556	Token 8185 8189	that
 T1557	Token 8190 8192	is
 T1558	Token 8193 8198	using
-T1559	Token 8199 8203	J2ME
+T1559	Irregular 8199 8203	J2ME
 T1560	Token 8204 8210	native
 T1561	Token 8211 8219	Graphics
 T1562	Irregular 8219 8220	)
 T1563	Token 8221 8228	painted
 T1564	Token 8229 8231	on
-T1565	Token 8232 8237	LWUIT
+T1565	Irregular 8232 8237	LWUIT
 T1566	Token 8238 8246	elements
 T1567	Irregular 8246 8247	?
 T1568	Token 8248 8251	The
@@ -1600,7 +1600,7 @@ T1599	Token 8414 8417	the
 T1600	Token 8418 8424	result
 T1601	Token 8425 8433	directly
 T1602	Token 8434 8436	on
-T1603	Token 8437 8442	LWUIT
+T1603	Irregular 8437 8442	LWUIT
 T1604	Token 8443 8451	elements
 T1605	Irregular 8452 8453	(
 T1606	Token 8453 8455	at
@@ -1626,7 +1626,7 @@ T1625	Token 8528 8533	write
 T1626	Token 8534 8535	a
 T1627	Token 8536 8543	wrapper
 T1628	Token 8544 8546	in
-T1629	Token 8547 8552	LWUIT
+T1629	Irregular 8547 8552	LWUIT
 T1630	Token 8553 8560	package
 T1631	Irregular 8560 8561	,
 T1632	Token 8562 8566	that
@@ -1672,7 +1672,7 @@ T1671	Irregular 8745 8746	'
 T1672	Token 8747 8755	Graphics
 T1673	Token 8756 8763	element
 T1674	Token 8764 8768	from
-T1675	Token 8769 8774	LWUIT
+T1675	Irregular 8769 8774	LWUIT
 T1676	Irregular 8774 8775	.
 T1677	Token 8776 8781	Paint
 T1678	Token 8782 8784	on
@@ -1681,7 +1681,7 @@ T1680	Irregular 8788 8789	-
 T1681	Token 8790 8801	effectively
 T1682	Token 8802 8810	painting
 T1683	Token 8811 8813	on
-T1684	Token 8814 8819	LWUIT
+T1684	Irregular 8814 8819	LWUIT
 T1685	Token 8820 8825	image
 T1686	Irregular 8825 8826	.
 T1687	Token 8827 8830	And
@@ -1709,7 +1709,7 @@ T1708	Token 8914 8917	the
 T1709	Token 8918 8922	real
 T1710	Token 8923 8930	problem
 T1711	Token 8931 8933	is
-T1712	Token 8934 8938	50kB
+T1712	Irregular 8934 8938	50kB
 T1713	Token 8939 8941	of
 T1714	Token 8942 8946	code
 T1715	Token 8947 8955	overhead
@@ -1728,7 +1728,7 @@ T1727	Token 9005 9012	another
 T1728	Token 9013 9017	post
 T1729	Irregular 9018 9020	:)
 T1730	Irregular 9021 9022	/
-T1731	Token 9022 9032	JaanusSiim
+T1731	Irregular 9022 9032	JaanusSiim
 T1732	Token 9058 9059	I
 T1733	Token 9060 9065	would
 T1734	Token 9066 9070	like
@@ -1737,7 +1737,7 @@ T1736	Token 9074 9079	debug
 T1737	Token 9080 9082	my
 T1738	Token 9083 9093	separately
 T1739	Token 9094 9101	running
-T1740	Token 9102 9105	JSP
+T1740	Irregular 9102 9105	JSP
 T1741	Irregular 9105 9106	/
 T1742	Token 9106 9112	Struts
 T1743	Irregular 9112 9113	/
@@ -1748,7 +1748,7 @@ T1747	Token 9130 9141	application
 T1748	Token 9142 9147	stack
 T1749	Token 9148 9153	using
 T1750	Token 9154 9157	the
-T1751	Token 9158 9169	Eclipse IDE
+T1751	Irregular 9158 9169	Eclipse IDE
 T1752	Token 9170 9178	debugger
 T1753	Irregular 9178 9179	.
 T1754	Token 9180 9183	How
@@ -1756,8 +1756,8 @@ T1755	Token 9184 9186	do
 T1756	Token 9187 9188	I
 T1757	Token 9189 9194	setup
 T1758	Token 9195 9198	the
-T1759	Token 9199 9203	java
-T1760	Token 9204 9207	JVM
+T1759	Irregular 9199 9203	java
+T1760	Irregular 9204 9207	JVM
 T1761	Token 9208 9211	and
 T1762	Token 9212 9219	eclipse
 T1763	Token 9220 9222	so
@@ -1785,10 +1785,10 @@ T1784	Token 9349 9353	need
 T1785	Token 9354 9356	to
 T1786	Token 9357 9361	pass
 T1787	Token 9362 9363	a
-T1788	Token 9364 9368	UUID
+T1788	Irregular 9364 9368	UUID
 T1789	Token 9369 9377	instance
 T1790	Token 9378 9381	via
-T1791	Token 9382 9386	http
+T1791	Irregular 9382 9386	http
 T1792	Token 9387 9394	request
 T1793	Token 9395 9404	parameter
 T1794	Irregular 9404 9405	.
@@ -1855,7 +1855,7 @@ T1854	Token 9719 9726	example
 T1855	Irregular 9726 9727	:
 T1856	Token 9728 9732	Name
 T1857	Irregular 9732 9733	:
-T1858	Token 9734 9746	Fernando Age
+T1858	Irregular 9734 9746	Fernando Age
 T1859	Irregular 9746 9747	:
 T1860	Irregular 9748 9749	{
 T1861	Irregular 9749 9759	person.age
@@ -1897,19 +1897,19 @@ T1896	Token 9925 9927	to
 T1897	Token 9928 9933	write
 T1898	Token 9934 9936	my
 T1899	Token 9937 9940	own
-T1900	Token 9941 9944	JNI
+T1900	Irregular 9941 9944	JNI
 T1901	Token 9945 9953	wrapping
 T1902	Token 9954 9956	of
 T1903	Token 9957 9961	some
 T1904	Token 9962 9963	c
-T1905	Token 9964 9967	API
+T1905	Irregular 9964 9967	API
 T1906	Irregular 9967 9968	,
 T1907	Token 9969 9972	and
 T1908	Token 9973 9975	in
 T1909	Token 9976 9980	that
 T1910	Token 9981 9985	case
 T1911	Token 9986 9990	what
-T1912	Token 9991 9994	API
+T1912	Irregular 9991 9994	API
 T1913	Token 9995 9997	am
 T1914	Token 9998 9999	I
 T1915	Token 10000 10007	looking
@@ -1925,7 +1925,7 @@ T1924	Token 10032 10036	able
 T1925	Token 10037 10039	to
 T1926	Token 10040 10042	do
 T1927	Token 10043 10047	what
-T1928	Token 10048 10057	wireshark
+T1928	Irregular 10048 10057	wireshark
 T1929	Token 10058 10062	does
 T1930	Irregular 10062 10063	,
 T1931	Token 10064 10065	i
@@ -1934,7 +1934,7 @@ T1933	Token 10066 10067	e
 T1934	Irregular 10067 10068	.
 T1935	Token 10069 10075	record
 T1936	Token 10076 10079	all
-T1937	Token 10080 10089	incomming
+T1937	Irregular 10080 10089	incomming
 T1938	Token 10090 10097	packets
 T1939	Token 10098 10100	on
 T1940	Token 10101 10103	an
@@ -1967,7 +1967,7 @@ T1966	Token 10231 10232	I
 T1967	Token 10233 10235	am
 T1968	Token 10236 10244	building
 T1969	Token 10245 10246	a
-T1970	Token 10247 10251	java
+T1970	Irregular 10247 10251	java
 T1971	Token 10252 10258	server
 T1972	Token 10259 10263	that
 T1973	Token 10264 10269	needs
@@ -1977,14 +1977,14 @@ T1976	Irregular 10278 10279	.
 T1977	Token 10280 10283	One
 T1978	Token 10284 10286	of
 T1979	Token 10287 10290	the
-T1980	Token 10291 10299	servlets
+T1980	Irregular 10291 10299	servlets
 T1981	Token 10300 10304	will
 T1982	Token 10305 10307	be
 T1983	Token 10308 10315	serving
 T1984	Token 10316 10322	images
 T1985	Token 10323 10329	stored
 T1986	Token 10330 10332	in
-T1987	Token 10333 10342	Amazon S3
+T1987	Irregular 10333 10342	Amazon S3
 T1988	Irregular 10342 10343	.
 T1989	Token 10344 10352	Recently
 T1990	Token 10353 10358	under
@@ -1997,7 +1997,7 @@ T1996	Token 10375 10377	of
 T1997	Token 10378 10384	memory
 T1998	Token 10385 10387	in
 T1999	Token 10388 10390	my
-T2000	Token 10391 10393	VM
+T2000	Irregular 10391 10393	VM
 T2001	Token 10394 10397	and
 T2002	Token 10398 10400	it
 T2003	Token 10401 10404	was
@@ -2017,7 +2017,7 @@ T2016	Token 10462 10466	sure
 T2017	Token 10467 10471	that
 T2018	Token 10472 10481	streaming
 T2019	Token 10482 10488	larger
-T2020	Token 10489 10496	servlet
+T2020	Irregular 10489 10496	servlet
 T2021	Token 10497 10506	responses
 T2022	Token 10507 10509	is
 T2023	Token 10510 10517	causing
@@ -2038,15 +2038,15 @@ T2037	Token 10578 10581	how
 T2038	Token 10582 10584	to
 T2039	Token 10585 10589	code
 T2040	Token 10590 10591	a
-T2041	Token 10592 10596	java
-T2042	Token 10597 10604	servlet
+T2041	Irregular 10592 10596	java
+T2042	Irregular 10597 10604	servlet
 T2043	Token 10605 10607	to
 T2044	Token 10608 10614	stream
 T2045	Token 10615 10616	a
 T2046	Token 10617 10622	large
 T2047	Irregular 10623 10624	(
 T2048	Irregular 10624 10625	>
-T2049	Token 10625 10629	200k
+T2049	Irregular 10625 10629	200k
 T2050	Irregular 10629 10630	)
 T2051	Token 10631 10639	response
 T2052	Token 10640 10644	back
@@ -2086,7 +2086,7 @@ T2085	Token 10820 10822	so
 T2086	Token 10823 10827	that
 T2087	Token 10828 10831	the
 T2088	Token 10832 10838	tomcat
-T2089	Token 10839 10846	servlet
+T2089	Irregular 10839 10846	servlet
 T2090	Token 10847 10853	thread
 T2091	Token 10854 10857	can
 T2092	Token 10858 10860	be
@@ -2098,7 +2098,7 @@ T2097	Token 10881 10885	like
 T2098	Token 10886 10888	it
 T2099	Token 10889 10894	would
 T2100	Token 10895 10897	be
-T2101	Token 10898 10900	io
+T2101	Irregular 10898 10900	io
 T2102	Token 10901 10906	heavy
 T2103	Irregular 10906 10907	.
 T2104	Token 10908 10911	Any
@@ -2133,7 +2133,7 @@ T2132	Token 11087 11089	to
 T2133	Token 11090 11097	connect
 T2134	Token 11098 11101	and
 T2135	Token 11102 11105	use
-T2136	Token 11106 11112	SQLite
+T2136	Irregular 11106 11112	SQLite
 T2137	Token 11113 11117	with
 T2138	Token 11118 11122	Java
 T2139	Irregular 11122 11123	.
@@ -2166,7 +2166,7 @@ T2165	Token 11312 11315	can
 T2166	Token 11316 11318	be
 T2167	Token 11319 11327	extended
 T2168	Token 11328 11332	with
-T2169	Token 11333 11340	plugins
+T2169	Irregular 11333 11340	plugins
 T2170	Irregular 11340 11341	.
 T2171	Token 11342 11345	How
 T2172	Token 11346 11349	can
@@ -2188,7 +2188,7 @@ T2187	Token 11402 11404	of
 T2188	Token 11405 11415	interfaces
 T2189	Token 11416 11420	that
 T2190	Token 11421 11424	the
-T2191	Token 11425 11431	plugin
+T2191	Irregular 11425 11431	plugin
 T2192	Token 11432 11436	must
 T2193	Token 11437 11446	implement
 T2194	Irregular 11446 11447	,
@@ -2226,7 +2226,7 @@ T2225	Token 11589 11590	I
 T2226	Token 11591 11593	do
 T2227	Token 11594 11598	like
 T2228	Token 11599 11606	Eclipse
-T2229	Token 11607 11610	RCP
+T2229	Irregular 11607 11610	RCP
 T2230	Irregular 11610 11611	,
 T2231	Token 11612 11613	I
 T2232	Token 11614 11619	think
@@ -2275,7 +2275,7 @@ T2274	Token 11787 11789	to
 T2275	Token 11790 11796	create
 T2276	Token 11797 11799	my
 T2277	Token 11800 11803	own
-T2278	Token 11804 11810	plugin
+T2278	Irregular 11804 11810	plugin
 T2279	Irregular 11811 11812	"
 T2280	Token 11812 11821	framework
 T2281	Irregular 11821 11822	"
