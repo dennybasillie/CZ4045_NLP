@@ -28,8 +28,8 @@ B-Irregular	109	110	.
 B-Token	111	115	Many
 I-Token	116	118	of
 I-Token	119	122	the
-I-Token	123	126	JSP
-I-Token	127	132	files
+B-Irregular	123	126	JSP
+B-Token	127	132	files
 I-Token	133	137	look
 I-Token	138	142	like
 B-Irregular	142	143	:
@@ -72,8 +72,8 @@ I-Token	312	314	to
 I-Token	315	317	my
 I-Token	318	324	Struts
 I-Token	325	331	action
-I-Token	332	336	URLs
-I-Token	337	344	instead
+B-Irregular	332	336	URLs
+B-Token	337	344	instead
 I-Token	345	347	of
 I-Token	348	349	1
 B-Irregular	349	350	,
@@ -81,8 +81,8 @@ B-Token	351	356	which
 I-Token	357	362	makes
 I-Token	363	374	refactoring
 I-Token	375	381	action
-I-Token	382	386	URLs
-B-Irregular	387	392	error
+B-Irregular	382	386	URLs
+I-Irregular	387	392	error
 I-Irregular	392	393	-
 I-Irregular	393	398	prone
 I-Irregular	398	399	.
@@ -102,8 +102,8 @@ I-Token	451	455	more
 I-Token	456	460	than
 I-Token	461	465	just
 I-Token	466	468	my
-I-Token	469	472	JSP
-I-Token	473	478	files
+B-Irregular	469	472	JSP
+B-Token	473	478	files
 B-Irregular	478	479	,
 B-Token	480	486	making
 I-Token	487	489	it
@@ -118,8 +118,8 @@ I-Token	530	533	the
 I-Token	534	540	markup
 B-Irregular	541	542	(
 B-Token	542	547	using
-I-Token	548	551	CSS
-B-Irregular	551	552	,
+B-Irregular	548	551	CSS
+I-Irregular	551	552	,
 B-Token	553	556	etc
 B-Irregular	556	557	)
 I-Irregular	557	558	.
@@ -261,10 +261,10 @@ B-Irregular	1109	1110	,
 B-Token	1111	1115	when
 I-Token	1116	1121	using
 I-Token	1122	1125	the
-I-Token	1126	1130	Java
-I-Token	1131	1142	Persistence
-I-Token	1143	1146	API
-B-Irregular	1147	1148	(
+B-Irregular	1126	1130	Java
+I-Irregular	1131	1142	Persistence
+I-Irregular	1143	1146	API
+I-Irregular	1147	1148	(
 B-Token	1148	1157	annotated
 I-Token	1158	1166	entities
 B-Irregular	1166	1167	)
@@ -285,8 +285,8 @@ B-Irregular	1203	1204	I
 I-Irregular	1204	1205	'
 I-Irregular	1205	1206	m
 B-Token	1207	1212	using
-I-Token	1213	1218	JBoss
-B-Irregular	1219	1220	4
+B-Irregular	1213	1218	JBoss
+I-Irregular	1219	1220	4
 I-Irregular	1220	1221	.
 I-Irregular	1221	1222	2
 I-Irregular	1222	1223	.
@@ -337,8 +337,8 @@ I-Irregular	1400	1405	Cache
 B-Token	1406	1417	annotations
 I-Token	1418	1420	to
 I-Token	1421	1423	my
-I-Token	1424	1427	JPA
-I-Token	1428	1436	entities
+B-Irregular	1424	1427	JPA
+B-Token	1428	1436	entities
 B-Irregular	1436	1437	?
 
 B-Token	1438	1441	How
@@ -407,8 +407,8 @@ B-Irregular	1731	1732	.
 
 B-Token	1733	1740	Windows
 B-Irregular	1741	1742	(
-B-Token	1742	1746	upto
-I-Token	1747	1752	Vista
+I-Irregular	1742	1746	upto
+B-Token	1747	1752	Vista
 B-Irregular	1752	1753	)
 B-Token	1754	1758	does
 I-Token	1759	1762	not
@@ -525,10 +525,10 @@ I-Token	2242	2246	from
 I-Token	2247	2251	Java
 B-Irregular	2251	2252	,
 B-Token	2253	2257	both
-I-Token	2258	2264	stderr
-I-Token	2265	2268	and
-I-Token	2269	2275	stdout
-I-Token	2276	2279	can
+B-Irregular	2258	2264	stderr
+B-Token	2265	2268	and
+B-Irregular	2269	2275	stdout
+B-Token	2276	2279	can
 I-Token	2280	2285	block
 I-Token	2286	2288	on
 I-Token	2289	2295	output
@@ -588,8 +588,8 @@ I-Token	2530	2536	losing
 I-Token	2537	2540	the
 I-Token	2541	2545	data
 I-Token	2546	2548	in
-I-Token	2549	2555	stderr
-B-Irregular	2555	2556	?
+B-Irregular	2549	2555	stderr
+I-Irregular	2555	2556	?
 
 O	2558	2562	Post
 O	2562	2563	-
@@ -600,8 +600,8 @@ O	2575	2576	-
 O	2576	2581	64036
 
 B-Token	2582	2584	In
-I-Token	2585	2589	java
-B-Irregular	2590	2592	it
+B-Irregular	2585	2589	java
+I-Irregular	2590	2592	it
 I-Irregular	2592	2593	'
 I-Irregular	2593	2594	s
 B-Token	2595	2596	a
@@ -648,8 +648,8 @@ I-Token	2775	2779	like
 I-Token	2780	2782	to
 I-Token	2783	2791	retrieve
 I-Token	2792	2795	the
-I-Token	2796	2804	ethernet
-I-Token	2805	2812	address
+B-Irregular	2796	2804	ethernet
+B-Token	2805	2812	address
 I-Token	2813	2815	of
 I-Token	2816	2819	the
 I-Token	2820	2827	network
@@ -680,8 +680,8 @@ I-Token	2932	2935	the
 I-Token	2936	2944	accepted
 I-Token	2945	2953	solution
 I-Token	2954	2956	of
-I-Token	2957	2975	getHardwareAddress
-I-Token	2976	2978	is
+B-Irregular	2957	2975	getHardwareAddress
+B-Token	2976	2978	is
 I-Token	2979	2983	only
 I-Token	2984	2993	available
 I-Token	2994	2996	in
@@ -698,9 +698,9 @@ I-Token	3028	3030	be
 I-Token	3031	3032	a
 I-Token	3033	3041	solution
 I-Token	3042	3045	for
-I-Token	3046	3050	Java
-I-Token	3051	3052	5
-I-Token	3053	3058	aside
+B-Irregular	3046	3050	Java
+I-Irregular	3051	3052	5
+B-Token	3053	3058	aside
 I-Token	3059	3063	from
 I-Token	3064	3073	executing
 I-Token	3074	3075	i
@@ -709,8 +709,8 @@ B-Token	3076	3077	f
 B-Irregular	3077	3078	|
 B-Token	3078	3079	p
 B-Irregular	3079	3080	)
-B-Token	3080	3087	confing
-B-Irregular	3087	3088	.
+I-Irregular	3080	3087	confing
+I-Irregular	3087	3088	.
 
 O	3090	3094	Post
 O	3094	3095	-
@@ -733,8 +733,8 @@ I-Token	3157	3164	desktop
 I-Token	3165	3170	using
 I-Token	3171	3174	the
 I-Token	3175	3182	Eclipse
-I-Token	3183	3186	SWT
-I-Token	3187	3194	library
+B-Irregular	3183	3186	SWT
+B-Token	3187	3194	library
 I-Token	3195	3198	for
 I-Token	3199	3202	GUI
 I-Token	3203	3212	rendering
@@ -742,8 +742,8 @@ B-Irregular	3212	3213	.
 
 B-Token	3215	3216	I
 I-Token	3217	3222	think
-I-Token	3223	3226	SWT
-I-Token	3227	3232	helps
+B-Irregular	3223	3226	SWT
+B-Token	3227	3232	helps
 I-Token	3233	3237	Java
 I-Token	3238	3241	get
 I-Token	3242	3246	over
@@ -775,8 +775,8 @@ I-Token	3394	3403	belonging
 I-Token	3404	3406	to
 I-Token	3407	3410	any
 I-Token	3411	3416	other
-I-Token	3417	3420	app
-I-Token	3421	3423	on
+B-Irregular	3417	3420	app
+B-Token	3421	3423	on
 I-Token	3424	3428	your
 I-Token	3429	3436	desktop
 B-Irregular	3436	3437	.
@@ -805,8 +805,8 @@ I-Token	3537	3546	mechanism
 I-Token	3547	3550	for
 I-Token	3551	3559	wrapping
 I-Token	3560	3564	Java
-I-Token	3565	3569	apps
-I-Token	3570	3572	in
+B-Irregular	3565	3569	apps
+B-Token	3570	3572	in
 I-Token	3573	3579	native
 I-Token	3580	3591	application
 I-Token	3592	3599	bundles
@@ -814,8 +814,8 @@ B-Irregular	3599	3600	,
 B-Token	3601	3604	but
 I-Token	3605	3614	producing
 I-Token	3615	3617	an
-I-Token	3618	3621	app
-I-Token	3622	3625	for
+B-Irregular	3618	3621	app
+B-Token	3622	3625	for
 I-Token	3626	3633	Windows
 B-Irregular	3633	3634	/
 B-Token	3634	3639	Linux
@@ -900,8 +900,8 @@ I-Token	3938	3941	any
 I-Token	3942	3944	of
 I-Token	3945	3948	the
 B-Irregular	3949	3950	.
-B-Token	3950	3953	exe
-I-Token	3954	3964	generation
+I-Irregular	3950	3953	exe
+B-Token	3954	3964	generation
 I-Token	3965	3970	tools
 I-Token	3971	3974	for
 I-Token	3975	3979	Java
@@ -915,8 +915,8 @@ B-Irregular	4001	4002	I
 I-Irregular	4002	4003	'
 I-Irregular	4003	4005	ve
 B-Token	4006	4011	tried
-I-Token	4012	4019	JSmooth
-I-Token	4020	4023	but
+B-Irregular	4012	4019	JSmooth
+B-Token	4020	4023	but
 I-Token	4024	4027	had
 I-Token	4028	4035	various
 I-Token	4036	4042	issues
@@ -933,9 +933,9 @@ I-Token	4080	4086	before
 I-Token	4087	4088	I
 I-Token	4089	4094	crack
 I-Token	4095	4098	out
-I-Token	4099	4105	Visual
-I-Token	4106	4112	Studio
-I-Token	4113	4116	and
+B-Irregular	4099	4105	Visual
+I-Irregular	4106	4112	Studio
+B-Token	4113	4116	and
 I-Token	4117	4121	roll
 I-Token	4122	4124	my
 I-Token	4125	4128	own
@@ -978,14 +978,14 @@ I-Token	4263	4267	huge
 I-Token	4268	4271	ear
 I-Token	4272	4276	that
 I-Token	4277	4281	uses
-I-Token	4282	4287	log4j
-I-Token	4288	4291	and
+B-Irregular	4282	4287	log4j
+B-Token	4288	4291	and
 I-Token	4292	4297	there
 I-Token	4298	4300	is
 I-Token	4301	4302	a
 I-Token	4303	4309	single
-I-Token	4310	4316	config
-I-Token	4317	4321	file
+B-Irregular	4310	4316	config
+B-Token	4317	4321	file
 I-Token	4322	4326	that
 I-Token	4327	4329	is
 I-Token	4330	4334	used
@@ -997,8 +997,8 @@ B-Irregular	4347	4348	.
 
 B-Token	4349	4351	In
 I-Token	4352	4356	this
-I-Token	4357	4363	config
-I-Token	4364	4368	file
+B-Irregular	4357	4363	config
+B-Token	4364	4368	file
 I-Token	4369	4374	there
 I-Token	4375	4377	is
 I-Token	4378	4380	no
@@ -1017,8 +1017,8 @@ I-Token	4443	4448	those
 I-Token	4449	4458	specified
 I-Token	4459	4461	in
 I-Token	4462	4465	the
-I-Token	4466	4472	config
-I-Token	4473	4477	file
+B-Irregular	4466	4472	config
+B-Token	4473	4477	file
 I-Token	4478	4481	get
 I-Token	4482	4491	generated
 I-Token	4492	4494	in
@@ -1038,16 +1038,16 @@ I-Token	4549	4551	of
 B-Irregular	4552	4553	(
 B-Token	4553	4559	logger
 B-Irregular	4559	4560	|
-B-Token	4560	4565	log4j
-B-Irregular	4565	4566	|
+I-Irregular	4560	4565	log4j
+I-Irregular	4565	4566	|
 B-Token	4566	4569	log
 B-Irregular	4569	4570	)
 I-Irregular	4570	4571	.
 I-Irregular	4571	4572	(
 B-Token	4572	4582	properties
 B-Irregular	4582	4583	|
-B-Token	4583	4586	xml
-B-Irregular	4586	4587	)
+I-Irregular	4583	4586	xml
+I-Irregular	4586	4587	)
 B-Token	4588	4591	and
 B-Irregular	4592	4597	haven
 I-Irregular	4597	4598	'
@@ -1099,9 +1099,9 @@ B-Token	4787	4788	I
 I-Token	4789	4793	have
 I-Token	4794	4797	the
 I-Token	4798	4807	following
-I-Token	4808	4812	Java
-I-Token	4813	4814	6
-I-Token	4815	4819	code
+B-Irregular	4808	4812	Java
+I-Irregular	4813	4814	6
+B-Token	4815	4819	code
 B-Irregular	4819	4820	:
 B-Token	4821	4822	I
 I-Token	4823	4830	receive
@@ -1121,8 +1121,8 @@ I-Token	4893	4898	gives
 B-Irregular	4898	4899	:
 I-Irregular	4900	4901	"
 B-Token	4901	4907	Insert
-I-Token	4908	4916	EnumBody
-I-Token	4917	4919	to
+B-Irregular	4908	4916	EnumBody
+B-Token	4917	4919	to
 I-Token	4920	4928	complete
 I-Token	4929	4934	block
 I-Token	4935	4944	statement
@@ -1130,20 +1130,20 @@ B-Irregular	4944	4945	"
 B-Token	4946	4949	and
 B-Irregular	4950	4951	"
 B-Token	4951	4957	Insert
-I-Token	4958	4962	enum
-I-Token	4963	4973	Identifier
+B-Irregular	4958	4962	enum
+B-Token	4963	4973	Identifier
 I-Token	4974	4976	to
 I-Token	4977	4985	complete
-I-Token	4986	5000	EnumHeaderName
-B-Irregular	5000	5001	"
+B-Irregular	4986	5000	EnumHeaderName
+I-Irregular	5000	5001	"
 I-Irregular	5001	5002	.
 
 B-Token	5004	5011	Similar
 I-Token	5012	5018	syntax
 I-Token	5019	5024	error
 I-Token	5025	5029	from
-I-Token	5030	5035	javac
-B-Irregular	5035	5036	.
+B-Irregular	5030	5035	javac
+I-Irregular	5035	5036	.
 
 B-Token	5037	5041	What
 I-Token	5042	5044	am
@@ -1163,14 +1163,14 @@ O	5079	5084	65310
 B-Token	5085	5086	I
 I-Token	5087	5089	am
 I-Token	5090	5095	using
-I-Token	5096	5102	Apache
-I-Token	5103	5107	Axis
-I-Token	5108	5110	to
+B-Irregular	5096	5102	Apache
+I-Irregular	5103	5107	Axis
+B-Token	5108	5110	to
 I-Token	5111	5118	connect
 I-Token	5119	5121	my
 I-Token	5122	5126	Java
-I-Token	5127	5130	app
-I-Token	5131	5133	to
+B-Irregular	5127	5130	app
+B-Token	5131	5133	to
 I-Token	5134	5135	a
 I-Token	5136	5139	web
 I-Token	5140	5146	server
@@ -1178,8 +1178,8 @@ B-Irregular	5146	5147	.
 
 B-Token	5148	5149	I
 I-Token	5150	5154	used
-I-Token	5155	5164	wsdl2java
-I-Token	5165	5167	to
+B-Irregular	5155	5164	wsdl2java
+B-Token	5165	5167	to
 I-Token	5168	5174	create
 I-Token	5175	5178	the
 I-Token	5179	5184	stubs
@@ -1489,8 +1489,8 @@ B-Irregular	6436	6437	.
 B-Token	6438	6442	Load
 I-Token	6443	6444	C
 I-Token	6445	6450	using
-I-Token	6451	6462	classloader
-I-Token	6463	6466	and
+B-Irregular	6451	6462	classloader
+B-Token	6463	6466	and
 I-Token	6467	6470	use
 I-Token	6471	6481	reflection
 I-Token	6482	6484	to
@@ -1533,8 +1533,8 @@ I-Token	6635	6636	R
 I-Token	6637	6638	I
 I-Token	6639	6643	must
 I-Token	6644	6647	use
-I-Token	6648	6653	regex
-B-Irregular	6653	6654	.
+B-Irregular	6648	6653	regex
+I-Irregular	6653	6654	.
 
 B-Token	6655	6662	Usually
 I-Token	6663	6669	format
@@ -1591,8 +1591,8 @@ I-Token	6919	6922	way
 I-Token	6923	6928	other
 I-Token	6929	6933	than
 I-Token	6934	6939	using
-I-Token	6940	6945	RegEx
-I-Token	6946	6950	that
+B-Irregular	6940	6945	RegEx
+B-Token	6946	6950	that
 I-Token	6951	6954	can
 I-Token	6955	6957	be
 I-Token	6958	6962	used
@@ -1608,8 +1608,8 @@ I-Irregular	6988	6996	McDowell
 B-Token	6997	7002	Looks
 I-Token	7003	7007	like
 I-Token	7008	7013	using
-I-Token	7014	7018	BCEL
-I-Token	7019	7020	I
+B-Irregular	7014	7018	BCEL
+B-Token	7019	7020	I
 I-Token	7021	7024	can
 I-Token	7025	7033	simplify
 I-Token	7034	7037	the
@@ -1654,13 +1654,13 @@ I-Token	7191	7199	compiler
 I-Token	7200	7204	that
 I-Token	7205	7208	can
 I-Token	7209	7217	generate
-I-Token	7218	7226	bytecode
-I-Token	7227	7230	for
+B-Irregular	7218	7226	bytecode
+B-Token	7227	7230	for
 I-Token	7231	7234	the
-I-Token	7235	7239	Java
-I-Token	7240	7247	Virtual
-I-Token	7248	7255	Machine
-B-Irregular	7255	7256	.
+B-Irregular	7235	7239	Java
+I-Irregular	7240	7247	Virtual
+I-Irregular	7248	7255	Machine
+I-Irregular	7255	7256	.
 
 B-Token	7257	7262	Which
 I-Token	7263	7266	got
@@ -1682,18 +1682,18 @@ I-Token	7344	7351	virtual
 I-Token	7352	7360	machines
 I-Token	7361	7365	such
 I-Token	7366	7368	as
-I-Token	7369	7372	JVM
-I-Token	7373	7376	and
-I-Token	7377	7380	CLI
-B-Irregular	7380	7381	?
+B-Irregular	7369	7372	JVM
+B-Token	7373	7376	and
+B-Irregular	7377	7380	CLI
+I-Irregular	7380	7381	?
 
 B-Token	7382	7384	Do
-I-Token	7385	7389	Just
-I-Token	7390	7392	In
-I-Token	7393	7397	Time
-B-Irregular	7398	7399	(
-B-Token	7399	7402	JIT
-B-Irregular	7402	7403	)
+B-Irregular	7385	7389	Just
+I-Irregular	7390	7392	In
+I-Irregular	7393	7397	Time
+I-Irregular	7398	7399	(
+I-Irregular	7399	7402	JIT
+I-Irregular	7402	7403	)
 B-Token	7404	7413	compilers
 I-Token	7414	7416	do
 I-Token	7417	7425	constant
@@ -1722,8 +1722,8 @@ I-Token	7518	7529	performance
 I-Token	7530	7533	for
 I-Token	7534	7536	my
 I-Token	7537	7541	Java
-I-Token	7542	7545	SWT
-I-Token	7546	7557	application
+B-Irregular	7542	7545	SWT
+B-Token	7546	7557	application
 B-Irregular	7557	7558	,
 B-Token	7559	7562	and
 I-Token	7563	7564	I
@@ -1735,10 +1735,10 @@ I-Token	7583	7585	is
 I-Token	7586	7594	possible
 I-Token	7595	7597	to
 I-Token	7598	7601	use
-I-Token	7602	7608	OpenGL
-I-Token	7609	7611	in
-I-Token	7612	7615	SWT
-B-Irregular	7615	7616	.
+B-Irregular	7602	7608	OpenGL
+B-Token	7609	7611	in
+B-Irregular	7612	7615	SWT
+I-Irregular	7615	7616	.
 
 B-Token	7617	7619	It
 I-Token	7620	7625	seems
@@ -1750,8 +1750,8 @@ I-Token	7646	7649	one
 I-Token	7650	7654	Java
 I-Token	7655	7662	binding
 I-Token	7663	7666	for
-I-Token	7667	7673	OpenGL
-B-Irregular	7673	7674	.
+B-Irregular	7667	7673	OpenGL
+I-Irregular	7673	7674	.
 
 B-Token	7675	7680	Which
 I-Token	7681	7684	one
@@ -1766,8 +1766,8 @@ I-Token	7710	7711	I
 I-Token	7712	7716	have
 I-Token	7717	7722	never
 I-Token	7723	7727	used
-I-Token	7728	7734	OpenGL
-I-Token	7735	7741	before
+B-Irregular	7728	7734	OpenGL
+B-Token	7735	7741	before
 B-Irregular	7741	7742	,
 B-Token	7743	7746	and
 I-Token	7747	7751	that
@@ -1782,9 +1782,9 @@ B-Irregular	7792	7793	,
 B-Token	7794	7799	Linux
 I-Token	7800	7803	and
 I-Token	7804	7807	Mac
-I-Token	7808	7810	OS
-I-Token	7811	7812	X
-B-Irregular	7812	7813	.
+B-Irregular	7808	7810	OS
+I-Irregular	7811	7812	X
+I-Irregular	7812	7813	.
 
 O	7815	7819	Post
 O	7819	7820	-
@@ -1801,8 +1801,8 @@ I-Irregular	7854	7855	I
 I-Irregular	7855	7856	'
 I-Irregular	7856	7857	m
 B-Token	7858	7863	using
-I-Token	7864	7867	gcj
-B-Irregular	7868	7869	4
+B-Irregular	7864	7867	gcj
+I-Irregular	7868	7869	4
 I-Irregular	7869	7870	.
 I-Irregular	7870	7871	x
 I-Irregular	7871	7872	)
@@ -1814,13 +1814,13 @@ I-Token	7894	7896	to
 I-Token	7897	7905	generate
 I-Token	7906	7908	an
 B-Irregular	7909	7910	"
-B-Token	7910	7913	exe
-B-Irregular	7913	7914	"
+I-Irregular	7910	7913	exe
+I-Irregular	7913	7914	"
 B-Token	7915	7919	file
 I-Token	7920	7923	for
 I-Token	7924	7926	my
-I-Token	7927	7931	java
-I-Token	7932	7943	application
+B-Irregular	7927	7931	java
+B-Token	7932	7943	application
 I-Token	7944	7946	to
 I-Token	7947	7950	run
 I-Token	7951	7953	in
@@ -1886,14 +1886,14 @@ B-Irregular	8184	8185	(
 B-Token	8185	8189	that
 I-Token	8190	8192	is
 I-Token	8193	8198	using
-I-Token	8199	8203	J2ME
-I-Token	8204	8210	native
+B-Irregular	8199	8203	J2ME
+B-Token	8204	8210	native
 I-Token	8211	8219	Graphics
 B-Irregular	8219	8220	)
 B-Token	8221	8228	painted
 I-Token	8229	8231	on
-I-Token	8232	8237	LWUIT
-I-Token	8238	8246	elements
+B-Irregular	8232	8237	LWUIT
+B-Token	8238	8246	elements
 B-Irregular	8246	8247	?
 
 B-Token	8248	8251	The
@@ -1934,8 +1934,8 @@ I-Token	8414	8417	the
 I-Token	8418	8424	result
 I-Token	8425	8433	directly
 I-Token	8434	8436	on
-I-Token	8437	8442	LWUIT
-I-Token	8443	8451	elements
+B-Irregular	8437	8442	LWUIT
+B-Token	8443	8451	elements
 B-Irregular	8452	8453	(
 B-Token	8453	8455	at
 I-Token	8456	8459	the
@@ -1961,8 +1961,8 @@ I-Token	8528	8533	write
 I-Token	8534	8535	a
 I-Token	8536	8543	wrapper
 I-Token	8544	8546	in
-I-Token	8547	8552	LWUIT
-I-Token	8553	8560	package
+B-Irregular	8547	8552	LWUIT
+B-Token	8553	8560	package
 B-Irregular	8560	8561	,
 B-Token	8562	8566	that
 I-Token	8567	8572	would
@@ -2008,8 +2008,8 @@ B-Irregular	8745	8746	'
 B-Token	8747	8755	Graphics
 I-Token	8756	8763	element
 I-Token	8764	8768	from
-I-Token	8769	8774	LWUIT
-B-Irregular	8774	8775	.
+B-Irregular	8769	8774	LWUIT
+I-Irregular	8774	8775	.
 
 B-Token	8776	8781	Paint
 I-Token	8782	8784	on
@@ -2018,8 +2018,8 @@ B-Irregular	8788	8789	-
 B-Token	8790	8801	effectively
 I-Token	8802	8810	painting
 I-Token	8811	8813	on
-I-Token	8814	8819	LWUIT
-I-Token	8820	8825	image
+B-Irregular	8814	8819	LWUIT
+B-Token	8820	8825	image
 B-Irregular	8825	8826	.
 
 B-Token	8827	8830	And
@@ -2049,8 +2049,8 @@ I-Token	8914	8917	the
 I-Token	8918	8922	real
 I-Token	8923	8930	problem
 I-Token	8931	8933	is
-I-Token	8934	8938	50kB
-I-Token	8939	8941	of
+B-Irregular	8934	8938	50kB
+B-Token	8939	8941	of
 I-Token	8942	8946	code
 I-Token	8947	8955	overhead
 B-Irregular	8955	8956	,
@@ -2070,7 +2070,7 @@ I-Token	9013	9017	post
 B-Irregular	9018	9019	:
 I-Irregular	9019	9020	)
 I-Irregular	9021	9022	/
-B-Token	9022	9032	JaanusSiim
+I-Irregular	9022	9032	JaanusSiim
 
 O	9034	9038	Post
 O	9038	9039	-
@@ -2088,8 +2088,8 @@ I-Token	9074	9079	debug
 I-Token	9080	9082	my
 I-Token	9083	9093	separately
 I-Token	9094	9101	running
-I-Token	9102	9105	JSP
-B-Irregular	9105	9106	/
+B-Irregular	9102	9105	JSP
+I-Irregular	9105	9106	/
 B-Token	9106	9112	Struts
 B-Irregular	9112	9113	/
 B-Token	9113	9119	Tomcat
@@ -2099,9 +2099,9 @@ I-Token	9130	9141	application
 I-Token	9142	9147	stack
 I-Token	9148	9153	using
 I-Token	9154	9157	the
-I-Token	9158	9165	Eclipse
-I-Token	9166	9169	IDE
-I-Token	9170	9178	debugger
+B-Irregular	9158	9165	Eclipse
+I-Irregular	9166	9169	IDE
+B-Token	9170	9178	debugger
 B-Irregular	9178	9179	.
 
 B-Token	9180	9183	How
@@ -2109,9 +2109,9 @@ I-Token	9184	9186	do
 I-Token	9187	9188	I
 I-Token	9189	9194	setup
 I-Token	9195	9198	the
-I-Token	9199	9203	java
-I-Token	9204	9207	JVM
-I-Token	9208	9211	and
+B-Irregular	9199	9203	java
+I-Irregular	9204	9207	JVM
+B-Token	9208	9211	and
 I-Token	9212	9219	eclipse
 I-Token	9220	9222	so
 I-Token	9223	9227	that
@@ -2147,11 +2147,11 @@ I-Token	9349	9353	need
 I-Token	9354	9356	to
 I-Token	9357	9361	pass
 I-Token	9362	9363	a
-I-Token	9364	9368	UUID
-I-Token	9369	9377	instance
+B-Irregular	9364	9368	UUID
+B-Token	9369	9377	instance
 I-Token	9378	9381	via
-I-Token	9382	9386	http
-I-Token	9387	9394	request
+B-Irregular	9382	9386	http
+B-Token	9387	9394	request
 I-Token	9395	9404	parameter
 B-Irregular	9404	9405	.
 
@@ -2228,9 +2228,9 @@ I-Token	9719	9726	example
 B-Irregular	9726	9727	:
 B-Token	9728	9732	Name
 B-Irregular	9732	9733	:
-B-Token	9734	9742	Fernando
-I-Token	9743	9746	Age
-B-Irregular	9746	9747	:
+I-Irregular	9734	9742	Fernando
+I-Irregular	9743	9746	Age
+I-Irregular	9746	9747	:
 I-Irregular	9748	9749	{
 I-Irregular	9749	9755	person
 I-Irregular	9755	9756	.
@@ -2283,20 +2283,20 @@ I-Token	9925	9927	to
 I-Token	9928	9933	write
 I-Token	9934	9936	my
 I-Token	9937	9940	own
-I-Token	9941	9944	JNI
-I-Token	9945	9953	wrapping
+B-Irregular	9941	9944	JNI
+B-Token	9945	9953	wrapping
 I-Token	9954	9956	of
 I-Token	9957	9961	some
 I-Token	9962	9963	c
-I-Token	9964	9967	API
-B-Irregular	9967	9968	,
+B-Irregular	9964	9967	API
+I-Irregular	9967	9968	,
 B-Token	9969	9972	and
 I-Token	9973	9975	in
 I-Token	9976	9980	that
 I-Token	9981	9985	case
 I-Token	9986	9990	what
-I-Token	9991	9994	API
-I-Token	9995	9997	am
+B-Irregular	9991	9994	API
+B-Token	9995	9997	am
 I-Token	9998	9999	I
 I-Token	10000	10007	looking
 I-Token	10008	10011	for
@@ -2312,8 +2312,8 @@ I-Token	10032	10036	able
 I-Token	10037	10039	to
 I-Token	10040	10042	do
 I-Token	10043	10047	what
-I-Token	10048	10057	wireshark
-I-Token	10058	10062	does
+B-Irregular	10048	10057	wireshark
+B-Token	10058	10062	does
 B-Irregular	10062	10063	,
 B-Token	10064	10065	i
 B-Irregular	10065	10066	.
@@ -2321,8 +2321,8 @@ B-Token	10066	10067	e
 B-Irregular	10067	10068	.
 B-Token	10069	10075	record
 I-Token	10076	10079	all
-I-Token	10080	10089	incomming
-I-Token	10090	10097	packets
+B-Irregular	10080	10089	incomming
+B-Token	10090	10097	packets
 I-Token	10098	10100	on
 I-Token	10101	10103	an
 I-Token	10104	10113	interface
@@ -2364,8 +2364,8 @@ B-Token	10231	10232	I
 I-Token	10233	10235	am
 I-Token	10236	10244	building
 I-Token	10245	10246	a
-I-Token	10247	10251	java
-I-Token	10252	10258	server
+B-Irregular	10247	10251	java
+B-Token	10252	10258	server
 I-Token	10259	10263	that
 I-Token	10264	10269	needs
 I-Token	10270	10272	to
@@ -2375,16 +2375,16 @@ B-Irregular	10278	10279	.
 B-Token	10280	10283	One
 I-Token	10284	10286	of
 I-Token	10287	10290	the
-I-Token	10291	10299	servlets
-I-Token	10300	10304	will
+B-Irregular	10291	10299	servlets
+B-Token	10300	10304	will
 I-Token	10305	10307	be
 I-Token	10308	10315	serving
 I-Token	10316	10322	images
 I-Token	10323	10329	stored
 I-Token	10330	10332	in
-I-Token	10333	10339	Amazon
-I-Token	10340	10342	S3
-B-Irregular	10342	10343	.
+B-Irregular	10333	10339	Amazon
+I-Irregular	10340	10342	S3
+I-Irregular	10342	10343	.
 
 B-Token	10344	10352	Recently
 I-Token	10353	10358	under
@@ -2397,8 +2397,8 @@ I-Token	10375	10377	of
 I-Token	10378	10384	memory
 I-Token	10385	10387	in
 I-Token	10388	10390	my
-I-Token	10391	10393	VM
-I-Token	10394	10397	and
+B-Irregular	10391	10393	VM
+B-Token	10394	10397	and
 I-Token	10398	10400	it
 I-Token	10401	10404	was
 I-Token	10405	10410	after
@@ -2419,8 +2419,8 @@ I-Token	10462	10466	sure
 I-Token	10467	10471	that
 I-Token	10472	10481	streaming
 I-Token	10482	10488	larger
-I-Token	10489	10496	servlet
-I-Token	10497	10506	responses
+B-Irregular	10489	10496	servlet
+B-Token	10497	10506	responses
 I-Token	10507	10509	is
 I-Token	10510	10517	causing
 I-Token	10518	10520	my
@@ -2441,16 +2441,16 @@ I-Token	10578	10581	how
 I-Token	10582	10584	to
 I-Token	10585	10589	code
 I-Token	10590	10591	a
-I-Token	10592	10596	java
-I-Token	10597	10604	servlet
-I-Token	10605	10607	to
+B-Irregular	10592	10596	java
+I-Irregular	10597	10604	servlet
+B-Token	10605	10607	to
 I-Token	10608	10614	stream
 I-Token	10615	10616	a
 I-Token	10617	10622	large
 B-Irregular	10623	10624	(
 I-Irregular	10624	10625	>
-B-Token	10625	10629	200k
-B-Irregular	10629	10630	)
+I-Irregular	10625	10629	200k
+I-Irregular	10629	10630	)
 B-Token	10631	10639	response
 I-Token	10640	10644	back
 I-Token	10645	10647	to
@@ -2492,8 +2492,8 @@ I-Token	10820	10822	so
 I-Token	10823	10827	that
 I-Token	10828	10831	the
 I-Token	10832	10838	tomcat
-I-Token	10839	10846	servlet
-I-Token	10847	10853	thread
+B-Irregular	10839	10846	servlet
+B-Token	10847	10853	thread
 I-Token	10854	10857	can
 I-Token	10858	10860	be
 B-Irregular	10861	10863	re
@@ -2507,8 +2507,8 @@ I-Token	10881	10885	like
 I-Token	10886	10888	it
 I-Token	10889	10894	would
 I-Token	10895	10897	be
-I-Token	10898	10900	io
-I-Token	10901	10906	heavy
+B-Irregular	10898	10900	io
+B-Token	10901	10906	heavy
 B-Irregular	10906	10907	.
 
 B-Token	10908	10911	Any
@@ -2556,8 +2556,8 @@ I-Token	11087	11089	to
 I-Token	11090	11097	connect
 I-Token	11098	11101	and
 I-Token	11102	11105	use
-I-Token	11106	11112	SQLite
-I-Token	11113	11117	with
+B-Irregular	11106	11112	SQLite
+B-Token	11113	11117	with
 I-Token	11118	11122	Java
 B-Irregular	11122	11123	.
 
@@ -2613,8 +2613,8 @@ I-Token	11312	11315	can
 I-Token	11316	11318	be
 I-Token	11319	11327	extended
 I-Token	11328	11332	with
-I-Token	11333	11340	plugins
-B-Irregular	11340	11341	.
+B-Irregular	11333	11340	plugins
+I-Irregular	11340	11341	.
 
 B-Token	11342	11345	How
 I-Token	11346	11349	can
@@ -2637,8 +2637,8 @@ I-Token	11402	11404	of
 I-Token	11405	11415	interfaces
 I-Token	11416	11420	that
 I-Token	11421	11424	the
-I-Token	11425	11431	plugin
-I-Token	11432	11436	must
+B-Irregular	11425	11431	plugin
+B-Token	11432	11436	must
 I-Token	11437	11446	implement
 B-Irregular	11446	11447	,
 B-Token	11448	11451	and
@@ -2677,8 +2677,8 @@ I-Token	11589	11590	I
 I-Token	11591	11593	do
 I-Token	11594	11598	like
 I-Token	11599	11606	Eclipse
-I-Token	11607	11610	RCP
-B-Irregular	11610	11611	,
+B-Irregular	11607	11610	RCP
+I-Irregular	11610	11611	,
 B-Token	11612	11613	I
 I-Token	11614	11619	think
 B-Irregular	11620	11622	it
@@ -2732,8 +2732,8 @@ I-Token	11787	11789	to
 I-Token	11790	11796	create
 I-Token	11797	11799	my
 I-Token	11800	11803	own
-I-Token	11804	11810	plugin
-B-Irregular	11811	11812	"
+B-Irregular	11804	11810	plugin
+I-Irregular	11811	11812	"
 B-Token	11812	11821	framework
 B-Irregular	11821	11822	"
 B-Token	11823	11825	as

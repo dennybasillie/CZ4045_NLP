@@ -15,13 +15,13 @@ I-Irregular	43	44	'
 I-Irregular	44	45	s
 B-Token	46	53	roughly
 I-Token	54	55	a
-I-Token	56	65	gajillion
-I-Token	66	70	HTTP
+B-Irregular	56	65	gajillion
+B-Token	66	70	HTTP
 I-Token	71	77	client
 I-Token	78	87	libraries
 B-Irregular	88	89	(
-B-Token	89	96	Restlet
-I-Token	97	99	is
+I-Irregular	89	96	Restlet
+B-Token	97	99	is
 I-Token	100	105	quite
 I-Token	106	107	a
 I-Token	108	111	bit
@@ -59,15 +59,15 @@ I-Irregular	252	253	s
 B-Token	254	255	a
 I-Token	256	262	rather
 I-Token	263	267	less
-I-Token	268	278	featureful
-I-Token	279	286	snippet
+B-Irregular	268	278	featureful
+B-Token	279	286	snippet
 I-Token	287	291	that
 I-Token	292	296	uses
-I-Token	297	307	HttpClient
-I-Token	308	312	from
-I-Token	313	319	Apache
-I-Token	320	327	Commons
-B-Irregular	327	328	:
+B-Irregular	297	307	HttpClient
+B-Token	308	312	from
+B-Irregular	313	319	Apache
+I-Irregular	320	327	Commons
+I-Irregular	327	328	:
 
 O	330	334	Post
 O	334	335	-
@@ -81,8 +81,8 @@ O	353	361	Question
 O	361	362	-
 O	362	367	66066
 
-B-Token	368	372	FWIW
-B-Irregular	372	373	,
+B-Irregular	368	372	FWIW
+I-Irregular	372	373	,
 B-Token	374	375	a
 I-Token	376	383	timeout
 I-Token	384	386	in
@@ -127,11 +127,11 @@ O	566	567	-
 O	567	572	37335
 
 B-Token	573	576	For
-I-Token	577	583	exampl
-B-Irregular	583	584	:
+B-Irregular	577	583	exampl
+I-Irregular	583	584	:
 B-Token	585	587	On
-I-Token	588	593	linux
-I-Token	594	602	Platform
+B-Irregular	588	593	linux
+B-Token	594	602	Platform
 I-Token	603	606	for
 I-Token	607	617	production
 I-Token	618	622	mode
@@ -214,14 +214,14 @@ B-Token	870	874	Open
 I-Token	875	878	and
 I-Token	879	884	write
 I-Token	885	889	this
-I-Token	890	896	params
-I-Token	897	900	for
+B-Irregular	890	896	params
+B-Token	897	900	for
 I-Token	901	908	setting
 I-Token	909	919	preferable
 I-Token	920	924	mode
 B-Irregular	924	925	.
-B-Token	926	930	nano
-B-Irregular	932	933	/
+I-Irregular	926	930	nano
+I-Irregular	932	933	/
 I-Irregular	933	936	opt
 I-Irregular	936	937	/
 I-Irregular	937	943	tomcat
@@ -346,8 +346,8 @@ B-Token	1403	1408	which
 I-Token	1409	1414	could
 I-Token	1415	1417	be
 I-Token	1418	1419	a
-I-Token	1420	1425	param
-I-Token	1426	1428	to
+B-Irregular	1420	1425	param
+B-Token	1426	1428	to
 I-Token	1429	1432	the
 I-Token	1433	1437	join
 I-Token	1438	1444	method
@@ -357,9 +357,9 @@ B-Irregular	1447	1448	)
 B-Token	1449	1451	It
 I-Token	1452	1457	looks
 I-Token	1458	1462	like
-I-Token	1463	1467	Java
-I-Token	1468	1469	7
-I-Token	1470	1472	is
+B-Irregular	1463	1467	Java
+I-Irregular	1468	1469	7
+B-Token	1470	1472	is
 I-Token	1473	1478	going
 I-Token	1479	1481	to
 I-Token	1482	1484	be
@@ -367,8 +367,8 @@ I-Token	1485	1491	adding
 I-Token	1492	1501	extension
 I-Token	1502	1509	methods
 I-Token	1510	1512	to
-I-Token	1513	1517	java
-B-Irregular	1518	1519	-
+B-Irregular	1513	1517	java
+I-Irregular	1518	1519	-
 B-Token	1520	1525	which
 I-Token	1526	1532	allows
 I-Token	1533	1536	you
@@ -418,9 +418,9 @@ B-Token	1734	1737	now
 B-Irregular	1737	1738	,
 B-Token	1739	1745	though
 I-Token	1746	1751	since
-I-Token	1752	1756	Java
-I-Token	1757	1758	7
-B-Irregular	1759	1762	isn
+B-Irregular	1752	1756	Java
+I-Irregular	1757	1758	7
+I-Irregular	1759	1762	isn
 I-Irregular	1762	1763	'
 I-Irregular	1763	1764	t
 B-Token	1765	1768	out
@@ -501,8 +501,8 @@ I-Token	2038	2047	reproduce
 I-Token	2048	2050	it
 I-Token	2051	2053	in
 I-Token	2054	2055	a
-I-Token	2056	2059	dev
-I-Token	2060	2071	environment
+B-Irregular	2056	2059	dev
+B-Token	2060	2071	environment
 I-Token	2072	2076	then
 I-Token	2077	2080	try
 I-Token	2081	2090	attaching
@@ -585,8 +585,8 @@ I-Token	2402	2411	explained
 I-Token	2412	2416	here
 B-Irregular	2416	2417	.
 
-B-Token	2418	2429	contentType
-B-Irregular	2430	2431	:
+B-Irregular	2418	2429	contentType
+I-Irregular	2430	2431	:
 B-Token	2432	2436	When
 I-Token	2437	2444	sending
 I-Token	2445	2449	data
@@ -623,21 +623,21 @@ I-Token	2554	2558	most
 I-Token	2559	2564	cases
 B-Irregular	2564	2565	.
 
-B-Token	2566	2579	scriptCharset
-B-Irregular	2580	2581	:
+B-Irregular	2566	2579	scriptCharset
+I-Irregular	2580	2581	:
 B-Token	2582	2586	Only
 I-Token	2587	2590	for
 I-Token	2591	2599	requests
 I-Token	2600	2604	with
 B-Irregular	2605	2606	'
-B-Token	2606	2611	jsonp
-B-Irregular	2611	2612	'
+I-Irregular	2606	2611	jsonp
+I-Irregular	2611	2612	'
 B-Token	2613	2615	or
 B-Irregular	2616	2617	'
 B-Token	2617	2623	script
 B-Irregular	2623	2624	'
-B-Token	2625	2633	dataType
-I-Token	2634	2637	and
+I-Irregular	2625	2633	dataType
+B-Token	2634	2637	and
 I-Token	2638	2641	GET
 I-Token	2642	2646	type
 B-Irregular	2646	2647	.
@@ -651,14 +651,14 @@ I-Token	2673	2684	interpreted
 I-Token	2685	2687	as
 I-Token	2688	2689	a
 I-Token	2690	2697	certain
-I-Token	2698	2705	charset
-B-Irregular	2705	2706	.
+B-Irregular	2698	2705	charset
+I-Irregular	2705	2706	.
 
 B-Token	2707	2711	Only
 I-Token	2712	2718	needed
 I-Token	2719	2722	for
-I-Token	2723	2730	charset
-I-Token	2731	2742	differences
+B-Irregular	2723	2730	charset
+B-Token	2731	2742	differences
 I-Token	2743	2750	between
 I-Token	2751	2754	the
 I-Token	2755	2761	remote
@@ -687,9 +687,9 @@ I-Token	2837	2842	heart
 I-Token	2843	2845	of
 I-Token	2846	2852	Spring
 B-Irregular	2852	2853	:
-B-Token	2854	2864	Dependency
-I-Token	2865	2874	Injection
-B-Irregular	2874	2875	.
+I-Irregular	2854	2864	Dependency
+I-Irregular	2865	2874	Injection
+I-Irregular	2874	2875	.
 
 B-Token	2876	2880	Once
 I-Token	2881	2884	you
@@ -712,13 +712,13 @@ I-Token	2953	2957	more
 I-Token	2958	2969	interesting
 I-Token	2970	2976	pieces
 I-Token	2977	2981	like
-I-Token	2982	2985	AOP
-B-Irregular	2985	2986	,
-B-Token	2987	2995	Remoting
-B-Irregular	2995	2996	,
-B-Token	2997	3001	JDBC
-I-Token	3002	3011	Templates
-I-Token	3012	3015	etc
+B-Irregular	2982	2985	AOP
+I-Irregular	2985	2986	,
+I-Irregular	2987	2995	Remoting
+I-Irregular	2995	2996	,
+I-Irregular	2997	3001	JDBC
+I-Irregular	3002	3011	Templates
+B-Token	3012	3015	etc
 B-Irregular	3015	3016	.
 
 B-Token	3017	3019	So
@@ -752,8 +752,8 @@ B-Token	3117	3122	using
 I-Token	3123	3126	the
 I-Token	3127	3135	standard
 I-Token	3136	3139	XML
-I-Token	3140	3146	config
-B-Irregular	3146	3147	,
+B-Irregular	3140	3146	config
+I-Irregular	3146	3147	,
 B-Token	3148	3154	manage
 I-Token	3155	3158	the
 I-Token	3159	3163	size
@@ -795,8 +795,8 @@ I-Token	3350	3352	to
 I-Token	3353	3357	than
 I-Token	3358	3363	plain
 I-Token	3364	3367	old
-I-Token	3368	3372	java
-I-Token	3373	3377	code
+B-Irregular	3368	3372	java
+B-Token	3373	3377	code
 B-Irregular	3377	3378	.
 
 B-Token	3379	3383	Good
@@ -828,8 +828,8 @@ I-Token	3474	3479	bytes
 I-Token	3480	3482	is
 I-Token	3483	3490	through
 I-Token	3491	3496	using
-I-Token	3497	3501	ints
-B-Irregular	3501	3502	.
+B-Irregular	3497	3501	ints
+I-Irregular	3501	3502	.
 
 B-Token	3503	3507	Even
 I-Token	3508	3514	though
@@ -1026,8 +1026,8 @@ I-Irregular	4454	4461	generic
 B-Token	4462	4466	code
 B-Irregular	4466	4467	.
 
-B-Token	4468	4475	Reified
-I-Token	4476	4484	generics
+B-Irregular	4468	4475	Reified
+B-Token	4476	4484	generics
 I-Token	4487	4492	would
 I-Token	4493	4497	make
 I-Token	4498	4501	the
@@ -1050,14 +1050,14 @@ B-Irregular	4596	4597	.
 
 B-Token	4598	4605	However
 B-Irregular	4605	4606	,
-B-Token	4607	4611	Neal
-I-Token	4612	4618	Gafter
-I-Token	4619	4622	has
+I-Irregular	4607	4611	Neal
+I-Irregular	4612	4618	Gafter
+B-Token	4619	4622	has
 I-Token	4625	4633	proposed
 I-Token	4634	4640	making
 I-Token	4641	4646	types
-I-Token	4647	4656	reifiable
-I-Token	4657	4661	only
+B-Irregular	4647	4656	reifiable
+B-Token	4657	4661	only
 I-Token	4664	4666	if
 I-Token	4667	4676	specified
 B-Irregular	4676	4677	,
@@ -1076,9 +1076,9 @@ I-Irregular	4737	4738	'
 I-Irregular	4738	4739	s
 B-Token	4740	4747	article
 I-Token	4748	4753	about
-I-Token	4754	4758	Java
-I-Token	4759	4760	7
-I-Token	4761	4770	Proposals
+B-Irregular	4754	4758	Java
+I-Irregular	4759	4760	7
+B-Token	4761	4770	Proposals
 
 O	4772	4776	Post
 O	4776	4777	-
@@ -1103,8 +1103,8 @@ I-Token	4860	4867	between
 B-Irregular	4868	4869	+
 B-Token	4870	4873	and
 I-Token	4874	4877	the
-I-Token	4878	4884	concat
-I-Token	4885	4891	method
+B-Irregular	4878	4884	concat
+B-Token	4885	4891	method
 B-Irregular	4891	4892	.
 
 B-Token	4893	4895	If
@@ -1112,8 +1112,8 @@ I-Token	4896	4899	you
 I-Token	4900	4903	are
 I-Token	4904	4909	using
 I-Token	4910	4913	the
-I-Token	4914	4920	concat
-I-Token	4921	4927	method
+B-Irregular	4914	4920	concat
+B-Token	4921	4927	method
 I-Token	4928	4932	then
 I-Token	4933	4936	you
 I-Token	4937	4942	would
@@ -1154,8 +1154,8 @@ B-Token	5095	5098	the
 I-Token	5099	5105	output
 I-Token	5106	5112	should
 I-Token	5113	5115	be
-I-Token	5116	5123	10Hello
-B-Irregular	5123	5124	.
+B-Irregular	5116	5123	10Hello
+I-Irregular	5123	5124	.
 
 B-Token	5125	5127	In
 I-Token	5128	5131	the
@@ -1178,8 +1178,8 @@ I-Token	5206	5216	difference
 I-Token	5217	5224	between
 B-Irregular	5225	5226	+
 B-Token	5227	5230	and
-I-Token	5231	5237	concat
-I-Token	5238	5240	is
+B-Irregular	5231	5237	concat
+B-Token	5238	5240	is
 I-Token	5241	5245	that
 B-Irregular	5245	5246	:
 B-Token	5247	5251	Case
@@ -1187,13 +1187,13 @@ I-Token	5252	5253	1
 B-Irregular	5253	5254	:
 B-Token	5255	5262	Suppose
 I-Token	5263	5264	I
-I-Token	5265	5271	concat
-I-Token	5272	5275	the
+B-Irregular	5265	5271	concat
+B-Token	5272	5275	the
 I-Token	5276	5280	same
 I-Token	5281	5288	strings
 I-Token	5289	5293	with
-I-Token	5294	5300	concat
-I-Token	5301	5309	operator
+B-Irregular	5294	5300	concat
+B-Token	5301	5309	operator
 I-Token	5310	5312	in
 I-Token	5313	5317	this
 I-Token	5318	5321	way
@@ -1221,8 +1221,8 @@ I-Token	5408	5409	I
 I-Token	5410	5412	am
 I-Token	5413	5418	going
 I-Token	5419	5421	to
-I-Token	5422	5433	concatinate
-I-Token	5434	5437	the
+B-Irregular	5422	5433	concatinate
+B-Token	5434	5437	the
 I-Token	5438	5442	same
 I-Token	5443	5450	strings
 I-Token	5451	5454	via
@@ -1245,8 +1245,8 @@ B-Irregular	5526	5527	.
 B-Token	5528	5536	Actually
 I-Token	5537	5541	when
 I-Token	5542	5544	we
-I-Token	5545	5556	concatinate
-I-Token	5557	5560	the
+B-Irregular	5545	5556	concatinate
+B-Token	5557	5560	the
 I-Token	5561	5568	strings
 I-Token	5569	5572	via
 B-Irregular	5573	5574	+
@@ -1255,8 +1255,8 @@ I-Token	5584	5588	then
 I-Token	5589	5591	it
 I-Token	5592	5601	maintains
 I-Token	5602	5603	a
-I-Token	5604	5616	StringBuffer
-I-Token	5617	5622	class
+B-Irregular	5604	5616	StringBuffer
+B-Token	5617	5622	class
 I-Token	5623	5625	to
 I-Token	5626	5633	perform
 I-Token	5634	5637	the
@@ -1288,8 +1288,8 @@ I-Token	5747	5754	between
 B-Irregular	5755	5756	+
 B-Token	5757	5760	and
 I-Token	5761	5764	the
-I-Token	5765	5771	concat
-I-Token	5772	5778	method
+B-Irregular	5765	5771	concat
+B-Token	5772	5778	method
 B-Irregular	5778	5779	.
 
 B-Token	5780	5785	Enjoy
@@ -1347,8 +1347,8 @@ I-Token	5958	5961	you
 I-Token	5962	5966	want
 I-Token	5967	5969	an
 B-Irregular	5970	5971	"
-B-Token	5971	5981	instanceof
-B-Irregular	5981	5982	"
+I-Irregular	5971	5981	instanceof
+I-Irregular	5981	5982	"
 B-Token	5983	5995	relationship
 B-Irregular	5995	5996	,
 B-Token	5997	6000	use
@@ -1391,8 +1391,8 @@ I-Token	6154	6162	examples
 I-Token	6163	6165	in
 I-Token	6166	6169	the
 I-Token	6170	6174	Java
-I-Token	6175	6178	API
-B-Irregular	6178	6179	,
+B-Irregular	6175	6178	API
+I-Irregular	6178	6179	,
 B-Token	6180	6183	see
 B-Irregular	6184	6188	java
 I-Irregular	6188	6189	.
@@ -1444,16 +1444,16 @@ I-Irregular	6348	6349	s
 B-Token	6350	6356	answer
 B-Irregular	6356	6357	.
 
-B-Token	6358	6361	PS2
-B-Irregular	6361	6362	:
+B-Irregular	6358	6361	PS2
+I-Irregular	6361	6362	:
 B-Token	6363	6367	read
 I-Token	6368	6371	the
 I-Token	6372	6378	NOTICE
 I-Token	6379	6386	section
 I-Token	6387	6389	on
 I-Token	6390	6393	the
-I-Token	6394	6397	XEP
-B-Irregular	6397	6398	.
+B-Irregular	6394	6397	XEP
+I-Irregular	6397	6398	.
 
 O	6400	6404	Post
 O	6404	6405	-
@@ -1471,8 +1471,8 @@ B-Token	6441	6444	For
 I-Token	6445	6452	playing
 I-Token	6453	6458	sound
 I-Token	6459	6461	in
-I-Token	6462	6466	java
-B-Irregular	6466	6467	,
+B-Irregular	6462	6466	java
+I-Irregular	6466	6467	,
 B-Token	6468	6471	you
 I-Token	6472	6475	can
 I-Token	6476	6481	refer
@@ -1509,8 +1509,8 @@ I-Token	6599	6605	values
 I-Token	6606	6610	from
 I-Token	6611	6613	an
 I-Token	6614	6622	existing
-I-Token	6623	6627	enum
-I-Token	6628	6630	at
+B-Irregular	6623	6627	enum
+B-Token	6628	6630	at
 B-Irregular	6631	6634	run
 I-Irregular	6634	6635	-
 I-Irregular	6635	6639	time
@@ -1557,15 +1557,15 @@ B-Irregular	6808	6809	.
 B-Token	6810	6814	This
 I-Token	6815	6820	seems
 I-Token	6821	6829	somewhat
-I-Token	6830	6839	analagous
-I-Token	6840	6842	to
+B-Irregular	6830	6839	analagous
+B-Token	6840	6842	to
 B-Irregular	6843	6844	"
 B-Token	6844	6854	inheriting
 I-Token	6855	6859	from
 I-Token	6860	6862	an
 I-Token	6863	6871	existing
-I-Token	6872	6876	enum
-B-Irregular	6876	6877	"
+B-Irregular	6872	6876	enum
+I-Irregular	6876	6877	"
 I-Irregular	6877	6878	.
 
 O	6880	6884	Post
@@ -1631,10 +1631,10 @@ O	7101	7106	12088
 
 B-Token	7107	7108	I
 I-Token	7109	7112	use
-I-Token	7113	7121	proguard
-I-Token	7122	7125	for
-I-Token	7126	7132	JavaME
-I-Token	7133	7144	development
+B-Irregular	7113	7121	proguard
+B-Token	7122	7125	for
+B-Irregular	7126	7132	JavaME
+B-Token	7133	7144	development
 B-Irregular	7144	7145	.
 
 B-Irregular	7146	7148	It
@@ -1718,8 +1718,8 @@ I-Token	7493	7499	around
 I-Token	7500	7512	manufacturer
 I-Token	7513	7517	bugs
 I-Token	7518	7520	in
-I-Token	7521	7524	JVM
-B-Irregular	7524	7525	/
+B-Irregular	7521	7524	JVM
+I-Irregular	7524	7525	/
 B-Token	7525	7532	library
 I-Token	7533	7548	implementations
 I-Token	7549	7556	without
@@ -1737,8 +1737,8 @@ I-Token	7605	7612	believe
 I-Token	7613	7617	that
 I-Token	7618	7622	some
 I-Token	7623	7633	commercial
-I-Token	7634	7645	obfuscators
-I-Token	7646	7649	can
+B-Irregular	7634	7645	obfuscators
+B-Token	7646	7649	can
 I-Token	7650	7654	also
 I-Token	7655	7660	merge
 I-Token	7661	7666	class
@@ -1795,8 +1795,8 @@ B-Irregular	7869	7870	,
 B-Token	7871	7875	stay
 I-Token	7876	7880	away
 I-Token	7881	7885	from
-I-Token	7886	7897	obfuscators
-I-Token	7898	7902	that
+B-Irregular	7886	7897	obfuscators
+B-Token	7898	7902	that
 I-Token	7903	7909	modify
 I-Token	7910	7913	the
 I-Token	7914	7918	code
@@ -1863,8 +1863,8 @@ I-Token	8206	8208	it
 I-Token	8209	8219	impossible
 I-Token	8220	8223	for
 I-Token	8224	8227	the
-I-Token	8228	8231	JVM
-I-Token	8232	8234	to
+B-Irregular	8228	8231	JVM
+B-Token	8232	8234	to
 I-Token	8235	8246	efficiently
 I-Token	8247	8255	optimize
 I-Token	8256	8259	the
@@ -1941,8 +1941,8 @@ I-Token	8522	8526	like
 B-Irregular	8527	8534	Eclipse
 I-Irregular	8534	8535	'
 I-Irregular	8535	8536	s
-B-Token	8537	8549	VisualEditor
-B-Irregular	8549	8550	,
+I-Irregular	8537	8549	VisualEditor
+I-Irregular	8549	8550	,
 B-Token	8551	8559	sometime
 I-Token	8560	8563	ago
 B-Irregular	8564	8565	I
@@ -1986,11 +1986,11 @@ B-Token	8739	8745	Unlike
 I-Token	8746	8750	both
 I-Token	8751	8760	mentioned
 I-Token	8761	8768	earlier
-I-Token	8769	8777	NetBeans
-I-Token	8778	8784	editor
+B-Irregular	8769	8777	NetBeans
+B-Token	8778	8784	editor
 I-Token	8785	8788	and
-I-Token	8789	8802	WidnowBuilder
-I-Token	8803	8805	it
+B-Irregular	8789	8802	WidnowBuilder
+B-Token	8803	8805	it
 I-Token	8806	8810	uses
 I-Token	8811	8815	lazy
 I-Token	8816	8830	initialization
@@ -2026,8 +2026,8 @@ I-Token	8968	8970	by
 I-Token	8971	8975	hand
 B-Irregular	8975	8976	,
 B-Token	8977	8980	and
-I-Token	8981	8983	VE
-I-Token	8984	8986	is
+B-Irregular	8981	8983	VE
+B-Token	8984	8986	is
 I-Token	8987	8992	still
 I-Token	8993	8997	able
 I-Token	8998	9000	to
@@ -2040,25 +2040,25 @@ B-Irregular	9023	9024	.
 B-Token	9025	9029	Only
 I-Token	9030	9042	disadvantage
 I-Token	9043	9045	of
-I-Token	9046	9048	VE
-I-Token	9049	9051	is
+B-Irregular	9046	9048	VE
+B-Token	9049	9051	is
 I-Token	9052	9056	that
 I-Token	9057	9059	it
 I-Token	9060	9064	uses
 I-Token	9065	9072	eclipse
-I-Token	9073	9081	callisto
-B-Irregular	9082	9083	(
+B-Irregular	9073	9081	callisto
+I-Irregular	9082	9083	(
 B-Token	9083	9088	there
 I-Token	9089	9091	is
 I-Token	9092	9094	no
 I-Token	9095	9103	official
 I-Token	9104	9109	build
 I-Token	9110	9113	for
-I-Token	9114	9122	ganymede
-B-Irregular	9122	9123	,
+B-Irregular	9114	9122	ganymede
+I-Irregular	9122	9123	,
 B-Token	9124	9126	or
-I-Token	9127	9133	europa
-B-Irregular	9133	9134	)
+B-Irregular	9127	9133	europa
+I-Irregular	9133	9134	)
 I-Irregular	9134	9135	,
 B-Token	9136	9138	so
 I-Token	9139	9150	effectively
@@ -2070,14 +2070,14 @@ I-Token	9167	9170	two
 I-Token	9171	9179	eclipses
 I-Token	9180	9183	one
 I-Token	9184	9187	for
-I-Token	9188	9190	VE
-I-Token	9191	9194	and
+B-Irregular	9188	9190	VE
+B-Token	9191	9194	and
 I-Token	9195	9198	one
 I-Token	9199	9202	for
 I-Token	9203	9207	rest
 I-Token	9208	9210	of
-I-Token	9211	9223	developement
-B-Irregular	9223	9224	.
+B-Irregular	9211	9223	developement
+I-Irregular	9223	9224	.
 
 B-Token	9226	9227	I
 I-Token	9228	9232	took
@@ -2097,8 +2097,8 @@ I-Irregular	9281	9282	(
 B-Token	9282	9283	I
 I-Token	9284	9287	was
 I-Token	9288	9291	the
-I-Token	9292	9297	autor
-I-Token	9298	9300	of
+B-Irregular	9292	9297	autor
+B-Token	9298	9300	of
 I-Token	9301	9305	this
 I-Token	9306	9310	post
 I-Token	9311	9313	so
@@ -2165,8 +2165,8 @@ O	9542	9550	Question
 O	9550	9551	-
 O	9551	9556	46642
 
-B-Token	9557	9566	JProfiler
-I-Token	9567	9569	is
+B-Irregular	9557	9566	JProfiler
+B-Token	9567	9569	is
 I-Token	9570	9571	a
 I-Token	9572	9578	really
 I-Token	9579	9583	good
@@ -2179,8 +2179,8 @@ I-Token	9604	9608	with
 I-Token	9609	9612	all
 I-Token	9613	9616	the
 I-Token	9617	9622	major
-I-Token	9623	9627	IDEs
-I-Token	9628	9631	and
+B-Irregular	9623	9627	IDEs
+B-Token	9628	9631	and
 I-Token	9632	9643	application
 I-Token	9644	9651	servers
 B-Irregular	9651	9652	.
@@ -2202,19 +2202,19 @@ B-Irregular	9696	9697	"
 B-Token	9697	9705	Official
 B-Irregular	9705	9706	"
 B-Token	9707	9711	Java
-I-Token	9712	9715	API
-I-Token	9716	9719	for
+B-Irregular	9712	9715	API
+B-Token	9716	9719	for
 I-Token	9720	9724	this
 I-Token	9725	9727	is
 I-Token	9728	9731	now
-I-Token	9732	9736	JAXB
-B-Irregular	9737	9738	-
-B-Token	9739	9743	Java
-I-Token	9744	9747	API
-I-Token	9748	9751	for
-I-Token	9752	9755	XML
-I-Token	9756	9763	Binding
-B-Irregular	9763	9764	.
+B-Irregular	9732	9736	JAXB
+I-Irregular	9737	9738	-
+I-Irregular	9739	9743	Java
+I-Irregular	9744	9747	API
+I-Irregular	9748	9751	for
+I-Irregular	9752	9755	XML
+I-Irregular	9756	9763	Binding
+I-Irregular	9763	9764	.
 
 B-Token	9765	9768	See
 I-Token	9769	9777	Tutorial
@@ -2452,16 +2452,16 @@ I-Irregular	10764	10765	4
 B-Token	10766	10773	version
 I-Token	10774	10776	of
 I-Token	10777	10780	the
-I-Token	10781	10788	Servlet
-I-Token	10789	10802	specification
+B-Irregular	10781	10788	Servlet
+B-Token	10789	10802	specification
 I-Token	10803	10806	you
 I-Token	10807	10810	are
 I-Token	10811	10818	allowed
 I-Token	10819	10821	to
 I-Token	10822	10826	have
 I-Token	10827	10828	a
-I-Token	10829	10836	servlet
-I-Token	10837	10839	in
+B-Irregular	10829	10836	servlet
+B-Token	10837	10839	in
 I-Token	10840	10843	the
 I-Token	10844	10851	welcome
 I-Token	10852	10856	file
@@ -2493,8 +2493,8 @@ I-Token	10936	10940	must
 I-Token	10941	10943	be
 I-Token	10944	10945	a
 I-Token	10946	10951	named
-I-Token	10952	10959	servlet
-I-Token	10960	10963	and
+B-Irregular	10952	10959	servlet
+B-Token	10960	10963	and
 I-Token	10964	10967	you
 I-Token	10968	10974	cannot
 I-Token	10975	10979	pass
@@ -2503,13 +2503,13 @@ I-Token	10982	10987	query
 I-Token	10988	10994	string
 I-Token	10995	10997	to
 I-Token	10998	11001	the
-I-Token	11002	11009	servlet
-B-Irregular	11009	11010	.
+B-Irregular	11002	11009	servlet
+I-Irregular	11009	11010	.
 
 B-Token	11011	11015	Your
 I-Token	11016	11026	controller
-I-Token	11027	11034	servlet
-I-Token	11035	11040	would
+B-Irregular	11027	11034	servlet
+B-Token	11035	11040	would
 I-Token	11041	11045	need
 I-Token	11046	11048	to
 I-Token	11049	11053	have
