@@ -1,9 +1,9 @@
-Invoked on Sun Oct 29 21:20:33 SGT 2017 with arguments: -loadClassifier tokenizer-2.ser.gz -testFile test-2.txt
+Invoked on Wed Nov 01 19:14:14 SGT 2017 with arguments: -loadClassifier tokenizer-2.ser.gz -testFile test-2.txt
 testFile=test-2.txt
 loadClassifier=tokenizer-2.ser.gz
 Loading classifier from tokenizer-2.ser.gz ... done [0.2 sec].
-CRFClassifier tagged 2131 words in 1 documents at 7297.95 words per second.
+CRFClassifier tagged 2131 words in 1 documents at 7323.02 words per second.
          Entity	P	R	F1	TP	FP	FN
-      Irregular	0.9102	0.8544	0.8814	223	22	38
-          Token	0.9125	0.8555	0.8831	219	21	37
-         Totals	0.9113	0.8549	0.8822	442	43	75
+      Irregular	0.6529	0.6419	0.6474	190	101	106
+          Token	0.5436	0.5474	0.5455	156	131	129
+         Totals	0.5986	0.5955	0.5971	346	232	235
