@@ -1,0 +1,57 @@
+Sentence:
+This is not a duplicate of Disable output buffering - the linked question is attempting unbuffered output, while this is more general.
+
+Sentence:
+The top answers in that question are too powerful or involved for this one (they're not good answers for this), and this question can be found on Google by a relative newbie.
+
+Sentence:
+They did not backport the flush argument to Python 2.7 So if you're using Python 2 (or less than 3.3), and want code that's compatible with both 2 and 3, may I suggest the following compatibility code.
+
+Sentence:
+I recommend not inheriting from file and then delegating to stdout
+
+Sentence:
+Why not try using an unbuffered file?
+
+Sentence:
+Even if StackOverflow would allow me to hyperlink to the s3 protocol scheme, it wouldn't do you any good in locating the resource.
+
+Sentence:
+It is helpful in locating it, but it does not indicate the datacenter.
+
+Sentence:
+Therefore it does not work as a URL.
+
+Sentence:
+As in the namespace declarative that uses a company's name - it's not like there is a resource sitting on a server somewhere to correspond to that line of text - it simply uniquely identifies something.
+
+Sentence:
+The question we should really try answering for people isn't so much the semantics, but how to identify when encountering the terms whether or not there is any practical difference in them that will change the approach to a programming situation.
+
+Sentence:
+For example, if someone corrects me in conversation and says, "oh, that's not a URL it's a URI" I know they're full of it.
+
+Sentence:
+If someone says "we're using a URN to define the resource" I'm more likely to understand we are only naming it uniquely, not locating it on a server.
+
+Sentence:
+This wouldn't be as easy if you were using Hashtable.
+
+Sentence:
+I'm not that into dynamic programming languages, but I've written my fair share of JavaScript code.
+
+Sentence:
+I never really got my head around this prototype-based programming, does any one know how this works?
+
+Sentence:
+This operation never changes any of your own local branches under refs/heads, and is safe to do without changing your working copy.
+
+Sentence:
+I admit it's not the best analogy since the train could just signal the direction with a flag.
+
+Sentence:
+But in computers, the processor doesn't know which direction a branch will go until the last moment.
+
+Sentence:
+So my fork doesn't contain that change... How can I get that change into my fork?
+

@@ -72,7 +72,7 @@ def main():
 
     posts_labels = np.char.array(['0', '1~20', '21~100', '101~500', '>500'])
     percents = 100.*posts_lengths_Counts/posts_lengths_Counts.sum()
-    labels = ['{0} - {1:1.2f} % '.format(label, percentage) for label, percentage in zip(posts_labels, percents)]
+    labels = ['{0} : {1:1.2f} % '.format(label, percentage) for label, percentage in zip(posts_labels, percents)]
 
     patches, texts = plt.pie(posts_lengths_Counts, shadow=True, startangle=90)
     plt.legend(patches, labels, bbox_to_anchor=(0.2, 0.27), loc=1, fontsize='medium', borderaxespad=1.0)
