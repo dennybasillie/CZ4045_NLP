@@ -1240,8 +1240,6 @@ T1239	Token 7344 7348	such
 T1240	Token 7349 7351	as
 T1241	Token 7352 7359	antenna
 T1242	Irregular 7359 7360	.
-T1243	Irregular 7361 7364	E.g
-T1244	Irregular 7364 7365	.
 T1245	Token 7366 7370	This
 T1246	Token 7371 7375	gets
 T1247	Token 7376 7384	compiled
@@ -1877,3 +1875,4 @@ T1876	Token 11054 11055	a
 T1877	Token 11056 11063	default
 T1878	Token 11064 11070	action
 T1879	Irregular 11070 11071	.
+T1243	Irregular 7361 7365	E.g.

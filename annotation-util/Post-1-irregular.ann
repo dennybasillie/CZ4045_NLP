@@ -1376,10 +1376,6 @@ T1375	Token 7411 7414	the
 T1376	Token 7415 7419	same
 T1377	Irregular 7420 7429	namespace
 T1378	Irregular 7429 7430	,
-T1379	Token 7431 7432	e
-T1380	Irregular 7432 7433	.
-T1381	Token 7433 7434	g
-T1382	Irregular 7434 7435	.
 T1383	Token 7436 7439	the
 T1384	Irregular 7440 7449	namespace
 T1385	Irregular 7450 7482	http://example.com/schema/common
@@ -1519,10 +1515,6 @@ T1518	Token 8175 8176	a
 T1519	Token 8177 8182	fixed
 T1520	Token 8183 8187	page
 T1521	Irregular 8188 8189	(
-T1522	Token 8189 8190	i
-T1523	Irregular 8190 8191	.
-T1524	Token 8191 8192	e
-T1525	Irregular 8192 8193	.
 T1526	Irregular 8194 8202	home.jsp
 T1527	Irregular 8202 8203	)
 T1528	Irregular 8204 8210	Here's
@@ -2819,3 +2811,5 @@ T2818	Token 14929 14932	for
 T2819	Irregular 14933 14936	JSF
 T2820	Token 14937 14948	development
 T2821	Irregular 14948 14949	.
+T1522	Irregular 8189 8193	i.e.
+T1379	Irregular 7431 7435	e.g.

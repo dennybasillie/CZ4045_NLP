@@ -2315,10 +2315,10 @@ I-Token	10043	10047	what
 B-Irregular	10048	10057	wireshark
 B-Token	10058	10062	does
 B-Irregular	10062	10063	,
-B-Token	10064	10065	i
-B-Irregular	10065	10066	.
-B-Token	10066	10067	e
-B-Irregular	10067	10068	.
+I-Irregular	10064	10065	i
+I-Irregular	10065	10066	.
+I-Irregular	10066	10067	e
+I-Irregular	10067	10068	.
 B-Token	10069	10075	record
 I-Token	10076	10079	all
 B-Irregular	10080	10089	incomming
