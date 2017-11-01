@@ -1,37 +1,37 @@
-['validator.py', '../brat/data/Post-1.ann', '../tokenizer/Post-1.ann', '../brat/data/Post-2.ann', '../tokenizer/Post-2.ann', '../brat/data/Post-3.ann', '../tokenizer/Post-3.ann', '../brat/data/Post-4.ann', '../tokenizer/Post-4.ann']
+['validator.py', '../annotation-util/Post-1-irregular.ann', '../tokenizer/Post-1.ann', '../annotation-util/Post-2-irregular.ann', '../tokenizer/Post-2.ann', '../annotation-util/Post-3-irregular.ann', '../tokenizer/Post-3.ann', '../annotation-util/Post-4-irregular.ann', '../tokenizer/Post-4.ann']
 ------ Model performance on Post 1-------
-Total ground truth tokens: 2821
+Total ground truth tokens: 2815
 Total model tokens: 2861
 --------------------------------
-True positive: 2762 (96.54%)
+True positive: 2764 (96.61%)
 False positive: 61 (2.13%)
-False negative: 38 (1.33%)
+False negative: 36 (1.26%)
 --------------------------------
 Precision: 0.978
-Recall: 0.986
-F1 score: 0.982
+Recall: 0.987
+F1 score: 0.983
 --------------------------------
 
 ------ Model performance on Post 2-------
-Total ground truth tokens: 2286
+Total ground truth tokens: 2283
 Total model tokens: 2274
 --------------------------------
-True positive: 2249 (98.90%)
+True positive: 2250 (98.94%)
 False positive: 4 (0.18%)
-False negative: 21 (0.92%)
+False negative: 20 (0.88%)
 --------------------------------
 Precision: 0.998
 Recall: 0.991
-F1 score: 0.994
+F1 score: 0.995
 --------------------------------
 
 ------ Model performance on Post 3-------
-Total ground truth tokens: 1879
+Total ground truth tokens: 1878
 Total model tokens: 1892
 --------------------------------
-True positive: 1844 (97.46%)
+True positive: 1845 (97.52%)
 False positive: 25 (1.32%)
-False negative: 23 (1.22%)
+False negative: 22 (1.16%)
 --------------------------------
 Precision: 0.987
 Recall: 0.988
@@ -52,12 +52,12 @@ F1 score: 0.986
 --------------------------------
 
 ------ Overall model performance %d-------
-Total ground truth tokens: 9477
+Total ground truth tokens: 9467
 Total model tokens: 9509
 --------------------------------
-True positive: 9267 (97.46%)
+True positive: 9271 (97.50%)
 False positive: 117 (1.23%)
-False negative: 125 (1.31%)
+False negative: 121 (1.27%)
 --------------------------------
 Precision: 0.988
 Recall: 0.987

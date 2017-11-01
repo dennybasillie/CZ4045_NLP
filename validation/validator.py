@@ -44,11 +44,15 @@ def main():
         model_path = list_model_path[i]
 
         with open(ground_truth_path, 'r') as ground_truth_file, open(model_path, 'r') as model_file:
-            for line in ground_truth_file.readlines():
+            #some ground truth ann file are not sorted based on token number
+            sorted_ground_truth_lines =  sorted(ground_truth_file.readlines(), key=lambda x: int(x.split()[0][1:]))
+            sorted_model_lines = sorted(model_file.readlines(), key=lambda x: int(x.split()[0][1:]))
+
+            for line in sorted_ground_truth_lines:
                 split_res = line.split()
                 token = ' '.join(split_res[4:])
                 ground_truth.append(token)
-            for line in model_file.readlines():
+            for line in sorted_model_lines:
                 split_res = line.split()
                 token = ' '.join(split_res[4:])
                 model.append(token)
