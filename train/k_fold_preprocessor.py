@@ -24,6 +24,8 @@ def main():
                 label, _, _, token = line.split('\t')
                 if label == 'O':
                     continue
+                if label == 'B-Token' or label == 'I-Token':
+                    label = 'O'
                 post.append((token, label))
         print(len(post))
         post_list.append(post)
