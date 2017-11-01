@@ -1,11 +1,10 @@
 import nltk
-import os
 import re
 import sys
 
 
 
-def main():
+def main(fileName):
     test_list = ["@User Name", "http://www.google.com", "name@email.com", "@myself", "/var/folder/file.sh", "Java 7", "non-generic", "I'm", "int indexOf()",
                  "int indexOf(string mystring)", "this is an (example legit sentence)", "another(legit sentence)", ":)",
                  "java.utils.collections", "Class<E>", "Bobby Goodfield Matthew", "CATALINA_OPTS=\"$CATALINA_OPTS -Xms512m\"",
@@ -14,7 +13,6 @@ def main():
     # for test in test_list:
     #     print nltk.tokenize.word_tokenize(test)
 
-    fileName = sys.argv[1]
     txtFileLocation = fileName + ".txt"
     annFileLocation = fileName + ".ann"
     with open(txtFileLocation, 'r') as txtFileHandler, open(annFileLocation, 'w+') as annFileHandler:
@@ -48,4 +46,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    main(sys.arg[1])
