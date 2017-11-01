@@ -1,4 +1,4 @@
-['validator.py', '../annotation-util/Post-1-irregular.ann', '../tokenizer/Post-1.ann', '../annotation-util/Post-2-irregular.ann', '../tokenizer/Post-2.ann', '../annotation-util/Post-3-irregular.ann', '../tokenizer/Post-3.ann', '../annotation-util/Post-4-irregular.ann', '../tokenizer/Post-4.ann']
+['validator.py', '../annotated_dataset/Post-1.ann', '../tokenizer/Post-1.ann', '../annotated_dataset/Post-2.ann', '../tokenizer/Post-2.ann', '../annotated_dataset/Post-3.ann', '../tokenizer/Post-3.ann', '../annotated_dataset/Post-4.ann', '../tokenizer/Post-4.ann']
 ------ Model performance on Post 1-------
 Total ground truth tokens: 2815
 Total model tokens: 2861
