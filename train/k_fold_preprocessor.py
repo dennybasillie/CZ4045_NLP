@@ -5,36 +5,35 @@ import time
 import math
 import random
 
-post_dir = '../annotation-util' 
-post_file_name_list = ['Post-1', 'Post-2', 'Post-3', 'Post-4']
-post_conll_list = ['Post-1-irregular.conll', 'Post-2-irregular.conll', 'Post-3-irregular.conll', 'Post-4-irregular.conll']
-k = 4
-
 def main():
+    if (len(sys.argv) < 2):
+        print("To use: python k_fold_preprocessor.py [conll_file_path_1, conll_file_path_2, ...]")
+        return
+
+    post_file_name_list = sys.argv[1:]
     post_list = []
     for post_file_name in post_file_name_list:
-        print(post_file_name)
-        full_path = os.path.join(post_dir, post_file_name+"-irregular.conll")
         post = []
-        with open(full_path, mode='r') as conll_path:
+        with open(post_file_name, mode='r') as conll_path:
             file_contents = list(filter('\n'.__ne__, conll_path.readlines()))
-            print(len(file_contents))
             for i in range(len(file_contents)):
                 line = file_contents[i].strip()
                 label, _, _, token = line.split('\t')
+                #remove post number, question number, and answer number
                 if label == 'O':
                     continue
+                #indicate B-token or I-token as Token
                 if label == 'B-Token' or label == 'I-Token':
-                    label = 'O'
+                    label = 'Token'
                 post.append((token, label))
         print(len(post))
         post_list.append(post)
     
-    for i in range(k):
+    for i in range(len(post_file_name_list)):
         train_list = post_list[:i] + post_list[i+1:]
         test_list = post_list[i:i+1]
 
-        with open('train-%d.txt' % i, mode='w') as train_file, open('test-%d.txt' % i, mode='w') as test_file:
+        with open('train-%d.txt' % (i+1), mode='w') as train_file, open('test-%d.txt' % (i+1), mode='w') as test_file:
             for post in train_list:
                 for token, name_entity in post:
                     train_file.write('%s\t%s\n' % (token, name_entity))
